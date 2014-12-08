@@ -1,6 +1,6 @@
 # History of Adblockers
 
-![History of Adblockers][svg]
+[Click here to see the SVG][svg] (GitHub doesn't render SVG images inline)
 
 ## Dependencies
 
