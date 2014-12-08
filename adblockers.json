@@ -1,0 +1,293 @@
+{
+  "adblockers": [
+    {
+      "id": "original",
+      "name": "Adblock",
+      "link": "http://adblock.mozdev.org/",
+      "source": "http://www.mozdev.org/source/browse/adblock/",
+      "started": "2002-12-04",
+      "ended": "2007-03-29",
+      "releases": [
+        ["2002-12-28", "0.2"],
+        ["2003-06-08", "0.3"],
+        ["2003-10-16", "0.4"],
+        ["2003-10-21", "0.5-dev"]
+      ]
+    },
+    {
+      "id": "adblock-edge",
+      "base": "adblockplus-firefox",
+      "name": "Adblock Edge",
+      "link": "https://bitbucket.org/adstomper/adblockedge/",
+      "source": "https://bitbucket.org/adstomper/adblockedge/",
+      "started": "2012-07-31",
+      "releases": [
+        ["2012-09-04", "2.0"],
+        ["2014-01-06", "2.1"]
+      ]
+    },
+    {
+      "id": "privacybadger-firefox",
+      "base": "adblockplus-firefox",
+      "name": "Privacy Badger for Firefox",
+      "link": "https://www.eff.org/privacybadger",
+      "source": "https://github.com/EFForg/privacybadgerfirefox",
+      "started": "2013-07-10",
+      "releases": [
+        ["2014-12-02", "1.0"]
+      ]
+    },
+    {
+      "id": "adblockplus-firefox",
+      "base": "original",
+      "name": "Adblock Plus for Firefox",
+      "link": "https://adblockplus.org/en/firefox",
+      "source": "https://hg.adblockplus.org/adblockplus",
+      "color": "#CD0000",
+      "started": "2006-01-17",
+      "releases": [
+        ["2006-01-17", "0.6.0.1"],
+        ["2006-04-09", "0.7"],
+        ["2008-12-01", "1.0"],
+        ["2009-09-13", "1.1"],
+        ["2010-04-30", "1.2"],
+        ["2010-11-02", "1.3"],
+        ["2011-12-13", "2.0"],
+        ["2012-06-28", "2.1"],
+        ["2012-11-21", "2.2"],
+        ["2013-07-10", "2.3"],
+        ["2013-10-09", "2.4"],
+        ["2014-02-20", "2.5"],
+        ["2014-04-22", "2.6"]
+      ]
+    },
+    {
+      "id": "adthwart",
+      "name": "AdThwart",
+      "link": "https://code.google.com/p/adthwart/",
+      "source": "https://hg.adblockplus.org/adblockpluschrome",
+      "started": "2009-12-13",
+      "ended": "2010-12-01",
+      "releases": [
+        ["2009-12-17", "0.4.8"],
+        ["2009-12-19", "0.5"],
+        ["2009-12-29", "0.6"],
+        ["2010-01-24", "0.7"],
+        ["2010-02-06", "0.8"],
+        ["2010-05-15", "0.9"],
+        ["2010-09-24", "1.0"]
+      ]
+    },
+    {
+      "id": "adblockplus-chrome",
+      "base": "adthwart",
+      "name": "Adblock Plus for Chrome",
+      "link": "https://adblockplus.org/en/chrome",
+      "source": "https://hg.adblockplus.org/adblockpluschrome",
+      "color": "#CD0000",
+      "started": "2010-12-01",
+      "releases": [
+        ["2011-02-28", "1.1"],
+        ["2012-01-10", "1.2"],
+        ["2012-10-26", "1.3"],
+        ["2013-03-12", "1.4"],
+        ["2013-07-10", "1.5"],
+        ["2013-10-09", "1.6"],
+        ["2013-12-18", "1.7"],
+        ["2014-05-06", "1.8"]
+      ]
+    },
+    {
+      "id": "privacybadger-chrome",
+      "base": "adblockplus-chrome",
+      "name": "Privacy Badger for Chrome",
+      "link": "https://www.eff.org/privacybadger",
+      "source": "https://github.com/EFForg/privacybadgerchrome",
+      "started": "2014-01-23",
+      "releases": [
+        ["2014-05-02", "0.1"],
+        ["2014-07-18", "0.2"]
+      ]
+    },
+    {
+      "id": "adblockplus-safari",
+      "base": "adblockplus-chrome",
+      "name": "Adblock Plus for Safari",
+      "link": "https://adblockplus.org/en/safari",
+      "source": "https://hg.adblockplus.org/adblockpluschrome",
+      "color": "#CD0000",
+      "started": "2013-10-31",
+      "releases": [
+        ["2014-01-21", "beta"],
+        ["2014-05-06", "1.8"]
+      ]
+    },
+    {
+      "id": "adblockplus-opera-chromium",
+      "base": "adblockplus-chrome",
+      "name": "Adblock Plus for Opera (Chromium)",
+      "link": "https://adblockplus.org/en/opera",
+      "source": "https://hg.adblockplus.org/adblockpluschrome",
+      "color": "#CD0000",
+      "started": "2012-11-23",
+      "releases": [
+        ["2013-05-28", "1.4.1"],
+        ["2013-07-10", "1.5"],
+        ["2013-10-09", "1.6"],
+        ["2013-12-18", "1.7"],
+        ["2014-05-06", "1.8"]
+      ]
+    },
+    {
+      "id": "adblockplus-opera-presto",
+      "base": "opera-adblock",
+      "name": "Adblock Plus for Opera (Presto)",
+      "link": "https://adblockplus.org/en/opera",
+      "source": "https://hg.adblockplus.org/adblockplusopera",
+      "color": "#CD0000",
+      "started": "2012-10-01",
+      "ended": "2013-05-08",
+      "releases": [
+        ["2012-11-13", "1.3.1"]
+      ]
+    },
+    {
+      "id": "opera-adblock",
+      "name": "Opera AdBlock",
+      "link": null,
+      "started": "2011-03-15",
+      "ended": "2012-10-01",
+      "releases": [
+        ["2011-03-15", "0.1"]
+      ]
+    },
+    {
+      "id": "adblockplus-android",
+      "name": "Adblock Plus for Android",
+      "link": "https://adblockplus.org/en/android",
+      "source": "https://hg.adblockplus.org/adblockplusandroid",
+      "color": "#CD0000",
+      "started": "2012-04-01",
+      "releases": [
+        ["2012-11-26", "1.0"],
+        ["2013-03-19", "1.1"],
+        ["2013-11-29", "1.2"]
+      ]
+    },
+    {
+      "id": "simpleadblock",
+      "name": "Simple Adblock",
+      "link": "http://simple-adblock.com/",
+      "source": "https://hg.adblockplus.org/adblockplusie",
+      "started": "2009-11-10",
+      "ended": "2013-01-22",
+      "releases": [
+        ["2009-11-10", "0.8.2"],
+        ["2011-01-23", "1.0"],
+        ["2011-08-17", "1.1"]
+      ]
+    },
+    {
+      "id": "adblockplus-ie",
+      "base": "simpleadblock",
+      "name": "Adblock Plus for Internet Explorer",
+      "link": "https://adblockplus.org/en/internet-explorer",
+      "source": "https://hg.adblockplus.org/adblockplusie",
+      "color": "#CD0000",
+      "started": "2013-01-22",
+      "releases": [
+        ["2013-04-22", "dev"],
+        ["2013-08-13", "1.0"],
+        ["2013-10-08", "1.1"],
+        ["2014-08-12", "1.2"]
+      ]
+    },
+    {
+      "id": "adblock-chrome",
+      "name": "AdBlock for Chrome",
+      "link": "https://getadblock.com/",
+      "source": "http://code.google.com/p/adblockforchrome",
+      "started": "2010-01-26",
+      "releases": [
+        ["2010-02-01", "1.3.10"],
+        ["2010-04-05", "1.4"],
+        ["2010-06-16", "2.0"],
+        ["2010-08-29", "2.1"],
+        ["2010-10-03", "2.2"],
+        ["2011-02-10", "2.3"],
+        ["2011-05-03", "2.4"],
+        ["2011-11-29", "2.5"],
+        ["2013-06-24", "2.6"],
+        // change in leadership
+        ["2014-06-06", "2.7"],
+        ["2014-08-28", "2.8"],
+        ["2014-09-17", "2.9"],
+        ["2014-10-06", "2.10"],
+        ["2014-10-13", "2.11"],
+        ["2014-10-22", "2.12"],
+        ["2014-10-31", "2.13"],
+        ["2014-11-24", "2.14"]
+      ]
+    },
+    {
+      "id": "adblock-firefox",
+      "base": "adblock-chrome",
+      "name": "AdBlock for Firefox",
+      "link": null,
+      "source": "https://addons.mozilla.org/en-US/firefox/addon/adblock-for-firefox/versions/",
+      "started": "2014-06-16",
+      "releases": [
+        ["2014-09-13", "1.1.1"],
+        ["2014-11-11", "2.0"]
+      ]
+    },
+    {
+      "id": "adblock-opera",
+      "base": "adblock-chrome",
+      "name": "AdBlock for Opera",
+      "link": null,
+      "source": null,
+      "started": "2012-08-17",
+      "releases": [
+        ["2012-08-27", "2.5.42"],
+        ["2013-06-24", "2.6"],
+        // change in leadership
+        ["2014-06-06", "2.7"],
+        ["2014-08-28", "2.8"],
+        ["2014-09-17", "2.9"],
+        ["2014-10-06", "2.10"],
+        ["2014-10-13", "2.11"],
+        ["2014-10-22", "2.12"],
+        ["2014-10-31", "2.13"],
+        ["2014-11-24", "2.14"]
+      ]
+    },
+    {
+      "id": "adblock-safari",
+      "base": "adblock-chrome",
+      "name": "AdBlock for Safari",
+      "link": null,
+      "source": null,
+      "started": "2010-06-11",
+      "releases": [
+        ["2010-06-11", "1.4.31"],
+        ["2010-06-16", "2.0"],
+        ["2010-08-29", "2.1"],
+        ["2010-10-03", "2.2"],
+        ["2011-02-10", "2.3"],
+        ["2011-05-03", "2.4"],
+        ["2011-11-29", "2.5"],
+        ["2013-06-24", "2.6"],
+        // change in leadership
+        ["2014-06-06", "2.7"],
+        ["2014-08-28", "2.8"],
+        ["2014-09-17", "2.9"],
+        ["2014-10-06", "2.10"],
+        ["2014-10-13", "2.11"],
+        ["2014-10-22", "2.12"],
+        ["2014-10-31", "2.13"],
+        ["2014-11-24", "2.14"]
+      ]
+    }
+  ]
+}

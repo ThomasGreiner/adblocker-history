@@ -1,0 +1,48 @@
+text {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+line {
+  stroke-linecap:round;
+  stroke-width:3px;
+}
+
+circle {
+  stroke-width:2px;
+  fill: white;
+}
+
+#yearlabels text {
+  font-size: 20px;
+  text-anchor: middle;
+}
+      
+.adblocker, .engine {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.engine {
+  text-anchor: end;      
+  font-style: italic;
+  font-weight: bold;
+}
+
+.version {
+  font-family: sans-serif;
+  font-size: 14px;
+  text-anchor: middle;
+}
+
+.subversion {
+  font-family: sans-serif;
+  font-size: 8px;
+  color: black;
+  text-anchor: middle;
+}
+
+a:hover {
+  text-decoration: underline;
+}

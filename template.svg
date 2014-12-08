@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="history.css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{{width}}" height="{{height}}">
+  <title>Timeline of Adblockers</title>
+  <desc>
+    This timeline displays the releases of major versions of adblockers. 
+    It includes version numbers for milestones reached by each adblocker, and displays the points at which an adblocker started from another. Source data comes from adblocker websites, wikipedia articles, archive.org and some other websites.
+    
+    First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
+  </desc>
+  <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
+  <defs>
+    <pattern id="bglines" patternUnits="userSpaceOnUse" width="120" height="100%">
+      <line x1="0" x2="0" y2="100%" stroke="#CCC"/>
+    </pattern>
+    
+    <rect id="longver" width="30" height="20" rx="10" transform="translate(-15, -10)" stroke-width="2" fill="white"/>
+    
+    <g id="yearlabels">
+      {{#each years}}
+      <text x="{{x}}">{{year}}</text>
+      {{/each}}
+    </g>
+    
+    {{#each adblockers}}
+    <g id="{{id}}">
+      <a xlink:href="{{link}}">
+        <text x="0" y="0" dx="{{x}}" dy="25" class="adblocker">{{name}}</text>
+      </a>
+      <!-- Development started: {{started}} -->
+      <!-- Source for dates: {{source}} -->
+      <line stroke="{{color}}" x1="{{xmin}}" x2="{{xmax}}"/>
+      {{#if base}}
+      <!-- Based on: {{base.name}} -->
+      <line stroke="{{color}}" x1="{{xmin}}" x2="{{xmin}}" y1="0" y2="{{base.ydiff}}"/>
+      {{/if}}
+      
+      {{#each releases}}
+      <!-- {{date}}: version {{version}} -->
+      {{#if isLongVersion}}<use x="{{x}}" stroke="{{../../color}}" xlink:href="#longver"/>{{else}}<circle stroke="{{../../color}}" cx="{{x}}" r="10"/>{{/if}}
+      <text x="{{x}}" y="0" dy="3" class="{{#if isSubversion}}sub{{/if}}version">{{version}}</text>
+      
+      {{/each}}
+      {{#if ended}}
+      <!-- Development ended: {{ended}} -->
+      <line stroke="{{color}}" x1="{{xmax}}" y1="10" x2="{{xmax}}" y2="-10"/>
+      {{/if}}
+    </g>
+    
+    {{/each}}
+    
+    <g id="content">
+      <use x="60" y="20" xlink:href="#yearlabels"/>
+      <use x="60" y="100%" transform="translate(0, -20)" xlink:href="#yearlabels"/>
+
+      {{#each adblockers}}
+      <use y="{{y}}" xlink:href="#{{id}}"/>
+      {{/each}}
+    </g>
+  </defs>
+  
+  <rect x="0" y="0" height="100%" width="100%" fill="#ffffff"/>
+  <rect x="0" y="0" height="100%" width="100%" style="fill: url(#bglines);"/>
+  <use x="0" y="0" xlink:href="#content"/>
+</svg>
