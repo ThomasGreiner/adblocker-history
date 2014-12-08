@@ -179,10 +179,11 @@
       "id": "opera-adblock",
       "name": "Opera AdBlock",
       "link": null,
+      "source": "https://addons.opera.com/en/extensions/details/opera-adblock/ (according to oldest comment)",
       "started": "2011-03-15",
       "ended": "2012-10-01",
       "releases": [
-        ["2011-03-15", "0.1"]
+        ["2011-03-15", "0.13"]
       ]
     },
     {
@@ -230,7 +231,7 @@
       "id": "adblock-chrome",
       "name": "AdBlock for Chrome",
       "link": "https://getadblock.com/",
-      "source": "http://code.google.com/p/adblockforchrome",
+      "source": "http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/",
       "color": "#7777CD",
       "started": "2010-01-26",
       "releases": [
@@ -258,7 +259,7 @@
       "id": "adblock-firefox",
       "base": "adblock-chrome",
       "name": "AdBlock for Firefox",
-      "link": null,
+      "link": "https://getadblock.com/",
       "source": "https://addons.mozilla.org/en-US/firefox/addon/adblock-for-firefox/versions/",
       "color": "#7777CD",
       "started": "2014-06-16",
@@ -271,8 +272,8 @@
       "id": "adblock-opera",
       "base": "adblock-chrome",
       "name": "AdBlock for Opera",
-      "link": null,
-      "source": null,
+      "link": "https://getadblock.com/",
+      "source": "https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/",
       "color": "#7777CD",
       "started": "2012-08-17",
       "releases": [
@@ -293,8 +294,8 @@
       "id": "adblock-safari",
       "base": "adblock-chrome",
       "name": "AdBlock for Safari",
-      "link": null,
-      "source": null,
+      "link": "https://getadblock.com/",
+      "source": "https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/",
       "color": "#7777CD",
       "started": "2010-06-11",
       "releases": [
