@@ -50,10 +50,20 @@
     
     {{/each}}
     
+    {{#each engines}}
+    <g id="{{id}}">
+      <text x="{{min.x}}" y="{{min.y}}" dy="0" fill="{{color}}" stroke="{{color}}">{{name}} engine</text>
+      <polygon points="{{#each path}}{{x}},{{y}} {{/each}}" fill="{{color}}" opacity="0.12"/>
+    </g>
+    {{/each}}
+    
     <g id="content">
       <use x="60" y="20" xlink:href="#yearlabels"/>
       <use x="60" y="100%" transform="translate(0, -20)" xlink:href="#yearlabels"/>
-
+      
+      {{#each engines}}
+      <use y="0" xlink:href="#{{id}}"/>
+      {{/each}}
       {{#each adblockers}}
       <use y="{{y}}" xlink:href="#{{id}}"/>
       {{/each}}

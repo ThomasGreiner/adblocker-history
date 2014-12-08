@@ -23,15 +23,15 @@ function dateToX(date) {
 
 function onRequest(req, resp) {
   // initialize
-  var data = fs.readFileSync("adblockers.json", "utf-8");
-  data = data.replace(/\n\s+\/\/.*\n/g, "\n");
-  data = JSON.parse(data);
-  var adblockers = data.adblockers;
-  var trees = data.trees;
-
+  var adblockerData = fs.readFileSync("adblockers.json", "utf-8");
+  adblockerData = adblockerData.replace(/\n\s+\/\/[^\n]*\n/g, "\n");
+  adblockerData = JSON.parse(adblockerData);
+  var adblockers = adblockerData.adblockers;
+  var engines = adblockerData.engines;
+  
   var template = fs.readFileSync("template.svg", "utf-8");
   template = handlebars.compile(template);
-
+  
   var css = fs.readFileSync("history.css", "utf-8");
   
   // stylesheet
@@ -47,7 +47,8 @@ function onRequest(req, resp) {
     width: (endYear - startYear) * 120,
     height: (adblockers.length) * 50 + 100,
     years: [],
-    adblockers: []
+    adblockers: [],
+    engines: []
   };
   
   // initialize years
@@ -123,6 +124,67 @@ function onRequest(req, resp) {
       xmax: adblocker.ended && dateToX(adblocker.ended) || releases[releases.length - 1].x,
       y: (y += 50),
       releases: releases
+    };
+  });
+  
+  // initialize engines
+  data.engines = engines.map(function(engine) {
+    var path = [];
+    var min = {x: data.width, y: 0};
+    
+    engine.path.forEach(function(point) {
+      var adblocker = data.adblockers.filter(function(adblocker) {
+        return adblocker.id == point[0];
+      });
+      adblocker = adblocker[0];
+      if (!adblocker)
+        return;
+      
+      if (adblocker.xmin < min.x) {
+        min.x = adblocker.xmin + 5;
+        min.y = adblocker.y - 20;
+      }
+      
+      var x = 0;
+      var y = adblocker.y;
+      
+      switch (point[1]) {
+        case "started":
+        case "ended":
+          x = dateToX(adblocker[point[1]]);
+          break;
+        default:
+          for (var i = 0; i < adblocker.releases.length; i++) {
+            var release = adblocker.releases[i];
+            if (release.version == point[1]) {
+              x = release.x;
+              break;
+            }
+          }
+      }
+      
+      var prev = path[path.length - 1];
+      if (prev) {
+        if (x - 15 < prev.x) {
+          path.push({x: prev.x, y: y - 15});
+        } else {
+          path.push({x: x - 15, y: prev.y});
+        }
+      }
+      
+      path.push({x: x - 15, y: y - 15});
+      path.push({x: x - 15, y: y + 15});
+    });
+    
+    path.unshift({x: data.width, y: path[0].y});
+    path.push({x: data.width, y: path[path.length - 1].y});
+    
+    return {
+      id: engine.id,
+      name: engine.name,
+      color: engine.color || "#888",
+      path: path,
+      min: min
     };
   });
   
