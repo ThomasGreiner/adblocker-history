@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet href="history.css"?>
+<!-- Creation date: {{created}} -->
+<!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{{width}}" height="{{height}}">
   <title>Timeline of Adblockers</title>
@@ -9,8 +10,58 @@
     
     First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
   </desc>
-  <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
   <defs>
+    <style type="text/css"><![CDATA[
+      text {
+        font-family: "Arial", sans-serif;
+        text-align: center;
+        color: black;
+      }
+      
+      line {
+        stroke-linecap:round;
+        stroke-width:3px;
+      }
+      
+      circle {
+        stroke-width:2px;
+        fill: white;
+      }
+      
+      #yearlabels text {
+        font-size: 20px;
+        text-anchor: middle;
+      }
+      
+      .adblocker, .engine {
+        font-size: 12px;
+        font-family: sans-serif;
+      }
+      
+      .engine {
+        text-anchor: end;
+        font-style: italic;
+        font-weight: bold;
+      }
+      
+      .version {
+        font-family: sans-serif;
+        font-size: 14px;
+        text-anchor: middle;
+      }
+      
+      .subversion {
+        font-family: sans-serif;
+        font-size: 8px;
+        color: black;
+        text-anchor: middle;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+    ]]></style>
+    
     <pattern id="bglines" patternUnits="userSpaceOnUse" width="120" height="100%">
       <line x1="0" x2="0" y2="100%" stroke="#CCC"/>
     </pattern>
