@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: 2014-12-08T22:18:23.268Z -->
+<!-- Creation date: 2014-12-11T16:34:51.346Z -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1680" height="1000">
@@ -17,46 +17,46 @@
         text-align: center;
         color: black;
       }
-
+      
       line {
         stroke-linecap:round;
         stroke-width:3px;
       }
-
+      
       circle {
         stroke-width:2px;
         fill: white;
       }
-
+      
       #yearlabels text {
         font-size: 20px;
         text-anchor: middle;
       }
-            
+      
       .adblocker, .engine {
         font-size: 12px;
         font-family: sans-serif;
       }
-
+      
       .engine {
-        text-anchor: end;      
+        text-anchor: end;
         font-style: italic;
         font-weight: bold;
       }
-
+      
       .version {
         font-family: sans-serif;
         font-size: 14px;
         text-anchor: middle;
       }
-
+      
       .subversion {
         font-family: sans-serif;
         font-size: 8px;
         color: black;
         text-anchor: middle;
       }
-
+      
       a:hover {
         text-decoration: underline;
       }
@@ -101,9 +101,9 @@
       <circle stroke="#888" cx="172" r="10"/>
       <text x="172" y="0" dy="3" class="subversion">0.3</text>
       
-      <!-- 2003-10-16: version 0.4 -->
-      <circle stroke="#888" cx="215" r="10"/>
-      <text x="215" y="0" dy="3" class="subversion">0.4</text>
+      <!-- 2003-07-22: version 0.4-dev -->
+      <use x="187" stroke="#888" xlink:href="#longver"/>
+      <text x="187" y="0" dy="3" class="subversion">0.4-dev</text>
       
       <!-- 2003-10-21: version 0.5-dev -->
       <use x="216" stroke="#888" xlink:href="#longver"/>
@@ -159,9 +159,9 @@
       <!-- Based on: Adblock (unrelated to current AdBlock) -->
       <line stroke="#CD0000" x1="485" x2="485" y1="0" y2="-150"/>
       
-      <!-- 2006-01-17: version 0.6.1 -->
-      <use x="485" stroke="#CD0000" xlink:href="#longver"/>
-      <text x="485" y="0" dy="3" class="subversion">0.6.1</text>
+      <!-- 2006-01-17: version 0.6 -->
+      <circle stroke="#CD0000" cx="485" r="10"/>
+      <text x="485" y="0" dy="3" class="subversion">0.6</text>
       
       <!-- 2006-04-09: version 0.7 -->
       <circle stroke="#CD0000" cx="513" r="10"/>
@@ -255,13 +255,17 @@
     
     <g id="adblockplus-chrome">
       <a xlink:href="https://adblockplus.org/en/chrome">
-        <text x="0" y="0" dx="1080" dy="25" class="adblocker">Adblock Plus for Chrome</text>
+        <text x="0" y="0" dx="1056" dy="25" class="adblocker">Adblock Plus for Chrome</text>
       </a>
       <!-- Development started: 2010-12-01 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
       <line stroke="#CD0000" x1="1070" x2="1481"/>
       <!-- Based on: AdThwart -->
       <line stroke="#CD0000" x1="1070" x2="1070" y1="0" y2="-50"/>
+      
+      <!-- 2010-12-20: version 1.0.22 -->
+      <use x="1076" stroke="#CD0000" xlink:href="#longver"/>
+      <text x="1076" y="0" dy="3" class="subversion">1.0.22</text>
       
       <!-- 2011-02-28: version 1.1 -->
       <circle stroke="#CD0000" cx="1100" r="10"/>
