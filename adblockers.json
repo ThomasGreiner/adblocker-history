@@ -56,9 +56,10 @@
       "name": "Privacy Badger for Firefox",
       "link": "https://www.eff.org/privacybadger",
       "source": "https://github.com/EFForg/privacybadgerfirefox",
-      "started": "2013-07-10",
+      "started": "2014-01-23",
       "releases": [
-        ["2014-12-02", "1.0"]
+        ["2014-05-02", "0.1"],
+        ["2014-07-18", "0.2"]
       ]
     },
     {
@@ -128,10 +129,9 @@
       "name": "Privacy Badger for Chrome",
       "link": "https://www.eff.org/privacybadger",
       "source": "https://github.com/EFForg/privacybadgerchrome",
-      "started": "2014-01-23",
+      "started": "2013-07-10",
       "releases": [
-        ["2014-05-02", "0.1"],
-        ["2014-07-18", "0.2"]
+        ["2014-12-02", "1.0"]
       ]
     },
     {
