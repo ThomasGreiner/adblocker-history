@@ -124,17 +124,6 @@
       ]
     },
     {
-      "id": "privacybadger-chrome",
-      "base": "adblockplus-chrome",
-      "name": "Privacy Badger for Chrome",
-      "link": "https://www.eff.org/privacybadger",
-      "source": "https://github.com/EFForg/privacybadgerchrome",
-      "started": "2013-07-10",
-      "releases": [
-        ["2014-12-02", "1.0"]
-      ]
-    },
-    {
       "id": "adblockplus-safari",
       "base": "adblockplus-chrome",
       "name": "Adblock Plus for Safari",
@@ -145,6 +134,17 @@
       "releases": [
         ["2014-01-21", "beta"],
         ["2014-05-06", "1.8"]
+      ]
+    },
+    {
+      "id": "privacybadger-chrome",
+      "base": "adblockplus-chrome",
+      "name": "Privacy Badger for Chrome",
+      "link": "https://www.eff.org/privacybadger",
+      "source": "https://github.com/EFForg/privacybadgerchrome",
+      "started": "2013-07-10",
+      "releases": [
+        ["2014-12-02", "1.0"]
       ]
     },
     {
