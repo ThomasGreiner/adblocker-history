@@ -221,14 +221,19 @@
     {
       "id": "simpleadblock",
       "name": "Simple Adblock",
-      "link": "http://simple-adblock.com/",
+      "link": "http://simple-adblock.com/releases/ and https://hg.adblockplus.org/adblockplusie",
       "source": "https://hg.adblockplus.org/adblockplusie",
-      "started": "2009-11-10",
+      "started": "2009-07-26",
       "ended": "2013-01-22",
       "releases": [
-        ["2009-11-10", "0.8.2"],
-        ["2011-01-23", "1.0"],
-        ["2011-08-17", "1.1"]
+        ["2009-07-26", "0.4"],
+        ["2009-07-31", "0.5"],
+        ["2009-08-19", "0.6"],
+        ["2009-09-17", "0.7"],
+        ["2009-10-29", "0.8"],
+        ["2011-01-22", "1.0"],
+        ["2011-08-17", "1.1"],
+        ["2012-09-20", "1.1.5"]
       ]
     },
     {
