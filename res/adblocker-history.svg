@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: 2015-03-13T16:36:11.758Z -->
+<!-- Creation date: 2015-03-30T12:54:52.807Z -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="1000">
@@ -503,24 +503,44 @@
     </g>
     
     <g id="simpleadblock">
-      <a xlink:href="http://simple-adblock.com/">
-        <text x="0" y="0" dx="923" dy="25" class="adblocker">Simple Adblock</text>
+      <a xlink:href="http://simple-adblock.com/releases/ and https://hg.adblockplus.org/adblockplusie">
+        <text x="0" y="0" dx="888" dy="25" class="adblocker">Simple Adblock</text>
       </a>
-      <!-- Development started: 2009-11-10 -->
+      <!-- Development started: 2009-07-26 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockplusie -->
-      <line stroke="#888" x1="943" x2="1327"/>
+      <line stroke="#888" x1="908" x2="1327"/>
       
-      <!-- 2009-11-10: version 0.8.2 -->
-      <use x="943" stroke="#888" xlink:href="#longver"/>
-      <text x="943" y="0" dy="3" class="subversion">0.8.2</text>
+      <!-- 2009-07-26: version 0.4 -->
+      <circle stroke="#888" cx="908" r="10"/>
+      <text x="908" y="0" dy="3" class="subversion">0.4</text>
       
-      <!-- 2011-01-23: version 1 -->
+      <!-- 2009-07-31: version 0.5 -->
+      <circle stroke="#888" cx="910" r="10"/>
+      <text x="910" y="0" dy="3" class="subversion">0.5</text>
+      
+      <!-- 2009-08-19: version 0.6 -->
+      <circle stroke="#888" cx="916" r="10"/>
+      <text x="916" y="0" dy="3" class="subversion">0.6</text>
+      
+      <!-- 2009-09-17: version 0.7 -->
+      <circle stroke="#888" cx="925" r="10"/>
+      <text x="925" y="0" dy="3" class="subversion">0.7</text>
+      
+      <!-- 2009-10-29: version 0.8 -->
+      <circle stroke="#888" cx="939" r="10"/>
+      <text x="939" y="0" dy="3" class="subversion">0.8</text>
+      
+      <!-- 2011-01-22: version 1 -->
       <circle stroke="#888" cx="1087" r="10"/>
       <text x="1087" y="0" dy="3" class="version">1</text>
       
       <!-- 2011-08-17: version 1.1 -->
       <circle stroke="#888" cx="1155" r="10"/>
       <text x="1155" y="0" dy="3" class="subversion">1.1</text>
+      
+      <!-- 2012-09-20: version 1.1.5 -->
+      <use x="1286" stroke="#888" xlink:href="#longver"/>
+      <text x="1286" y="0" dy="3" class="subversion">1.1.5</text>
       
       <!-- Development ended: 2013-01-22 -->
       <line stroke="#888" x1="1327" y1="10" x2="1327" y2="-10"/>
@@ -568,7 +588,7 @@
       </a>
       <!-- Development started: 2010-01-26 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/ -->
-      <line stroke="#7777CD" x1="968" x2="1583"/>
+      <line stroke="#7777CD" x1="968" x2="1587"/>
       
       <!-- 2010-02-01: version 1.3.10 -->
       <use x="970" stroke="#7777CD" xlink:href="#longver"/>
@@ -658,6 +678,18 @@
       <circle stroke="#7777CD" cx="1583" r="10"/>
       <text x="1583" y="0" dy="3" class="subversion">2.19</text>
       
+      <!-- 2015-03-17: version 2.20 -->
+      <circle stroke="#7777CD" cx="1585" r="10"/>
+      <text x="1585" y="0" dy="3" class="subversion">2.20</text>
+      
+      <!-- 2015-03-20: version 2.21 -->
+      <circle stroke="#7777CD" cx="1586" r="10"/>
+      <text x="1586" y="0" dy="3" class="subversion">2.21</text>
+      
+      <!-- 2015-03-23: version 2.22 -->
+      <circle stroke="#7777CD" cx="1587" r="10"/>
+      <text x="1587" y="0" dy="3" class="subversion">2.22</text>
+      
     </g>
     
     <g id="adblock-firefox">
@@ -686,7 +718,7 @@
       </a>
       <!-- Development started: 2012-08-17 -->
       <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
-      <line stroke="#7777CD" x1="1275" x2="1583"/>
+      <line stroke="#7777CD" x1="1275" x2="1587"/>
       <!-- Based on: AdBlock for Chrome -->
       <line stroke="#7777CD" x1="1275" x2="1275" y1="0" y2="-100"/>
       
@@ -750,6 +782,18 @@
       <circle stroke="#7777CD" cx="1583" r="10"/>
       <text x="1583" y="0" dy="3" class="subversion">2.19</text>
       
+      <!-- 2015-03-17: version 2.20 -->
+      <circle stroke="#7777CD" cx="1585" r="10"/>
+      <text x="1585" y="0" dy="3" class="subversion">2.20</text>
+      
+      <!-- 2015-03-20: version 2.21 -->
+      <circle stroke="#7777CD" cx="1586" r="10"/>
+      <text x="1586" y="0" dy="3" class="subversion">2.21</text>
+      
+      <!-- 2015-03-23: version 2.22 -->
+      <circle stroke="#7777CD" cx="1587" r="10"/>
+      <text x="1587" y="0" dy="3" class="subversion">2.22</text>
+      
     </g>
     
     <g id="adblock-safari">
@@ -758,7 +802,7 @@
       </a>
       <!-- Development started: 2010-06-11 -->
       <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
-      <line stroke="#7777CD" x1="1013" x2="1583"/>
+      <line stroke="#7777CD" x1="1013" x2="1587"/>
       <!-- Based on: AdBlock for Chrome -->
       <line stroke="#7777CD" x1="1013" x2="1013" y1="0" y2="-150"/>
       
@@ -845,6 +889,18 @@
       <!-- 2015-03-11: version 2.19 -->
       <circle stroke="#7777CD" cx="1583" r="10"/>
       <text x="1583" y="0" dy="3" class="subversion">2.19</text>
+      
+      <!-- 2015-03-17: version 2.20 -->
+      <circle stroke="#7777CD" cx="1585" r="10"/>
+      <text x="1585" y="0" dy="3" class="subversion">2.20</text>
+      
+      <!-- 2015-03-20: version 2.21 -->
+      <circle stroke="#7777CD" cx="1586" r="10"/>
+      <text x="1586" y="0" dy="3" class="subversion">2.21</text>
+      
+      <!-- 2015-03-23: version 2.22 -->
+      <circle stroke="#7777CD" cx="1587" r="10"/>
+      <text x="1587" y="0" dy="3" class="subversion">2.22</text>
       
     </g>
     
