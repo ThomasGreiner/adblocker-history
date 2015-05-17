@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: 2015-04-22T10:26:56.628Z -->
+<!-- Creation date: 2015-05-17T20:52:46.651Z -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="1000">
@@ -12,6 +12,8 @@
   </desc>
   <defs>
     <style type="text/css"><![CDATA[
+      @namespace xlink url(http://www.w3.org/1999/xlink);
+      
       text {
         font-family: "Arial", sans-serif;
         text-align: center;
@@ -19,12 +21,12 @@
       }
       
       line {
-        stroke-linecap:round;
-        stroke-width:3px;
+        stroke-linecap: round;
+        stroke-width: 3px;
       }
       
       circle {
-        stroke-width:2px;
+        stroke-width: 2px;
         fill: white;
       }
       
@@ -44,21 +46,61 @@
         font-weight: bold;
       }
       
-      .version {
-        font-family: sans-serif;
-        font-size: 14px;
-        text-anchor: middle;
+      #longver {
+        fill: white;
+        transform: translate(-15px, -10px);
       }
       
-      .subversion {
+      use[xlink|href="#longver"] {
+        stroke-width: 2px;
+      }
+      
+      .engine-none line,
+      .engine-none circle,
+      .engine-none use {
+        stroke: #888;
+      }
+      
+      .engine-none .version.release-major circle {
+        fill: #888;
+      }
+      
+      .engine-adblockplus-core line,
+      .engine-adblockplus-core circle,
+      .engine-adblockplus-core use {
+        stroke: #CD0000;
+      }
+      
+      .engine-adblockplus-core .version.release-major circle {
+        fill: #CD0000;
+      }
+      .engine-adblock line,
+      .engine-adblock circle,
+      .engine-adblock use {
+        stroke: #7777CD;
+      }
+      
+      .engine-adblock .version.release-major circle {
+        fill: #7777CD;
+      }
+      
+      .version.release-patch circle,
+      .version.release-patch use {
+        stroke-width: 1px;
+      }
+      
+      .version text {
+        alignment-baseline: central;
         font-family: sans-serif;
         font-size: 8px;
-        color: black;
         text-anchor: middle;
       }
       
-      a:hover {
-        text-decoration: underline;
+      .version.release-major text {
+        font-family: sans-serif;
+        font-size: 14px;
+        fill: white;
+        text-anchor: middle;
       }
     ]]></style>
     
@@ -66,7 +108,7 @@
       <line x1="0" x2="0" y2="100%" stroke="#CCC"/>
     </pattern>
     
-    <rect id="longver" width="30" height="20" rx="10" transform="translate(-15, -10)" stroke-width="2" fill="white"/>
+    <rect id="longver" width="30" height="20" rx="10"/>
     
     <g id="yearlabels">
       <text x="0">2002</text>
@@ -86,907 +128,1365 @@
       <text x="1680">2016</text>
     </g>
     
-    <g id="original">
+    <g id="original" class="engine-none">
       <a xlink:href="http://adblock.mozdev.org/">
         <text x="0" y="0" dx="99" dy="25" class="adblocker">Adblock (unrelated to current AdBlock)</text>
       </a>
       <!-- Development started: 2002-12-04 -->
       <!-- Source for dates: http://www.mozdev.org/source/browse/adblock/ -->
-      <line stroke="#888" x1="111" x2="629"/>
+      <line stroke="" x1="111" x2="629"/>
       
       <!-- 2002-12-28: version 0.2 -->
-      <circle stroke="#888" cx="119" r="10"/>
-      <text x="119" y="0" dy="3" class="subversion">0.2</text>
+      <g class="version release-minor">
+        <circle cx="119" r="10"/>
+        <text x="119" y="0" dy="0">0.2</text>
+      </g>
       
       <!-- 2003-06-08: version 0.3 -->
-      <circle stroke="#888" cx="172" r="10"/>
-      <text x="172" y="0" dy="3" class="subversion">0.3</text>
+      <g class="version release-minor">
+        <circle cx="172" r="10"/>
+        <text x="172" y="0" dy="0">0.3</text>
+      </g>
       
       <!-- 2003-07-22: version 0.4-dev -->
-      <use x="187" stroke="#888" xlink:href="#longver"/>
-      <text x="187" y="0" dy="3" class="subversion">0.4-dev</text>
+      <g class="version release-patch">
+        <use x="187" xlink:href="#longver"/>
+        <text x="187" y="0" dy="0">0.4-dev</text>
+      </g>
       
       <!-- 2003-10-21: version 0.5-dev -->
-      <use x="216" stroke="#888" xlink:href="#longver"/>
-      <text x="216" y="0" dy="3" class="subversion">0.5-dev</text>
+      <g class="version release-patch">
+        <use x="216" xlink:href="#longver"/>
+        <text x="216" y="0" dy="0">0.5-dev</text>
+      </g>
       
       <!-- Development ended: 2007-03-29 -->
-      <line stroke="#888" x1="629" y1="10" x2="629" y2="-10"/>
+      <line stroke="" x1="629" y1="10" x2="629" y2="-10"/>
     </g>
     
-    <g id="adblockedge">
+    <g id="adblockedge" class="engine-none">
       <a xlink:href="https://bitbucket.org/adstomper/adblockedge/">
         <text x="0" y="0" dx="1261" dy="25" class="adblocker">Adblock Edge</text>
       </a>
       <!-- Development started: 2012-07-31 -->
       <!-- Source for dates: https://bitbucket.org/adstomper/adblockedge/ (expected end date based on discontinuation notice) -->
-      <line stroke="#888" x1="1270" x2="1610"/>
+      <line stroke="" x1="1270" x2="1610"/>
       <!-- Based on: Adblock Plus for Firefox -->
-      <line stroke="#888" x1="1270" x2="1270" y1="0" y2="100"/>
+      <line stroke="" x1="1270" x2="1270" y1="0" y2="100"/>
       
       <!-- 2012-09-04: version 2 -->
-      <circle stroke="#888" cx="1281" r="10"/>
-      <text x="1281" y="0" dy="3" class="version">2</text>
+      <g class="version release-major">
+        <circle cx="1281" r="10"/>
+        <text x="1281" y="0" dy="0">2</text>
+      </g>
       
       <!-- 2014-01-06: version 2.1 -->
-      <circle stroke="#888" cx="1441" r="10"/>
-      <text x="1441" y="0" dy="3" class="subversion">2.1</text>
+      <g class="version release-minor">
+        <circle cx="1441" r="10"/>
+        <text x="1441" y="0" dy="0">2.1</text>
+      </g>
+      
+      <!-- 2015-03-08: version 2.1.9 -->
+      <g class="version release-patch">
+        <use x="1582" xlink:href="#longver"/>
+        <text x="1582" y="0" dy="0">2.1.9</text>
+      </g>
       
       <!-- Development ended: 2015-06-01 -->
-      <line stroke="#888" x1="1610" y1="10" x2="1610" y2="-10"/>
+      <line stroke="" x1="1610" y1="10" x2="1610" y2="-10"/>
     </g>
     
-    <g id="privacybadger-firefox">
+    <g id="privacybadger-firefox" class="engine-none">
       <a xlink:href="https://www.eff.org/privacybadger">
         <text x="0" y="0" dx="1460" dy="25" class="adblocker">Privacy Badger for Firefox</text>
       </a>
       <!-- Development started: 2014-01-23 -->
       <!-- Source for dates: https://github.com/EFForg/privacybadgerfirefox -->
-      <line stroke="#888" x1="1447" x2="1505"/>
+      <line stroke="" x1="1447" x2="1556"/>
       <!-- Based on: Adblock Plus for Firefox -->
-      <line stroke="#888" x1="1447" x2="1447" y1="0" y2="50"/>
+      <line stroke="" x1="1447" x2="1447" y1="0" y2="50"/>
       
       <!-- 2014-05-02: version 0.1 -->
-      <circle stroke="#888" cx="1480" r="10"/>
-      <text x="1480" y="0" dy="3" class="subversion">0.1</text>
+      <g class="version release-minor">
+        <circle cx="1480" r="10"/>
+        <text x="1480" y="0" dy="0">0.1</text>
+      </g>
       
       <!-- 2014-07-18: version 0.2 -->
-      <circle stroke="#888" cx="1505" r="10"/>
-      <text x="1505" y="0" dy="3" class="subversion">0.2</text>
+      <g class="version release-minor">
+        <circle cx="1505" r="10"/>
+        <text x="1505" y="0" dy="0">0.2</text>
+      </g>
+      
+      <!-- 2014-12-19: version 0.2.5 -->
+      <g class="version release-patch">
+        <use x="1556" xlink:href="#longver"/>
+        <text x="1556" y="0" dy="0">0.2.5</text>
+      </g>
       
     </g>
     
-    <g id="adblockplus-firefox">
+    <g id="adblockplus-firefox" class="engine-adblockplus-core">
       <a xlink:href="https://adblockplus.org/en/firefox">
         <text x="0" y="0" dx="465" dy="25" class="adblocker">Adblock Plus for Firefox</text>
       </a>
       <!-- Development started: 2006-01-17 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockplus -->
-      <line stroke="#CD0000" x1="485" x2="1477"/>
+      <line stroke="" x1="485" x2="1590"/>
       <!-- Based on: Adblock (unrelated to current AdBlock) -->
-      <line stroke="#CD0000" x1="485" x2="485" y1="0" y2="-150"/>
+      <line stroke="" x1="485" x2="485" y1="0" y2="-150"/>
       
       <!-- 2006-01-17: version 0.6 -->
-      <circle stroke="#CD0000" cx="485" r="10"/>
-      <text x="485" y="0" dy="3" class="subversion">0.6</text>
+      <g class="version release-minor">
+        <circle cx="485" r="10"/>
+        <text x="485" y="0" dy="0">0.6</text>
+      </g>
       
       <!-- 2006-04-09: version 0.7 -->
-      <circle stroke="#CD0000" cx="513" r="10"/>
-      <text x="513" y="0" dy="3" class="subversion">0.7</text>
+      <g class="version release-minor">
+        <circle cx="513" r="10"/>
+        <text x="513" y="0" dy="0">0.7</text>
+      </g>
       
       <!-- 2008-12-01: version 1 -->
-      <circle stroke="#CD0000" cx="830" r="10"/>
-      <text x="830" y="0" dy="3" class="version">1</text>
+      <g class="version release-major">
+        <circle cx="830" r="10"/>
+        <text x="830" y="0" dy="0">1</text>
+      </g>
       
       <!-- 2009-09-13: version 1.1 -->
-      <circle stroke="#CD0000" cx="924" r="10"/>
-      <text x="924" y="0" dy="3" class="subversion">1.1</text>
+      <g class="version release-minor">
+        <circle cx="924" r="10"/>
+        <text x="924" y="0" dy="0">1.1</text>
+      </g>
       
       <!-- 2010-04-30: version 1.2 -->
-      <circle stroke="#CD0000" cx="1000" r="10"/>
-      <text x="1000" y="0" dy="3" class="subversion">1.2</text>
+      <g class="version release-minor">
+        <circle cx="1000" r="10"/>
+        <text x="1000" y="0" dy="0">1.2</text>
+      </g>
       
       <!-- 2010-11-02: version 1.3 -->
-      <circle stroke="#CD0000" cx="1060" r="10"/>
-      <text x="1060" y="0" dy="3" class="subversion">1.3</text>
+      <g class="version release-minor">
+        <circle cx="1060" r="10"/>
+        <text x="1060" y="0" dy="0">1.3</text>
+      </g>
       
       <!-- 2011-12-13: version 2 -->
-      <circle stroke="#CD0000" cx="1194" r="10"/>
-      <text x="1194" y="0" dy="3" class="version">2</text>
+      <g class="version release-major">
+        <circle cx="1194" r="10"/>
+        <text x="1194" y="0" dy="0">2</text>
+      </g>
       
       <!-- 2012-06-28: version 2.1 -->
-      <circle stroke="#CD0000" cx="1259" r="10"/>
-      <text x="1259" y="0" dy="3" class="subversion">2.1</text>
+      <g class="version release-minor">
+        <circle cx="1259" r="10"/>
+        <text x="1259" y="0" dy="0">2.1</text>
+      </g>
       
       <!-- 2012-11-21: version 2.2 -->
-      <circle stroke="#CD0000" cx="1307" r="10"/>
-      <text x="1307" y="0" dy="3" class="subversion">2.2</text>
+      <g class="version release-minor">
+        <circle cx="1307" r="10"/>
+        <text x="1307" y="0" dy="0">2.2</text>
+      </g>
       
       <!-- 2013-07-10: version 2.3 -->
-      <circle stroke="#CD0000" cx="1383" r="10"/>
-      <text x="1383" y="0" dy="3" class="subversion">2.3</text>
+      <g class="version release-minor">
+        <circle cx="1383" r="10"/>
+        <text x="1383" y="0" dy="0">2.3</text>
+      </g>
       
       <!-- 2013-10-09: version 2.4 -->
-      <circle stroke="#CD0000" cx="1412" r="10"/>
-      <text x="1412" y="0" dy="3" class="subversion">2.4</text>
+      <g class="version release-minor">
+        <circle cx="1412" r="10"/>
+        <text x="1412" y="0" dy="0">2.4</text>
+      </g>
       
       <!-- 2014-02-20: version 2.5 -->
-      <circle stroke="#CD0000" cx="1457" r="10"/>
-      <text x="1457" y="0" dy="3" class="subversion">2.5</text>
+      <g class="version release-minor">
+        <circle cx="1457" r="10"/>
+        <text x="1457" y="0" dy="0">2.5</text>
+      </g>
       
       <!-- 2014-04-22: version 2.6 -->
-      <circle stroke="#CD0000" cx="1477" r="10"/>
-      <text x="1477" y="0" dy="3" class="subversion">2.6</text>
+      <g class="version release-minor">
+        <circle cx="1477" r="10"/>
+        <text x="1477" y="0" dy="0">2.6</text>
+      </g>
+      
+      <!-- 2015-03-31: version 2.6.9 -->
+      <g class="version release-patch">
+        <use x="1590" xlink:href="#longver"/>
+        <text x="1590" y="0" dy="0">2.6.9</text>
+      </g>
       
     </g>
     
-    <g id="adthwart">
+    <g id="adthwart" class="engine-none">
       <a xlink:href="https://code.google.com/p/adthwart/">
         <text x="0" y="0" dx="935" dy="25" class="adblocker">AdThwart</text>
       </a>
       <!-- Development started: 2009-12-13 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="#888" x1="954" x2="1070"/>
+      <line stroke="" x1="954" x2="1070"/>
       
       <!-- 2009-12-17: version 0.4.8 -->
-      <use x="955" stroke="#888" xlink:href="#longver"/>
-      <text x="955" y="0" dy="3" class="subversion">0.4.8</text>
+      <g class="version release-patch">
+        <use x="955" xlink:href="#longver"/>
+        <text x="955" y="0" dy="0">0.4.8</text>
+      </g>
       
       <!-- 2009-12-19: version 0.5 -->
-      <circle stroke="#888" cx="956" r="10"/>
-      <text x="956" y="0" dy="3" class="subversion">0.5</text>
+      <g class="version release-minor">
+        <circle cx="956" r="10"/>
+        <text x="956" y="0" dy="0">0.5</text>
+      </g>
       
       <!-- 2009-12-29: version 0.6 -->
-      <circle stroke="#888" cx="959" r="10"/>
-      <text x="959" y="0" dy="3" class="subversion">0.6</text>
+      <g class="version release-minor">
+        <circle cx="959" r="10"/>
+        <text x="959" y="0" dy="0">0.6</text>
+      </g>
       
       <!-- 2010-01-24: version 0.7 -->
-      <circle stroke="#888" cx="967" r="10"/>
-      <text x="967" y="0" dy="3" class="subversion">0.7</text>
+      <g class="version release-minor">
+        <circle cx="967" r="10"/>
+        <text x="967" y="0" dy="0">0.7</text>
+      </g>
       
       <!-- 2010-02-06: version 0.8 -->
-      <circle stroke="#888" cx="972" r="10"/>
-      <text x="972" y="0" dy="3" class="subversion">0.8</text>
+      <g class="version release-minor">
+        <circle cx="972" r="10"/>
+        <text x="972" y="0" dy="0">0.8</text>
+      </g>
       
       <!-- 2010-05-15: version 0.9 -->
-      <circle stroke="#888" cx="1004" r="10"/>
-      <text x="1004" y="0" dy="3" class="subversion">0.9</text>
+      <g class="version release-minor">
+        <circle cx="1004" r="10"/>
+        <text x="1004" y="0" dy="0">0.9</text>
+      </g>
       
       <!-- 2010-09-24: version 1 -->
-      <circle stroke="#888" cx="1048" r="10"/>
-      <text x="1048" y="0" dy="3" class="version">1</text>
+      <g class="version release-major">
+        <circle cx="1048" r="10"/>
+        <text x="1048" y="0" dy="0">1</text>
+      </g>
       
       <!-- Development ended: 2010-12-01 -->
-      <line stroke="#888" x1="1070" y1="10" x2="1070" y2="-10"/>
+      <line stroke="" x1="1070" y1="10" x2="1070" y2="-10"/>
     </g>
     
-    <g id="adblockplus-chrome">
+    <g id="adblockplus-chrome" class="engine-adblockplus-core">
       <a xlink:href="https://adblockplus.org/en/chrome">
         <text x="0" y="0" dx="1056" dy="25" class="adblocker">Adblock Plus for Chrome</text>
       </a>
       <!-- Development started: 2010-12-01 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="#CD0000" x1="1070" x2="1481"/>
+      <line stroke="" x1="1070" x2="1583"/>
       <!-- Based on: AdThwart -->
-      <line stroke="#CD0000" x1="1070" x2="1070" y1="0" y2="-50"/>
+      <line stroke="" x1="1070" x2="1070" y1="0" y2="-50"/>
       
       <!-- 2010-12-20: version 1.0.22 -->
-      <use x="1076" stroke="#CD0000" xlink:href="#longver"/>
-      <text x="1076" y="0" dy="3" class="subversion">1.0.22</text>
+      <g class="version release-patch">
+        <use x="1076" xlink:href="#longver"/>
+        <text x="1076" y="0" dy="0">1.0.22</text>
+      </g>
       
       <!-- 2011-02-28: version 1.1 -->
-      <circle stroke="#CD0000" cx="1100" r="10"/>
-      <text x="1100" y="0" dy="3" class="subversion">1.1</text>
+      <g class="version release-minor">
+        <circle cx="1100" r="10"/>
+        <text x="1100" y="0" dy="0">1.1</text>
+      </g>
       
       <!-- 2012-01-10: version 1.2 -->
-      <circle stroke="#CD0000" cx="1203" r="10"/>
-      <text x="1203" y="0" dy="3" class="subversion">1.2</text>
+      <g class="version release-minor">
+        <circle cx="1203" r="10"/>
+        <text x="1203" y="0" dy="0">1.2</text>
+      </g>
       
       <!-- 2012-10-26: version 1.3 -->
-      <circle stroke="#CD0000" cx="1298" r="10"/>
-      <text x="1298" y="0" dy="3" class="subversion">1.3</text>
+      <g class="version release-minor">
+        <circle cx="1298" r="10"/>
+        <text x="1298" y="0" dy="0">1.3</text>
+      </g>
       
       <!-- 2013-03-12: version 1.4 -->
-      <circle stroke="#CD0000" cx="1343" r="10"/>
-      <text x="1343" y="0" dy="3" class="subversion">1.4</text>
+      <g class="version release-minor">
+        <circle cx="1343" r="10"/>
+        <text x="1343" y="0" dy="0">1.4</text>
+      </g>
       
       <!-- 2013-07-10: version 1.5 -->
-      <circle stroke="#CD0000" cx="1383" r="10"/>
-      <text x="1383" y="0" dy="3" class="subversion">1.5</text>
+      <g class="version release-minor">
+        <circle cx="1383" r="10"/>
+        <text x="1383" y="0" dy="0">1.5</text>
+      </g>
       
       <!-- 2013-10-09: version 1.6 -->
-      <circle stroke="#CD0000" cx="1412" r="10"/>
-      <text x="1412" y="0" dy="3" class="subversion">1.6</text>
+      <g class="version release-minor">
+        <circle cx="1412" r="10"/>
+        <text x="1412" y="0" dy="0">1.6</text>
+      </g>
       
       <!-- 2013-12-18: version 1.7 -->
-      <circle stroke="#CD0000" cx="1435" r="10"/>
-      <text x="1435" y="0" dy="3" class="subversion">1.7</text>
+      <g class="version release-minor">
+        <circle cx="1435" r="10"/>
+        <text x="1435" y="0" dy="0">1.7</text>
+      </g>
       
       <!-- 2014-05-06: version 1.8 -->
-      <circle stroke="#CD0000" cx="1481" r="10"/>
-      <text x="1481" y="0" dy="3" class="subversion">1.8</text>
+      <g class="version release-minor">
+        <circle cx="1481" r="10"/>
+        <text x="1481" y="0" dy="0">1.8</text>
+      </g>
+      
+      <!-- 2015-03-10: version 1.8.12 -->
+      <g class="version release-patch">
+        <use x="1583" xlink:href="#longver"/>
+        <text x="1583" y="0" dy="0">1.8.12</text>
+      </g>
       
     </g>
     
-    <g id="adblockplus-safari">
+    <g id="adblockplus-safari" class="engine-adblockplus-core">
       <a xlink:href="https://adblockplus.org/en/safari">
         <text x="0" y="0" dx="1426" dy="25" class="adblocker">Adblock Plus for Safari</text>
       </a>
       <!-- Development started: 2013-10-31 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="#CD0000" x1="1420" x2="1481"/>
+      <line stroke="" x1="1420" x2="1583"/>
       <!-- Based on: Adblock Plus for Chrome -->
-      <line stroke="#CD0000" x1="1420" x2="1420" y1="0" y2="-50"/>
+      <line stroke="" x1="1420" x2="1420" y1="0" y2="-50"/>
       
       <!-- 2014-01-21: version beta -->
-      <circle stroke="#CD0000" cx="1446" r="10"/>
-      <text x="1446" y="0" dy="3" class="subversion">beta</text>
+      <g class="version release-patch">
+        <circle cx="1446" r="10"/>
+        <text x="1446" y="0" dy="0">beta</text>
+      </g>
       
       <!-- 2014-05-06: version 1.8 -->
-      <circle stroke="#CD0000" cx="1481" r="10"/>
-      <text x="1481" y="0" dy="3" class="subversion">1.8</text>
+      <g class="version release-minor">
+        <circle cx="1481" r="10"/>
+        <text x="1481" y="0" dy="0">1.8</text>
+      </g>
+      
+      <!-- 2015-03-10: version 1.8.12 -->
+      <g class="version release-patch">
+        <use x="1583" xlink:href="#longver"/>
+        <text x="1583" y="0" dy="0">1.8.12</text>
+      </g>
       
     </g>
     
-    <g id="privacybadger-chrome">
+    <g id="privacybadger-chrome" class="engine-none">
       <a xlink:href="https://www.eff.org/privacybadger">
         <text x="0" y="0" dx="1530" dy="25" class="adblocker">Privacy Badger for Chrome</text>
       </a>
       <!-- Development started: 2013-07-10 -->
       <!-- Source for dates: https://github.com/EFForg/privacybadgerchrome -->
-      <line stroke="#888" x1="1383" x2="1550"/>
+      <line stroke="" x1="1383" x2="1550"/>
       <!-- Based on: Adblock Plus for Chrome -->
-      <line stroke="#888" x1="1383" x2="1383" y1="0" y2="-100"/>
+      <line stroke="" x1="1383" x2="1383" y1="0" y2="-100"/>
       
       <!-- 2014-12-02: version 1 -->
-      <circle stroke="#888" cx="1550" r="10"/>
-      <text x="1550" y="0" dy="3" class="version">1</text>
+      <g class="version release-major">
+        <circle cx="1550" r="10"/>
+        <text x="1550" y="0" dy="0">1</text>
+      </g>
       
     </g>
     
-    <g id="adblockplus-opera-chromium">
+    <g id="adblockplus-opera-chromium" class="engine-adblockplus-core">
       <a xlink:href="https://adblockplus.org/en/opera">
         <text x="0" y="0" dx="1349" dy="25" class="adblocker">Adblock Plus for Opera (Chromium)</text>
       </a>
       <!-- Development started: 2012-11-23 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="#CD0000" x1="1307" x2="1481"/>
+      <line stroke="" x1="1307" x2="1583"/>
       <!-- Based on: Adblock Plus for Chrome -->
-      <line stroke="#CD0000" x1="1307" x2="1307" y1="0" y2="-150"/>
+      <line stroke="" x1="1307" x2="1307" y1="0" y2="-150"/>
       
       <!-- 2013-05-28: version 1.4.1 -->
-      <use x="1369" stroke="#CD0000" xlink:href="#longver"/>
-      <text x="1369" y="0" dy="3" class="subversion">1.4.1</text>
+      <g class="version release-patch">
+        <use x="1369" xlink:href="#longver"/>
+        <text x="1369" y="0" dy="0">1.4.1</text>
+      </g>
       
       <!-- 2013-07-10: version 1.5 -->
-      <circle stroke="#CD0000" cx="1383" r="10"/>
-      <text x="1383" y="0" dy="3" class="subversion">1.5</text>
+      <g class="version release-minor">
+        <circle cx="1383" r="10"/>
+        <text x="1383" y="0" dy="0">1.5</text>
+      </g>
       
       <!-- 2013-10-09: version 1.6 -->
-      <circle stroke="#CD0000" cx="1412" r="10"/>
-      <text x="1412" y="0" dy="3" class="subversion">1.6</text>
+      <g class="version release-minor">
+        <circle cx="1412" r="10"/>
+        <text x="1412" y="0" dy="0">1.6</text>
+      </g>
       
       <!-- 2013-12-18: version 1.7 -->
-      <circle stroke="#CD0000" cx="1435" r="10"/>
-      <text x="1435" y="0" dy="3" class="subversion">1.7</text>
+      <g class="version release-minor">
+        <circle cx="1435" r="10"/>
+        <text x="1435" y="0" dy="0">1.7</text>
+      </g>
       
       <!-- 2014-05-06: version 1.8 -->
-      <circle stroke="#CD0000" cx="1481" r="10"/>
-      <text x="1481" y="0" dy="3" class="subversion">1.8</text>
+      <g class="version release-minor">
+        <circle cx="1481" r="10"/>
+        <text x="1481" y="0" dy="0">1.8</text>
+      </g>
+      
+      <!-- 2015-03-10: version 1.8.12 -->
+      <g class="version release-patch">
+        <use x="1583" xlink:href="#longver"/>
+        <text x="1583" y="0" dy="0">1.8.12</text>
+      </g>
       
     </g>
     
-    <g id="adblockplus-opera-presto">
+    <g id="adblockplus-opera-presto" class="engine-adblockplus-core">
       <a xlink:href="https://adblockplus.org/en/opera">
         <text x="0" y="0" dx="1284" dy="25" class="adblocker">Adblock Plus for Opera (Presto)</text>
       </a>
       <!-- Development started: 2012-10-01 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockplusopera -->
-      <line stroke="#CD0000" x1="1290" x2="1362"/>
+      <line stroke="" x1="1290" x2="1362"/>
       <!-- Based on: Opera AdBlock -->
-      <line stroke="#CD0000" x1="1290" x2="1290" y1="0" y2="50"/>
+      <line stroke="" x1="1290" x2="1290" y1="0" y2="50"/>
       
       <!-- 2012-11-13: version 1.3.1 -->
-      <use x="1304" stroke="#CD0000" xlink:href="#longver"/>
-      <text x="1304" y="0" dy="3" class="subversion">1.3.1</text>
+      <g class="version release-patch">
+        <use x="1304" xlink:href="#longver"/>
+        <text x="1304" y="0" dy="0">1.3.1</text>
+      </g>
       
       <!-- Development ended: 2013-05-08 -->
-      <line stroke="#CD0000" x1="1362" y1="10" x2="1362" y2="-10"/>
+      <line stroke="" x1="1362" y1="10" x2="1362" y2="-10"/>
     </g>
     
-    <g id="opera-adblock">
+    <g id="opera-adblock" class="engine-none">
       <a xlink:href="">
         <text x="0" y="0" dx="1084" dy="25" class="adblocker">Opera AdBlock</text>
       </a>
       <!-- Development started: 2011-03-14 -->
       <!-- Source for dates: https://addons.opera.com/en/extensions/details/opera-adblock/ (according to internal revision history) -->
-      <line stroke="#888" x1="1104" x2="1290"/>
+      <line stroke="" x1="1104" x2="1290"/>
       
       <!-- 2011-03-14: version 0.12 -->
-      <circle stroke="#888" cx="1104" r="10"/>
-      <text x="1104" y="0" dy="3" class="subversion">0.12</text>
+      <g class="version release-minor">
+        <circle cx="1104" r="10"/>
+        <text x="1104" y="0" dy="0">0.12</text>
+      </g>
       
       <!-- 2011-03-15: version 0.13 -->
-      <circle stroke="#888" cx="1104" r="10"/>
-      <text x="1104" y="0" dy="3" class="subversion">0.13</text>
+      <g class="version release-minor">
+        <circle cx="1104" r="10"/>
+        <text x="1104" y="0" dy="0">0.13</text>
+      </g>
       
       <!-- 2011-03-15: version 0.14 -->
-      <circle stroke="#888" cx="1104" r="10"/>
-      <text x="1104" y="0" dy="3" class="subversion">0.14</text>
+      <g class="version release-minor">
+        <circle cx="1104" r="10"/>
+        <text x="1104" y="0" dy="0">0.14</text>
+      </g>
       
       <!-- 2011-03-17: version 0.23 -->
-      <circle stroke="#888" cx="1105" r="10"/>
-      <text x="1105" y="0" dy="3" class="subversion">0.23</text>
+      <g class="version release-minor">
+        <circle cx="1105" r="10"/>
+        <text x="1105" y="0" dy="0">0.23</text>
+      </g>
       
       <!-- 2011-03-22: version 0.27 -->
-      <circle stroke="#888" cx="1107" r="10"/>
-      <text x="1107" y="0" dy="3" class="subversion">0.27</text>
+      <g class="version release-minor">
+        <circle cx="1107" r="10"/>
+        <text x="1107" y="0" dy="0">0.27</text>
+      </g>
       
       <!-- 2011-03-27: version 0.32 -->
-      <circle stroke="#888" cx="1108" r="10"/>
-      <text x="1108" y="0" dy="3" class="subversion">0.32</text>
+      <g class="version release-minor">
+        <circle cx="1108" r="10"/>
+        <text x="1108" y="0" dy="0">0.32</text>
+      </g>
       
       <!-- 2011-03-30: version 0.34 -->
-      <circle stroke="#888" cx="1109" r="10"/>
-      <text x="1109" y="0" dy="3" class="subversion">0.34</text>
+      <g class="version release-minor">
+        <circle cx="1109" r="10"/>
+        <text x="1109" y="0" dy="0">0.34</text>
+      </g>
       
       <!-- 2011-04-10: version 0.37 -->
-      <circle stroke="#888" cx="1113" r="10"/>
-      <text x="1113" y="0" dy="3" class="subversion">0.37</text>
+      <g class="version release-minor">
+        <circle cx="1113" r="10"/>
+        <text x="1113" y="0" dy="0">0.37</text>
+      </g>
       
       <!-- 2011-04-12: version 0.38 -->
-      <circle stroke="#888" cx="1114" r="10"/>
-      <text x="1114" y="0" dy="3" class="subversion">0.38</text>
+      <g class="version release-minor">
+        <circle cx="1114" r="10"/>
+        <text x="1114" y="0" dy="0">0.38</text>
+      </g>
       
       <!-- 2011-04-25: version 0.43 -->
-      <circle stroke="#888" cx="1118" r="10"/>
-      <text x="1118" y="0" dy="3" class="subversion">0.43</text>
+      <g class="version release-minor">
+        <circle cx="1118" r="10"/>
+        <text x="1118" y="0" dy="0">0.43</text>
+      </g>
       
       <!-- 2011-05-09: version 0.44 -->
-      <circle stroke="#888" cx="1122" r="10"/>
-      <text x="1122" y="0" dy="3" class="subversion">0.44</text>
+      <g class="version release-minor">
+        <circle cx="1122" r="10"/>
+        <text x="1122" y="0" dy="0">0.44</text>
+      </g>
       
       <!-- 2011-05-24: version 0.46 -->
-      <circle stroke="#888" cx="1127" r="10"/>
-      <text x="1127" y="0" dy="3" class="subversion">0.46</text>
+      <g class="version release-minor">
+        <circle cx="1127" r="10"/>
+        <text x="1127" y="0" dy="0">0.46</text>
+      </g>
       
       <!-- 2011-08-02: version 0.50 -->
-      <circle stroke="#888" cx="1150" r="10"/>
-      <text x="1150" y="0" dy="3" class="subversion">0.50</text>
+      <g class="version release-minor">
+        <circle cx="1150" r="10"/>
+        <text x="1150" y="0" dy="0">0.50</text>
+      </g>
       
       <!-- 2011-08-13: version 0.51 -->
-      <circle stroke="#888" cx="1154" r="10"/>
-      <text x="1154" y="0" dy="3" class="subversion">0.51</text>
+      <g class="version release-minor">
+        <circle cx="1154" r="10"/>
+        <text x="1154" y="0" dy="0">0.51</text>
+      </g>
       
       <!-- 2011-08-26: version 0.52 -->
-      <circle stroke="#888" cx="1158" r="10"/>
-      <text x="1158" y="0" dy="3" class="subversion">0.52</text>
+      <g class="version release-minor">
+        <circle cx="1158" r="10"/>
+        <text x="1158" y="0" dy="0">0.52</text>
+      </g>
       
       <!-- 2012-07-09: version 0.54 -->
-      <circle stroke="#888" cx="1262" r="10"/>
-      <text x="1262" y="0" dy="3" class="subversion">0.54</text>
+      <g class="version release-minor">
+        <circle cx="1262" r="10"/>
+        <text x="1262" y="0" dy="0">0.54</text>
+      </g>
       
       <!-- 2012-07-16: version 0.55 -->
-      <circle stroke="#888" cx="1265" r="10"/>
-      <text x="1265" y="0" dy="3" class="subversion">0.55</text>
+      <g class="version release-minor">
+        <circle cx="1265" r="10"/>
+        <text x="1265" y="0" dy="0">0.55</text>
+      </g>
       
       <!-- 2012-07-23: version 0.56 -->
-      <circle stroke="#888" cx="1267" r="10"/>
-      <text x="1267" y="0" dy="3" class="subversion">0.56</text>
+      <g class="version release-minor">
+        <circle cx="1267" r="10"/>
+        <text x="1267" y="0" dy="0">0.56</text>
+      </g>
       
       <!-- Development ended: 2012-10-01 -->
-      <line stroke="#888" x1="1290" y1="10" x2="1290" y2="-10"/>
+      <line stroke="" x1="1290" y1="10" x2="1290" y2="-10"/>
     </g>
     
-    <g id="adblockplus-android">
+    <g id="adblockplus-android" class="engine-adblockplus-core">
       <a xlink:href="https://adblockplus.org/en/android">
         <text x="0" y="0" dx="1288" dy="25" class="adblocker">Adblock Plus for Android</text>
       </a>
       <!-- Development started: 2012-04-01 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockplusandroid -->
-      <line stroke="#CD0000" x1="1230" x2="1580"/>
+      <line stroke="" x1="1230" x2="1580"/>
       
       <!-- 2012-11-26: version 1 -->
-      <circle stroke="#CD0000" cx="1308" r="10"/>
-      <text x="1308" y="0" dy="3" class="version">1</text>
+      <g class="version release-major">
+        <circle cx="1308" r="10"/>
+        <text x="1308" y="0" dy="0">1</text>
+      </g>
       
       <!-- 2013-03-19: version 1.1 -->
-      <circle stroke="#CD0000" cx="1346" r="10"/>
-      <text x="1346" y="0" dy="3" class="subversion">1.1</text>
+      <g class="version release-minor">
+        <circle cx="1346" r="10"/>
+        <text x="1346" y="0" dy="0">1.1</text>
+      </g>
       
       <!-- 2013-11-29: version 1.2 -->
-      <circle stroke="#CD0000" cx="1429" r="10"/>
-      <text x="1429" y="0" dy="3" class="subversion">1.2</text>
+      <g class="version release-minor">
+        <circle cx="1429" r="10"/>
+        <text x="1429" y="0" dy="0">1.2</text>
+      </g>
       
       <!-- 2015-03-03: version 1.3 -->
-      <circle stroke="#CD0000" cx="1580" r="10"/>
-      <text x="1580" y="0" dy="3" class="subversion">1.3</text>
+      <g class="version release-minor">
+        <circle cx="1580" r="10"/>
+        <text x="1580" y="0" dy="0">1.3</text>
+      </g>
       
     </g>
     
-    <g id="simpleadblock">
+    <g id="simpleadblock" class="engine-none">
       <a xlink:href="http://simple-adblock.com/releases/ and https://hg.adblockplus.org/adblockplusie">
         <text x="0" y="0" dx="888" dy="25" class="adblocker">Simple Adblock</text>
       </a>
       <!-- Development started: 2009-07-26 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockplusie -->
-      <line stroke="#888" x1="908" x2="1327"/>
+      <line stroke="" x1="908" x2="1327"/>
       
       <!-- 2009-07-26: version 0.4 -->
-      <circle stroke="#888" cx="908" r="10"/>
-      <text x="908" y="0" dy="3" class="subversion">0.4</text>
+      <g class="version release-minor">
+        <circle cx="908" r="10"/>
+        <text x="908" y="0" dy="0">0.4</text>
+      </g>
       
       <!-- 2009-07-31: version 0.5 -->
-      <circle stroke="#888" cx="910" r="10"/>
-      <text x="910" y="0" dy="3" class="subversion">0.5</text>
+      <g class="version release-minor">
+        <circle cx="910" r="10"/>
+        <text x="910" y="0" dy="0">0.5</text>
+      </g>
       
       <!-- 2009-08-19: version 0.6 -->
-      <circle stroke="#888" cx="916" r="10"/>
-      <text x="916" y="0" dy="3" class="subversion">0.6</text>
+      <g class="version release-minor">
+        <circle cx="916" r="10"/>
+        <text x="916" y="0" dy="0">0.6</text>
+      </g>
       
       <!-- 2009-09-17: version 0.7 -->
-      <circle stroke="#888" cx="925" r="10"/>
-      <text x="925" y="0" dy="3" class="subversion">0.7</text>
+      <g class="version release-minor">
+        <circle cx="925" r="10"/>
+        <text x="925" y="0" dy="0">0.7</text>
+      </g>
       
       <!-- 2009-10-29: version 0.8 -->
-      <circle stroke="#888" cx="939" r="10"/>
-      <text x="939" y="0" dy="3" class="subversion">0.8</text>
+      <g class="version release-minor">
+        <circle cx="939" r="10"/>
+        <text x="939" y="0" dy="0">0.8</text>
+      </g>
       
       <!-- 2011-01-22: version 1 -->
-      <circle stroke="#888" cx="1087" r="10"/>
-      <text x="1087" y="0" dy="3" class="version">1</text>
+      <g class="version release-major">
+        <circle cx="1087" r="10"/>
+        <text x="1087" y="0" dy="0">1</text>
+      </g>
       
       <!-- 2011-08-17: version 1.1 -->
-      <circle stroke="#888" cx="1155" r="10"/>
-      <text x="1155" y="0" dy="3" class="subversion">1.1</text>
+      <g class="version release-minor">
+        <circle cx="1155" r="10"/>
+        <text x="1155" y="0" dy="0">1.1</text>
+      </g>
       
       <!-- 2012-09-20: version 1.1.5 -->
-      <use x="1286" stroke="#888" xlink:href="#longver"/>
-      <text x="1286" y="0" dy="3" class="subversion">1.1.5</text>
+      <g class="version release-patch">
+        <use x="1286" xlink:href="#longver"/>
+        <text x="1286" y="0" dy="0">1.1.5</text>
+      </g>
       
       <!-- Development ended: 2013-01-22 -->
-      <line stroke="#888" x1="1327" y1="10" x2="1327" y2="-10"/>
+      <line stroke="" x1="1327" y1="10" x2="1327" y2="-10"/>
     </g>
     
-    <g id="adblockplus-ie">
+    <g id="adblockplus-ie" class="engine-adblockplus-core">
       <a xlink:href="https://adblockplus.org/en/internet-explorer">
         <text x="0" y="0" dx="1337" dy="25" class="adblocker">Adblock Plus for Internet Explorer</text>
       </a>
       <!-- Development started: 2013-01-22 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockplusie -->
-      <line stroke="#CD0000" x1="1327" x2="1579"/>
+      <line stroke="" x1="1327" x2="1579"/>
       <!-- Based on: Simple Adblock -->
-      <line stroke="#CD0000" x1="1327" x2="1327" y1="0" y2="-50"/>
+      <line stroke="" x1="1327" x2="1327" y1="0" y2="-50"/>
       
       <!-- 2013-04-22: version dev -->
-      <circle stroke="#CD0000" cx="1357" r="10"/>
-      <text x="1357" y="0" dy="3" class="subversion">dev</text>
+      <g class="version release-patch">
+        <circle cx="1357" r="10"/>
+        <text x="1357" y="0" dy="0">dev</text>
+      </g>
       
       <!-- 2013-08-13: version 1 -->
-      <circle stroke="#CD0000" cx="1394" r="10"/>
-      <text x="1394" y="0" dy="3" class="version">1</text>
+      <g class="version release-major">
+        <circle cx="1394" r="10"/>
+        <text x="1394" y="0" dy="0">1</text>
+      </g>
       
       <!-- 2013-10-08: version 1.1 -->
-      <circle stroke="#CD0000" cx="1412" r="10"/>
-      <text x="1412" y="0" dy="3" class="subversion">1.1</text>
+      <g class="version release-minor">
+        <circle cx="1412" r="10"/>
+        <text x="1412" y="0" dy="0">1.1</text>
+      </g>
       
       <!-- 2014-08-12: version 1.2 -->
-      <circle stroke="#CD0000" cx="1513" r="10"/>
-      <text x="1513" y="0" dy="3" class="subversion">1.2</text>
+      <g class="version release-minor">
+        <circle cx="1513" r="10"/>
+        <text x="1513" y="0" dy="0">1.2</text>
+      </g>
       
       <!-- 2014-12-16: version 1.3 -->
-      <circle stroke="#CD0000" cx="1555" r="10"/>
-      <text x="1555" y="0" dy="3" class="subversion">1.3</text>
+      <g class="version release-minor">
+        <circle cx="1555" r="10"/>
+        <text x="1555" y="0" dy="0">1.3</text>
+      </g>
       
       <!-- 2015-02-26: version 1.4 -->
-      <circle stroke="#CD0000" cx="1579" r="10"/>
-      <text x="1579" y="0" dy="3" class="subversion">1.4</text>
+      <g class="version release-minor">
+        <circle cx="1579" r="10"/>
+        <text x="1579" y="0" dy="0">1.4</text>
+      </g>
       
     </g>
     
-    <g id="adblock-chrome">
+    <g id="adblock-chrome" class="engine-adblock">
       <a xlink:href="https://getadblock.com/">
         <text x="0" y="0" dx="950" dy="25" class="adblocker">AdBlock for Chrome</text>
       </a>
       <!-- Development started: 2010-01-26 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/ -->
-      <line stroke="#7777CD" x1="968" x2="1597"/>
+      <line stroke="" x1="968" x2="1604"/>
       
       <!-- 2010-02-01: version 1.3.10 -->
-      <use x="970" stroke="#7777CD" xlink:href="#longver"/>
-      <text x="970" y="0" dy="3" class="subversion">1.3.10</text>
+      <g class="version release-patch">
+        <use x="970" xlink:href="#longver"/>
+        <text x="970" y="0" dy="0">1.3.10</text>
+      </g>
       
       <!-- 2010-04-05: version 1.4 -->
-      <circle stroke="#7777CD" cx="991" r="10"/>
-      <text x="991" y="0" dy="3" class="subversion">1.4</text>
+      <g class="version release-minor">
+        <circle cx="991" r="10"/>
+        <text x="991" y="0" dy="0">1.4</text>
+      </g>
       
       <!-- 2010-06-16: version 2 -->
-      <circle stroke="#7777CD" cx="1015" r="10"/>
-      <text x="1015" y="0" dy="3" class="version">2</text>
+      <g class="version release-major">
+        <circle cx="1015" r="10"/>
+        <text x="1015" y="0" dy="0">2</text>
+      </g>
       
       <!-- 2010-08-29: version 2.1 -->
-      <circle stroke="#7777CD" cx="1039" r="10"/>
-      <text x="1039" y="0" dy="3" class="subversion">2.1</text>
+      <g class="version release-minor">
+        <circle cx="1039" r="10"/>
+        <text x="1039" y="0" dy="0">2.1</text>
+      </g>
       
       <!-- 2010-10-03: version 2.2 -->
-      <circle stroke="#7777CD" cx="1050" r="10"/>
-      <text x="1050" y="0" dy="3" class="subversion">2.2</text>
+      <g class="version release-minor">
+        <circle cx="1050" r="10"/>
+        <text x="1050" y="0" dy="0">2.2</text>
+      </g>
       
       <!-- 2011-02-10: version 2.3 -->
-      <circle stroke="#7777CD" cx="1093" r="10"/>
-      <text x="1093" y="0" dy="3" class="subversion">2.3</text>
+      <g class="version release-minor">
+        <circle cx="1093" r="10"/>
+        <text x="1093" y="0" dy="0">2.3</text>
+      </g>
       
       <!-- 2011-05-03: version 2.4 -->
-      <circle stroke="#7777CD" cx="1120" r="10"/>
-      <text x="1120" y="0" dy="3" class="subversion">2.4</text>
+      <g class="version release-minor">
+        <circle cx="1120" r="10"/>
+        <text x="1120" y="0" dy="0">2.4</text>
+      </g>
       
       <!-- 2011-11-29: version 2.5 -->
-      <circle stroke="#7777CD" cx="1189" r="10"/>
-      <text x="1189" y="0" dy="3" class="subversion">2.5</text>
+      <g class="version release-minor">
+        <circle cx="1189" r="10"/>
+        <text x="1189" y="0" dy="0">2.5</text>
+      </g>
       
       <!-- 2013-06-24: version 2.6 -->
-      <circle stroke="#7777CD" cx="1378" r="10"/>
-      <text x="1378" y="0" dy="3" class="subversion">2.6</text>
+      <g class="version release-minor">
+        <circle cx="1378" r="10"/>
+        <text x="1378" y="0" dy="0">2.6</text>
+      </g>
       
       <!-- 2014-06-06: version 2.7 -->
-      <circle stroke="#7777CD" cx="1492" r="10"/>
-      <text x="1492" y="0" dy="3" class="subversion">2.7</text>
+      <g class="version release-minor">
+        <circle cx="1492" r="10"/>
+        <text x="1492" y="0" dy="0">2.7</text>
+      </g>
       
       <!-- 2014-08-28: version 2.8 -->
-      <circle stroke="#7777CD" cx="1519" r="10"/>
-      <text x="1519" y="0" dy="3" class="subversion">2.8</text>
+      <g class="version release-minor">
+        <circle cx="1519" r="10"/>
+        <text x="1519" y="0" dy="0">2.8</text>
+      </g>
       
       <!-- 2014-09-17: version 2.9 -->
-      <circle stroke="#7777CD" cx="1525" r="10"/>
-      <text x="1525" y="0" dy="3" class="subversion">2.9</text>
+      <g class="version release-minor">
+        <circle cx="1525" r="10"/>
+        <text x="1525" y="0" dy="0">2.9</text>
+      </g>
       
       <!-- 2014-10-06: version 2.10 -->
-      <circle stroke="#7777CD" cx="1531" r="10"/>
-      <text x="1531" y="0" dy="3" class="subversion">2.10</text>
+      <g class="version release-minor">
+        <circle cx="1531" r="10"/>
+        <text x="1531" y="0" dy="0">2.10</text>
+      </g>
       
       <!-- 2014-10-13: version 2.11 -->
-      <circle stroke="#7777CD" cx="1534" r="10"/>
-      <text x="1534" y="0" dy="3" class="subversion">2.11</text>
+      <g class="version release-minor">
+        <circle cx="1534" r="10"/>
+        <text x="1534" y="0" dy="0">2.11</text>
+      </g>
       
       <!-- 2014-10-22: version 2.12 -->
-      <circle stroke="#7777CD" cx="1537" r="10"/>
-      <text x="1537" y="0" dy="3" class="subversion">2.12</text>
+      <g class="version release-minor">
+        <circle cx="1537" r="10"/>
+        <text x="1537" y="0" dy="0">2.12</text>
+      </g>
       
       <!-- 2014-10-31: version 2.13 -->
-      <circle stroke="#7777CD" cx="1540" r="10"/>
-      <text x="1540" y="0" dy="3" class="subversion">2.13</text>
+      <g class="version release-minor">
+        <circle cx="1540" r="10"/>
+        <text x="1540" y="0" dy="0">2.13</text>
+      </g>
       
       <!-- 2014-11-24: version 2.14 -->
-      <circle stroke="#7777CD" cx="1548" r="10"/>
-      <text x="1548" y="0" dy="3" class="subversion">2.14</text>
+      <g class="version release-minor">
+        <circle cx="1548" r="10"/>
+        <text x="1548" y="0" dy="0">2.14</text>
+      </g>
       
       <!-- 2014-12-09: version 2.15 -->
-      <circle stroke="#7777CD" cx="1552" r="10"/>
-      <text x="1552" y="0" dy="3" class="subversion">2.15</text>
+      <g class="version release-minor">
+        <circle cx="1552" r="10"/>
+        <text x="1552" y="0" dy="0">2.15</text>
+      </g>
       
       <!-- 2015-01-02: version 2.16 -->
-      <circle stroke="#7777CD" cx="1560" r="10"/>
-      <text x="1560" y="0" dy="3" class="subversion">2.16</text>
+      <g class="version release-minor">
+        <circle cx="1560" r="10"/>
+        <text x="1560" y="0" dy="0">2.16</text>
+      </g>
       
       <!-- 2015-01-23: version 2.17 -->
-      <circle stroke="#7777CD" cx="1567" r="10"/>
-      <text x="1567" y="0" dy="3" class="subversion">2.17</text>
+      <g class="version release-minor">
+        <circle cx="1567" r="10"/>
+        <text x="1567" y="0" dy="0">2.17</text>
+      </g>
       
       <!-- 2015-02-10: version 2.18 -->
-      <circle stroke="#7777CD" cx="1573" r="10"/>
-      <text x="1573" y="0" dy="3" class="subversion">2.18</text>
+      <g class="version release-minor">
+        <circle cx="1573" r="10"/>
+        <text x="1573" y="0" dy="0">2.18</text>
+      </g>
       
       <!-- 2015-03-11: version 2.19 -->
-      <circle stroke="#7777CD" cx="1583" r="10"/>
-      <text x="1583" y="0" dy="3" class="subversion">2.19</text>
+      <g class="version release-minor">
+        <circle cx="1583" r="10"/>
+        <text x="1583" y="0" dy="0">2.19</text>
+      </g>
       
       <!-- 2015-03-17: version 2.20 -->
-      <circle stroke="#7777CD" cx="1585" r="10"/>
-      <text x="1585" y="0" dy="3" class="subversion">2.20</text>
+      <g class="version release-minor">
+        <circle cx="1585" r="10"/>
+        <text x="1585" y="0" dy="0">2.20</text>
+      </g>
       
       <!-- 2015-03-20: version 2.21 -->
-      <circle stroke="#7777CD" cx="1586" r="10"/>
-      <text x="1586" y="0" dy="3" class="subversion">2.21</text>
+      <g class="version release-minor">
+        <circle cx="1586" r="10"/>
+        <text x="1586" y="0" dy="0">2.21</text>
+      </g>
       
       <!-- 2015-03-23: version 2.22 -->
-      <circle stroke="#7777CD" cx="1587" r="10"/>
-      <text x="1587" y="0" dy="3" class="subversion">2.22</text>
+      <g class="version release-minor">
+        <circle cx="1587" r="10"/>
+        <text x="1587" y="0" dy="0">2.22</text>
+      </g>
       
       <!-- 2015-04-05: version 2.23 -->
-      <circle stroke="#7777CD" cx="1591" r="10"/>
-      <text x="1591" y="0" dy="3" class="subversion">2.23</text>
+      <g class="version release-minor">
+        <circle cx="1591" r="10"/>
+        <text x="1591" y="0" dy="0">2.23</text>
+      </g>
       
       <!-- 2015-04-07: version 2.24 -->
-      <circle stroke="#7777CD" cx="1592" r="10"/>
-      <text x="1592" y="0" dy="3" class="subversion">2.24</text>
+      <g class="version release-minor">
+        <circle cx="1592" r="10"/>
+        <text x="1592" y="0" dy="0">2.24</text>
+      </g>
       
       <!-- 2015-04-13: version 2.25 -->
-      <circle stroke="#7777CD" cx="1594" r="10"/>
-      <text x="1594" y="0" dy="3" class="subversion">2.25</text>
+      <g class="version release-minor">
+        <circle cx="1594" r="10"/>
+        <text x="1594" y="0" dy="0">2.25</text>
+      </g>
       
       <!-- 2015-04-16: version 2.26 -->
-      <circle stroke="#7777CD" cx="1595" r="10"/>
-      <text x="1595" y="0" dy="3" class="subversion">2.26</text>
+      <g class="version release-minor">
+        <circle cx="1595" r="10"/>
+        <text x="1595" y="0" dy="0">2.26</text>
+      </g>
       
       <!-- 2015-04-18: version 2.27 -->
-      <circle stroke="#7777CD" cx="1596" r="10"/>
-      <text x="1596" y="0" dy="3" class="subversion">2.27</text>
+      <g class="version release-minor">
+        <circle cx="1596" r="10"/>
+        <text x="1596" y="0" dy="0">2.27</text>
+      </g>
       
       <!-- 2015-04-21: version 2.28 -->
-      <circle stroke="#7777CD" cx="1597" r="10"/>
-      <text x="1597" y="0" dy="3" class="subversion">2.28</text>
+      <g class="version release-minor">
+        <circle cx="1597" r="10"/>
+        <text x="1597" y="0" dy="0">2.28</text>
+      </g>
       
       <!-- 2015-04-21: version 2.29 -->
-      <circle stroke="#7777CD" cx="1597" r="10"/>
-      <text x="1597" y="0" dy="3" class="subversion">2.29</text>
+      <g class="version release-minor">
+        <circle cx="1597" r="10"/>
+        <text x="1597" y="0" dy="0">2.29</text>
+      </g>
+      
+      <!-- 2015-05-04: version 2.30 -->
+      <g class="version release-minor">
+        <circle cx="1601" r="10"/>
+        <text x="1601" y="0" dy="0">2.30</text>
+      </g>
+      
+      <!-- 2015-05-05: version 2.31 -->
+      <g class="version release-minor">
+        <circle cx="1601" r="10"/>
+        <text x="1601" y="0" dy="0">2.31</text>
+      </g>
+      
+      <!-- 2015-05-12: version 2.32 -->
+      <g class="version release-minor">
+        <circle cx="1603" r="10"/>
+        <text x="1603" y="0" dy="0">2.32</text>
+      </g>
+      
+      <!-- 2015-05-14: version 2.33 -->
+      <g class="version release-minor">
+        <circle cx="1604" r="10"/>
+        <text x="1604" y="0" dy="0">2.33</text>
+      </g>
       
     </g>
     
-    <g id="adblock-firefox">
+    <g id="adblock-firefox" class="engine-adblock">
       <a xlink:href="https://getadblock.com/">
         <text x="0" y="0" dx="1504" dy="25" class="adblocker">AdBlock for Firefox</text>
       </a>
       <!-- Development started: 2014-06-16 -->
       <!-- Source for dates: https://addons.mozilla.org/en-US/firefox/addon/adblock-for-firefox/versions/ -->
-      <line stroke="#7777CD" x1="1495" x2="1543"/>
+      <line stroke="" x1="1495" x2="1588"/>
       <!-- Based on: AdBlock for Chrome -->
-      <line stroke="#7777CD" x1="1495" x2="1495" y1="0" y2="-50"/>
+      <line stroke="" x1="1495" x2="1495" y1="0" y2="-50"/>
       
       <!-- 2014-09-13: version 1.1.1 -->
-      <use x="1524" stroke="#7777CD" xlink:href="#longver"/>
-      <text x="1524" y="0" dy="3" class="subversion">1.1.1</text>
+      <g class="version release-patch">
+        <use x="1524" xlink:href="#longver"/>
+        <text x="1524" y="0" dy="0">1.1.1</text>
+      </g>
       
       <!-- 2014-11-11: version 2 -->
-      <circle stroke="#7777CD" cx="1543" r="10"/>
-      <text x="1543" y="0" dy="3" class="version">2</text>
+      <g class="version release-major">
+        <circle cx="1543" r="10"/>
+        <text x="1543" y="0" dy="0">2</text>
+      </g>
+      
+      <!-- 2015-03-27: version 2.1rc -->
+      <g class="version release-patch">
+        <use x="1588" xlink:href="#longver"/>
+        <text x="1588" y="0" dy="0">2.1rc</text>
+      </g>
       
     </g>
     
-    <g id="adblock-opera">
+    <g id="adblock-opera" class="engine-adblock">
       <a xlink:href="https://getadblock.com/">
         <text x="0" y="0" dx="1258" dy="25" class="adblocker">AdBlock for Opera</text>
       </a>
       <!-- Development started: 2012-08-17 -->
       <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
-      <line stroke="#7777CD" x1="1275" x2="1597"/>
+      <line stroke="" x1="1275" x2="1604"/>
       <!-- Based on: AdBlock for Chrome -->
-      <line stroke="#7777CD" x1="1275" x2="1275" y1="0" y2="-100"/>
+      <line stroke="" x1="1275" x2="1275" y1="0" y2="-100"/>
       
       <!-- 2012-08-27: version 2.5.42 -->
-      <use x="1278" stroke="#7777CD" xlink:href="#longver"/>
-      <text x="1278" y="0" dy="3" class="subversion">2.5.42</text>
+      <g class="version release-patch">
+        <use x="1278" xlink:href="#longver"/>
+        <text x="1278" y="0" dy="0">2.5.42</text>
+      </g>
       
       <!-- 2013-06-24: version 2.6 -->
-      <circle stroke="#7777CD" cx="1378" r="10"/>
-      <text x="1378" y="0" dy="3" class="subversion">2.6</text>
+      <g class="version release-minor">
+        <circle cx="1378" r="10"/>
+        <text x="1378" y="0" dy="0">2.6</text>
+      </g>
       
       <!-- 2014-06-06: version 2.7 -->
-      <circle stroke="#7777CD" cx="1492" r="10"/>
-      <text x="1492" y="0" dy="3" class="subversion">2.7</text>
+      <g class="version release-minor">
+        <circle cx="1492" r="10"/>
+        <text x="1492" y="0" dy="0">2.7</text>
+      </g>
       
       <!-- 2014-08-28: version 2.8 -->
-      <circle stroke="#7777CD" cx="1519" r="10"/>
-      <text x="1519" y="0" dy="3" class="subversion">2.8</text>
+      <g class="version release-minor">
+        <circle cx="1519" r="10"/>
+        <text x="1519" y="0" dy="0">2.8</text>
+      </g>
       
       <!-- 2014-09-17: version 2.9 -->
-      <circle stroke="#7777CD" cx="1525" r="10"/>
-      <text x="1525" y="0" dy="3" class="subversion">2.9</text>
+      <g class="version release-minor">
+        <circle cx="1525" r="10"/>
+        <text x="1525" y="0" dy="0">2.9</text>
+      </g>
       
       <!-- 2014-10-06: version 2.10 -->
-      <circle stroke="#7777CD" cx="1531" r="10"/>
-      <text x="1531" y="0" dy="3" class="subversion">2.10</text>
+      <g class="version release-minor">
+        <circle cx="1531" r="10"/>
+        <text x="1531" y="0" dy="0">2.10</text>
+      </g>
       
       <!-- 2014-10-13: version 2.11 -->
-      <circle stroke="#7777CD" cx="1534" r="10"/>
-      <text x="1534" y="0" dy="3" class="subversion">2.11</text>
+      <g class="version release-minor">
+        <circle cx="1534" r="10"/>
+        <text x="1534" y="0" dy="0">2.11</text>
+      </g>
       
       <!-- 2014-10-22: version 2.12 -->
-      <circle stroke="#7777CD" cx="1537" r="10"/>
-      <text x="1537" y="0" dy="3" class="subversion">2.12</text>
+      <g class="version release-minor">
+        <circle cx="1537" r="10"/>
+        <text x="1537" y="0" dy="0">2.12</text>
+      </g>
       
       <!-- 2014-10-31: version 2.13 -->
-      <circle stroke="#7777CD" cx="1540" r="10"/>
-      <text x="1540" y="0" dy="3" class="subversion">2.13</text>
+      <g class="version release-minor">
+        <circle cx="1540" r="10"/>
+        <text x="1540" y="0" dy="0">2.13</text>
+      </g>
       
       <!-- 2014-11-24: version 2.14 -->
-      <circle stroke="#7777CD" cx="1548" r="10"/>
-      <text x="1548" y="0" dy="3" class="subversion">2.14</text>
+      <g class="version release-minor">
+        <circle cx="1548" r="10"/>
+        <text x="1548" y="0" dy="0">2.14</text>
+      </g>
       
       <!-- 2014-12-09: version 2.15 -->
-      <circle stroke="#7777CD" cx="1552" r="10"/>
-      <text x="1552" y="0" dy="3" class="subversion">2.15</text>
+      <g class="version release-minor">
+        <circle cx="1552" r="10"/>
+        <text x="1552" y="0" dy="0">2.15</text>
+      </g>
       
       <!-- 2015-01-02: version 2.16 -->
-      <circle stroke="#7777CD" cx="1560" r="10"/>
-      <text x="1560" y="0" dy="3" class="subversion">2.16</text>
+      <g class="version release-minor">
+        <circle cx="1560" r="10"/>
+        <text x="1560" y="0" dy="0">2.16</text>
+      </g>
       
       <!-- 2015-01-23: version 2.17 -->
-      <circle stroke="#7777CD" cx="1567" r="10"/>
-      <text x="1567" y="0" dy="3" class="subversion">2.17</text>
+      <g class="version release-minor">
+        <circle cx="1567" r="10"/>
+        <text x="1567" y="0" dy="0">2.17</text>
+      </g>
       
       <!-- 2015-02-10: version 2.18 -->
-      <circle stroke="#7777CD" cx="1573" r="10"/>
-      <text x="1573" y="0" dy="3" class="subversion">2.18</text>
+      <g class="version release-minor">
+        <circle cx="1573" r="10"/>
+        <text x="1573" y="0" dy="0">2.18</text>
+      </g>
       
       <!-- 2015-03-11: version 2.19 -->
-      <circle stroke="#7777CD" cx="1583" r="10"/>
-      <text x="1583" y="0" dy="3" class="subversion">2.19</text>
+      <g class="version release-minor">
+        <circle cx="1583" r="10"/>
+        <text x="1583" y="0" dy="0">2.19</text>
+      </g>
       
       <!-- 2015-03-17: version 2.20 -->
-      <circle stroke="#7777CD" cx="1585" r="10"/>
-      <text x="1585" y="0" dy="3" class="subversion">2.20</text>
+      <g class="version release-minor">
+        <circle cx="1585" r="10"/>
+        <text x="1585" y="0" dy="0">2.20</text>
+      </g>
       
       <!-- 2015-03-20: version 2.21 -->
-      <circle stroke="#7777CD" cx="1586" r="10"/>
-      <text x="1586" y="0" dy="3" class="subversion">2.21</text>
+      <g class="version release-minor">
+        <circle cx="1586" r="10"/>
+        <text x="1586" y="0" dy="0">2.21</text>
+      </g>
       
       <!-- 2015-03-23: version 2.22 -->
-      <circle stroke="#7777CD" cx="1587" r="10"/>
-      <text x="1587" y="0" dy="3" class="subversion">2.22</text>
+      <g class="version release-minor">
+        <circle cx="1587" r="10"/>
+        <text x="1587" y="0" dy="0">2.22</text>
+      </g>
       
       <!-- 2015-04-05: version 2.23 -->
-      <circle stroke="#7777CD" cx="1591" r="10"/>
-      <text x="1591" y="0" dy="3" class="subversion">2.23</text>
+      <g class="version release-minor">
+        <circle cx="1591" r="10"/>
+        <text x="1591" y="0" dy="0">2.23</text>
+      </g>
       
       <!-- 2015-04-07: version 2.24 -->
-      <circle stroke="#7777CD" cx="1592" r="10"/>
-      <text x="1592" y="0" dy="3" class="subversion">2.24</text>
+      <g class="version release-minor">
+        <circle cx="1592" r="10"/>
+        <text x="1592" y="0" dy="0">2.24</text>
+      </g>
       
       <!-- 2015-04-13: version 2.25 -->
-      <circle stroke="#7777CD" cx="1594" r="10"/>
-      <text x="1594" y="0" dy="3" class="subversion">2.25</text>
+      <g class="version release-minor">
+        <circle cx="1594" r="10"/>
+        <text x="1594" y="0" dy="0">2.25</text>
+      </g>
       
       <!-- 2015-04-16: version 2.26 -->
-      <circle stroke="#7777CD" cx="1595" r="10"/>
-      <text x="1595" y="0" dy="3" class="subversion">2.26</text>
+      <g class="version release-minor">
+        <circle cx="1595" r="10"/>
+        <text x="1595" y="0" dy="0">2.26</text>
+      </g>
       
       <!-- 2015-04-18: version 2.27 -->
-      <circle stroke="#7777CD" cx="1596" r="10"/>
-      <text x="1596" y="0" dy="3" class="subversion">2.27</text>
+      <g class="version release-minor">
+        <circle cx="1596" r="10"/>
+        <text x="1596" y="0" dy="0">2.27</text>
+      </g>
       
       <!-- 2015-04-21: version 2.28 -->
-      <circle stroke="#7777CD" cx="1597" r="10"/>
-      <text x="1597" y="0" dy="3" class="subversion">2.28</text>
+      <g class="version release-minor">
+        <circle cx="1597" r="10"/>
+        <text x="1597" y="0" dy="0">2.28</text>
+      </g>
       
       <!-- 2015-04-21: version 2.29 -->
-      <circle stroke="#7777CD" cx="1597" r="10"/>
-      <text x="1597" y="0" dy="3" class="subversion">2.29</text>
+      <g class="version release-minor">
+        <circle cx="1597" r="10"/>
+        <text x="1597" y="0" dy="0">2.29</text>
+      </g>
+      
+      <!-- 2015-05-04: version 2.30 -->
+      <g class="version release-minor">
+        <circle cx="1601" r="10"/>
+        <text x="1601" y="0" dy="0">2.30</text>
+      </g>
+      
+      <!-- 2015-05-05: version 2.31 -->
+      <g class="version release-minor">
+        <circle cx="1601" r="10"/>
+        <text x="1601" y="0" dy="0">2.31</text>
+      </g>
+      
+      <!-- 2015-05-12: version 2.32 -->
+      <g class="version release-minor">
+        <circle cx="1603" r="10"/>
+        <text x="1603" y="0" dy="0">2.32</text>
+      </g>
+      
+      <!-- 2015-05-14: version 2.33 -->
+      <g class="version release-minor">
+        <circle cx="1604" r="10"/>
+        <text x="1604" y="0" dy="0">2.33</text>
+      </g>
       
     </g>
     
-    <g id="adblock-safari">
+    <g id="adblock-safari" class="engine-adblock">
       <a xlink:href="https://getadblock.com/">
         <text x="0" y="0" dx="993" dy="25" class="adblocker">AdBlock for Safari</text>
       </a>
       <!-- Development started: 2010-06-11 -->
       <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
-      <line stroke="#7777CD" x1="1013" x2="1597"/>
+      <line stroke="" x1="1013" x2="1604"/>
       <!-- Based on: AdBlock for Chrome -->
-      <line stroke="#7777CD" x1="1013" x2="1013" y1="0" y2="-150"/>
+      <line stroke="" x1="1013" x2="1013" y1="0" y2="-150"/>
       
       <!-- 2010-06-11: version 1.4.31 -->
-      <use x="1013" stroke="#7777CD" xlink:href="#longver"/>
-      <text x="1013" y="0" dy="3" class="subversion">1.4.31</text>
+      <g class="version release-patch">
+        <use x="1013" xlink:href="#longver"/>
+        <text x="1013" y="0" dy="0">1.4.31</text>
+      </g>
       
       <!-- 2010-06-16: version 2 -->
-      <circle stroke="#7777CD" cx="1015" r="10"/>
-      <text x="1015" y="0" dy="3" class="version">2</text>
+      <g class="version release-major">
+        <circle cx="1015" r="10"/>
+        <text x="1015" y="0" dy="0">2</text>
+      </g>
       
       <!-- 2010-08-29: version 2.1 -->
-      <circle stroke="#7777CD" cx="1039" r="10"/>
-      <text x="1039" y="0" dy="3" class="subversion">2.1</text>
+      <g class="version release-minor">
+        <circle cx="1039" r="10"/>
+        <text x="1039" y="0" dy="0">2.1</text>
+      </g>
       
       <!-- 2010-10-03: version 2.2 -->
-      <circle stroke="#7777CD" cx="1050" r="10"/>
-      <text x="1050" y="0" dy="3" class="subversion">2.2</text>
+      <g class="version release-minor">
+        <circle cx="1050" r="10"/>
+        <text x="1050" y="0" dy="0">2.2</text>
+      </g>
       
       <!-- 2011-02-10: version 2.3 -->
-      <circle stroke="#7777CD" cx="1093" r="10"/>
-      <text x="1093" y="0" dy="3" class="subversion">2.3</text>
+      <g class="version release-minor">
+        <circle cx="1093" r="10"/>
+        <text x="1093" y="0" dy="0">2.3</text>
+      </g>
       
       <!-- 2011-05-03: version 2.4 -->
-      <circle stroke="#7777CD" cx="1120" r="10"/>
-      <text x="1120" y="0" dy="3" class="subversion">2.4</text>
+      <g class="version release-minor">
+        <circle cx="1120" r="10"/>
+        <text x="1120" y="0" dy="0">2.4</text>
+      </g>
       
       <!-- 2011-11-29: version 2.5 -->
-      <circle stroke="#7777CD" cx="1189" r="10"/>
-      <text x="1189" y="0" dy="3" class="subversion">2.5</text>
+      <g class="version release-minor">
+        <circle cx="1189" r="10"/>
+        <text x="1189" y="0" dy="0">2.5</text>
+      </g>
       
       <!-- 2013-06-24: version 2.6 -->
-      <circle stroke="#7777CD" cx="1378" r="10"/>
-      <text x="1378" y="0" dy="3" class="subversion">2.6</text>
+      <g class="version release-minor">
+        <circle cx="1378" r="10"/>
+        <text x="1378" y="0" dy="0">2.6</text>
+      </g>
       
       <!-- 2014-06-06: version 2.7 -->
-      <circle stroke="#7777CD" cx="1492" r="10"/>
-      <text x="1492" y="0" dy="3" class="subversion">2.7</text>
+      <g class="version release-minor">
+        <circle cx="1492" r="10"/>
+        <text x="1492" y="0" dy="0">2.7</text>
+      </g>
       
       <!-- 2014-08-28: version 2.8 -->
-      <circle stroke="#7777CD" cx="1519" r="10"/>
-      <text x="1519" y="0" dy="3" class="subversion">2.8</text>
+      <g class="version release-minor">
+        <circle cx="1519" r="10"/>
+        <text x="1519" y="0" dy="0">2.8</text>
+      </g>
       
       <!-- 2014-09-17: version 2.9 -->
-      <circle stroke="#7777CD" cx="1525" r="10"/>
-      <text x="1525" y="0" dy="3" class="subversion">2.9</text>
+      <g class="version release-minor">
+        <circle cx="1525" r="10"/>
+        <text x="1525" y="0" dy="0">2.9</text>
+      </g>
       
       <!-- 2014-10-06: version 2.10 -->
-      <circle stroke="#7777CD" cx="1531" r="10"/>
-      <text x="1531" y="0" dy="3" class="subversion">2.10</text>
+      <g class="version release-minor">
+        <circle cx="1531" r="10"/>
+        <text x="1531" y="0" dy="0">2.10</text>
+      </g>
       
       <!-- 2014-10-13: version 2.11 -->
-      <circle stroke="#7777CD" cx="1534" r="10"/>
-      <text x="1534" y="0" dy="3" class="subversion">2.11</text>
+      <g class="version release-minor">
+        <circle cx="1534" r="10"/>
+        <text x="1534" y="0" dy="0">2.11</text>
+      </g>
       
       <!-- 2014-10-22: version 2.12 -->
-      <circle stroke="#7777CD" cx="1537" r="10"/>
-      <text x="1537" y="0" dy="3" class="subversion">2.12</text>
+      <g class="version release-minor">
+        <circle cx="1537" r="10"/>
+        <text x="1537" y="0" dy="0">2.12</text>
+      </g>
       
       <!-- 2014-10-31: version 2.13 -->
-      <circle stroke="#7777CD" cx="1540" r="10"/>
-      <text x="1540" y="0" dy="3" class="subversion">2.13</text>
+      <g class="version release-minor">
+        <circle cx="1540" r="10"/>
+        <text x="1540" y="0" dy="0">2.13</text>
+      </g>
       
       <!-- 2014-11-24: version 2.14 -->
-      <circle stroke="#7777CD" cx="1548" r="10"/>
-      <text x="1548" y="0" dy="3" class="subversion">2.14</text>
+      <g class="version release-minor">
+        <circle cx="1548" r="10"/>
+        <text x="1548" y="0" dy="0">2.14</text>
+      </g>
       
       <!-- 2014-12-09: version 2.15 -->
-      <circle stroke="#7777CD" cx="1552" r="10"/>
-      <text x="1552" y="0" dy="3" class="subversion">2.15</text>
+      <g class="version release-minor">
+        <circle cx="1552" r="10"/>
+        <text x="1552" y="0" dy="0">2.15</text>
+      </g>
       
       <!-- 2015-01-02: version 2.16 -->
-      <circle stroke="#7777CD" cx="1560" r="10"/>
-      <text x="1560" y="0" dy="3" class="subversion">2.16</text>
+      <g class="version release-minor">
+        <circle cx="1560" r="10"/>
+        <text x="1560" y="0" dy="0">2.16</text>
+      </g>
       
       <!-- 2015-01-23: version 2.17 -->
-      <circle stroke="#7777CD" cx="1567" r="10"/>
-      <text x="1567" y="0" dy="3" class="subversion">2.17</text>
+      <g class="version release-minor">
+        <circle cx="1567" r="10"/>
+        <text x="1567" y="0" dy="0">2.17</text>
+      </g>
       
       <!-- 2015-02-10: version 2.18 -->
-      <circle stroke="#7777CD" cx="1573" r="10"/>
-      <text x="1573" y="0" dy="3" class="subversion">2.18</text>
+      <g class="version release-minor">
+        <circle cx="1573" r="10"/>
+        <text x="1573" y="0" dy="0">2.18</text>
+      </g>
       
       <!-- 2015-03-11: version 2.19 -->
-      <circle stroke="#7777CD" cx="1583" r="10"/>
-      <text x="1583" y="0" dy="3" class="subversion">2.19</text>
+      <g class="version release-minor">
+        <circle cx="1583" r="10"/>
+        <text x="1583" y="0" dy="0">2.19</text>
+      </g>
       
       <!-- 2015-03-17: version 2.20 -->
-      <circle stroke="#7777CD" cx="1585" r="10"/>
-      <text x="1585" y="0" dy="3" class="subversion">2.20</text>
+      <g class="version release-minor">
+        <circle cx="1585" r="10"/>
+        <text x="1585" y="0" dy="0">2.20</text>
+      </g>
       
       <!-- 2015-03-20: version 2.21 -->
-      <circle stroke="#7777CD" cx="1586" r="10"/>
-      <text x="1586" y="0" dy="3" class="subversion">2.21</text>
+      <g class="version release-minor">
+        <circle cx="1586" r="10"/>
+        <text x="1586" y="0" dy="0">2.21</text>
+      </g>
       
       <!-- 2015-03-23: version 2.22 -->
-      <circle stroke="#7777CD" cx="1587" r="10"/>
-      <text x="1587" y="0" dy="3" class="subversion">2.22</text>
+      <g class="version release-minor">
+        <circle cx="1587" r="10"/>
+        <text x="1587" y="0" dy="0">2.22</text>
+      </g>
       
       <!-- 2015-04-05: version 2.23 -->
-      <circle stroke="#7777CD" cx="1591" r="10"/>
-      <text x="1591" y="0" dy="3" class="subversion">2.23</text>
+      <g class="version release-minor">
+        <circle cx="1591" r="10"/>
+        <text x="1591" y="0" dy="0">2.23</text>
+      </g>
       
       <!-- 2015-04-07: version 2.24 -->
-      <circle stroke="#7777CD" cx="1592" r="10"/>
-      <text x="1592" y="0" dy="3" class="subversion">2.24</text>
+      <g class="version release-minor">
+        <circle cx="1592" r="10"/>
+        <text x="1592" y="0" dy="0">2.24</text>
+      </g>
       
       <!-- 2015-04-13: version 2.25 -->
-      <circle stroke="#7777CD" cx="1594" r="10"/>
-      <text x="1594" y="0" dy="3" class="subversion">2.25</text>
+      <g class="version release-minor">
+        <circle cx="1594" r="10"/>
+        <text x="1594" y="0" dy="0">2.25</text>
+      </g>
       
       <!-- 2015-04-16: version 2.26 -->
-      <circle stroke="#7777CD" cx="1595" r="10"/>
-      <text x="1595" y="0" dy="3" class="subversion">2.26</text>
+      <g class="version release-minor">
+        <circle cx="1595" r="10"/>
+        <text x="1595" y="0" dy="0">2.26</text>
+      </g>
       
       <!-- 2015-04-18: version 2.27 -->
-      <circle stroke="#7777CD" cx="1596" r="10"/>
-      <text x="1596" y="0" dy="3" class="subversion">2.27</text>
+      <g class="version release-minor">
+        <circle cx="1596" r="10"/>
+        <text x="1596" y="0" dy="0">2.27</text>
+      </g>
       
       <!-- 2015-04-21: version 2.28 -->
-      <circle stroke="#7777CD" cx="1597" r="10"/>
-      <text x="1597" y="0" dy="3" class="subversion">2.28</text>
+      <g class="version release-minor">
+        <circle cx="1597" r="10"/>
+        <text x="1597" y="0" dy="0">2.28</text>
+      </g>
       
       <!-- 2015-04-21: version 2.29 -->
-      <circle stroke="#7777CD" cx="1597" r="10"/>
-      <text x="1597" y="0" dy="3" class="subversion">2.29</text>
+      <g class="version release-minor">
+        <circle cx="1597" r="10"/>
+        <text x="1597" y="0" dy="0">2.29</text>
+      </g>
+      
+      <!-- 2015-05-04: version 2.30 -->
+      <g class="version release-minor">
+        <circle cx="1601" r="10"/>
+        <text x="1601" y="0" dy="0">2.30</text>
+      </g>
+      
+      <!-- 2015-05-05: version 2.31 -->
+      <g class="version release-minor">
+        <circle cx="1601" r="10"/>
+        <text x="1601" y="0" dy="0">2.31</text>
+      </g>
+      
+      <!-- 2015-05-12: version 2.32 -->
+      <g class="version release-minor">
+        <circle cx="1603" r="10"/>
+        <text x="1603" y="0" dy="0">2.32</text>
+      </g>
+      
+      <!-- 2015-05-14: version 2.33 -->
+      <g class="version release-minor">
+        <circle cx="1604" r="10"/>
+        <text x="1604" y="0" dy="0">2.33</text>
+      </g>
       
     </g>
     
@@ -1025,9 +1525,16 @@
       <use y="850" xlink:href="#adblock-opera"/>
       <use y="900" xlink:href="#adblock-safari"/>
     </g>
+    
+    <g id="created">
+      <text x="-10" y="50" fill="orange" text-anchor="end">creation date</text>
+      <rect x="-5" y="0" height="100%" width="11" fill="orange" fill-opacity="0.2"/>
+      <rect x="0" y="0" height="100%" width="1" fill="orange"/>
+    </g>
   </defs>
   
   <rect x="0" y="0" height="100%" width="100%" fill="#ffffff"/>
   <rect x="0" y="0" height="100%" width="100%" style="fill: url(#bglines);"/>
+  <use x="1605" y="0" xlink:href="#created"/>
   <use x="0" y="0" xlink:href="#content"/>
 </svg>
