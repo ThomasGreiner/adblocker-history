@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: {{created}} -->
+<!-- Creation date: {{created.date}} -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{{width}}" height="{{height}}">
@@ -160,9 +160,16 @@
       <use y="{{y}}" xlink:href="#{{id}}"/>
       {{/each}}
     </g>
+    
+    <g id="created">
+      <text x="-10" y="50" fill="orange" text-anchor="end">creation date</text>
+      <rect x="-5" y="0" height="100%" width="11" fill="orange" fill-opacity="0.2"/>
+      <rect x="0" y="0" height="100%" width="1" fill="orange"/>
+    </g>
   </defs>
   
   <rect x="0" y="0" height="100%" width="100%" fill="#ffffff"/>
   <rect x="0" y="0" height="100%" width="100%" style="fill: url(#bglines);"/>
+  <use x="{{created.x}}" y="0" xlink:href="#created"/>
   <use x="0" y="0" xlink:href="#content"/>
 </svg>
