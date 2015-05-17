@@ -12,6 +12,8 @@
   </desc>
   <defs>
     <style type="text/css"><![CDATA[
+      @namespace xlink url(http://www.w3.org/1999/xlink);
+      
       text {
         font-family: "Arial", sans-serif;
         text-align: center;
@@ -19,12 +21,12 @@
       }
       
       line {
-        stroke-linecap:round;
-        stroke-width:3px;
+        stroke-linecap: round;
+        stroke-width: 3px;
       }
       
       circle {
-        stroke-width:2px;
+        stroke-width: 2px;
         fill: white;
       }
       
@@ -44,21 +46,54 @@
         font-weight: bold;
       }
       
-      .version {
-        font-family: sans-serif;
-        font-size: 14px;
-        text-anchor: middle;
+      #longver {
+        fill: white;
+        transform: translate(-15px, -10px);
       }
       
-      .subversion {
+      use[xlink|href="#longver"] {
+        stroke-width: 2px;
+      }
+      
+      .engine-none line,
+      .engine-none circle,
+      .engine-none use {
+        stroke: #888;
+      }
+      
+      .engine-none .version.release-major circle {
+        fill: #888;
+      }
+      
+      {{#each engines}}
+      .engine-{{id}} line,
+      .engine-{{id}} circle,
+      .engine-{{id}} use {
+        stroke: {{color}};
+      }
+      
+      .engine-{{id}} .version.release-major circle {
+        fill: {{color}};
+      }
+      {{/each}}
+      
+      .version.release-patch circle,
+      .version.release-patch use {
+        stroke-width: 1px;
+      }
+      
+      .version text {
+        alignment-baseline: central;
         font-family: sans-serif;
         font-size: 8px;
-        color: black;
         text-anchor: middle;
       }
       
-      a:hover {
-        text-decoration: underline;
+      .version.release-major text {
+        font-family: sans-serif;
+        font-size: 14px;
+        fill: white;
+        text-anchor: middle;
       }
     ]]></style>
     
@@ -66,7 +101,7 @@
       <line x1="0" x2="0" y2="100%" stroke="#CCC"/>
     </pattern>
     
-    <rect id="longver" width="30" height="20" rx="10" transform="translate(-15, -10)" stroke-width="2" fill="white"/>
+    <rect id="longver" width="30" height="20" rx="10"/>
     
     <g id="yearlabels">
       {{#each years}}
@@ -75,7 +110,7 @@
     </g>
     
     {{#each adblockers}}
-    <g id="{{id}}">
+    <g id="{{id}}" class="engine-{{engine}}">
       <a xlink:href="{{link}}">
         <text x="0" y="0" dx="{{x}}" dy="25" class="adblocker">{{name}}</text>
       </a>
@@ -89,8 +124,14 @@
       
       {{#each releases}}
       <!-- {{date}}: version {{version}} -->
-      {{#if isLongVersion}}<use x="{{x}}" stroke="{{../../color}}" xlink:href="#longver"/>{{else}}<circle stroke="{{../../color}}" cx="{{x}}" r="10"/>{{/if}}
-      <text x="{{x}}" y="0" dy="3" class="{{#if isSubversion}}sub{{/if}}version">{{version}}</text>
+      <g class="version release-{{type}}">
+        {{#if isLongVersion}}
+        <use x="{{x}}" xlink:href="#longver"/>
+        {{else}}
+        <circle cx="{{x}}" r="10"/>
+        {{/if}}
+        <text x="{{x}}" y="0" dy="0">{{version}}</text>
+      </g>
       
       {{/each}}
       {{#if ended}}

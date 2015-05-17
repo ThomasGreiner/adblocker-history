@@ -69,7 +69,7 @@
       "name": "Adblock Plus for Firefox",
       "link": "https://adblockplus.org/en/firefox",
       "source": "https://hg.adblockplus.org/adblockplus",
-      "color": "#CD0000",
+      "engine": "adblockplus-core",
       "started": "2006-01-17",
       "releases": [
         ["2006-01-17", "0.6"],
@@ -110,7 +110,7 @@
       "name": "Adblock Plus for Chrome",
       "link": "https://adblockplus.org/en/chrome",
       "source": "https://hg.adblockplus.org/adblockpluschrome",
-      "color": "#CD0000",
+      "engine": "adblockplus-core",
       "started": "2010-12-01",
       "releases": [
         ["2010-12-20", "1.0.22"],
@@ -130,7 +130,7 @@
       "name": "Adblock Plus for Safari",
       "link": "https://adblockplus.org/en/safari",
       "source": "https://hg.adblockplus.org/adblockpluschrome",
-      "color": "#CD0000",
+      "engine": "adblockplus-core",
       "started": "2013-10-31",
       "releases": [
         ["2014-01-21", "beta"],
@@ -154,7 +154,7 @@
       "name": "Adblock Plus for Opera (Chromium)",
       "link": "https://adblockplus.org/en/opera",
       "source": "https://hg.adblockplus.org/adblockpluschrome",
-      "color": "#CD0000",
+      "engine": "adblockplus-core",
       "started": "2012-11-23",
       "releases": [
         ["2013-05-28", "1.4.1"],
@@ -170,7 +170,7 @@
       "name": "Adblock Plus for Opera (Presto)",
       "link": "https://adblockplus.org/en/opera",
       "source": "https://hg.adblockplus.org/adblockplusopera",
-      "color": "#CD0000",
+      "engine": "adblockplus-core",
       "started": "2012-10-01",
       "ended": "2013-05-08",
       "releases": [
@@ -210,7 +210,7 @@
       "name": "Adblock Plus for Android",
       "link": "https://adblockplus.org/en/android",
       "source": "https://hg.adblockplus.org/adblockplusandroid",
-      "color": "#CD0000",
+      "engine": "adblockplus-core",
       "started": "2012-04-01",
       "releases": [
         ["2012-11-26", "1.0"],
@@ -243,7 +243,7 @@
       "name": "Adblock Plus for Internet Explorer",
       "link": "https://adblockplus.org/en/internet-explorer",
       "source": "https://hg.adblockplus.org/adblockplusie",
-      "color": "#CD0000",
+      "engine": "adblockplus-core",
       "started": "2013-01-22",
       "releases": [
         ["2013-04-22", "dev"],
@@ -259,7 +259,7 @@
       "name": "AdBlock for Chrome",
       "link": "https://getadblock.com/",
       "source": "http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/",
-      "color": "#7777CD",
+      "engine": "adblock",
       "started": "2010-01-26",
       "releases": [
         ["2010-02-01", "1.3.10"],
@@ -308,7 +308,7 @@
       "name": "AdBlock for Firefox",
       "link": "https://getadblock.com/",
       "source": "https://addons.mozilla.org/en-US/firefox/addon/adblock-for-firefox/versions/",
-      "color": "#7777CD",
+      "engine": "adblock",
       "started": "2014-06-16",
       "releases": [
         ["2014-09-13", "1.1.1"],
@@ -322,7 +322,7 @@
       "name": "AdBlock for Opera",
       "link": "https://getadblock.com/",
       "source": "https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/",
-      "color": "#7777CD",
+      "engine": "adblock",
       "started": "2012-08-17",
       "releases": [
         ["2012-08-27", "2.5.42"],
@@ -364,7 +364,7 @@
       "name": "AdBlock for Safari",
       "link": "https://getadblock.com/",
       "source": "https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/",
-      "color": "#7777CD",
+      "engine": "adblock",
       "started": "2010-06-11",
       "releases": [
         ["2010-06-11", "1.4.31"],
