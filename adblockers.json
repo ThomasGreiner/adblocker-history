@@ -335,7 +335,7 @@
       "base": "adblock-chrome",
       "name": "AdBlock for Firefox",
       "link": "https://getadblock.com/",
-      "source": "https://addons.mozilla.org/en-US/firefox/addon/adblock-for-firefox/versions/",
+      "source": "http://code.getadblock.com/releases/",
       "engine": "adblock",
       "started": "2014-06-16",
       "releases": [
