@@ -119,7 +119,7 @@
       <line stroke="{{color}}" x1="{{xmin}}" x2="{{xmax}}"/>
       {{#if base}}
       <!-- Based on: {{base.name}} -->
-      <line stroke="{{color}}" x1="{{xmin}}" x2="{{xmin}}" y1="0" y2="{{base.ydiff}}"/>
+      <line stroke="{{color}}" x1="{{xmin}}" x2="{{xmin}}" y1="0" y2="{{ydiff}}"/>
       {{/if}}
       
       {{#each releases}}
@@ -162,7 +162,7 @@
     </g>
     
     <g id="created">
-      <text x="-10" y="50" fill="orange" text-anchor="end">creation date</text>
+      <text x="150" y="-10" fill="orange" transform="rotate(90)" text-anchor="end">creation date</text>
       <rect x="-5" y="0" height="100%" width="11" fill="orange" fill-opacity="0.2"/>
       <rect x="0" y="0" height="100%" width="1" fill="orange"/>
     </g>

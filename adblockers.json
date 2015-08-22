@@ -1,4 +1,21 @@
 {
+  "lines": [
+    ["original", "adblockedge"],
+    ["privacybadger-firefox"],
+    ["adblockbrowser-android"],
+    ["adblockplus-firefox"],
+    ["adthwart", "adblockplus-chrome"],
+    ["adblockplus-safari"],
+    ["privacybadger-chrome"],
+    ["adblockplus-opera-chromium"],
+    ["opera-adblock", "adblockplus-opera-presto"],
+    ["simpleadblock", "adblockplus-ie"],
+    ["adblockplus-android"],
+    ["adblock-chrome"],
+    ["adblock-firefox"],
+    ["adblock-opera"],
+    ["adblock-safari"]
+  ],
   "engines": [
     {
       "id": "adblockplus-core",
@@ -24,9 +41,8 @@
       ]
     }
   ],
-  "adblockers": [
-    {
-      "id": "original",
+  "adblockers": {
+    "original": {
       "name": "Adblock (unrelated to current AdBlock)",
       "link": "http://adblock.mozdev.org/",
       "source": "http://www.mozdev.org/source/browse/adblock/",
@@ -39,8 +55,7 @@
         ["2003-10-21", "0.5-dev"]
       ]
     },
-    {
-      "id": "adblockedge",
+    "adblockedge": {
       "base": "adblockplus-firefox",
       "name": "Adblock Edge",
       "link": "https://bitbucket.org/adstomper/adblockedge/",
@@ -53,8 +68,7 @@
         ["2015-03-08", "2.1.9"]
       ]
     },
-    {
-      "id": "privacybadger-firefox",
+    "privacybadger-firefox": {
       "base": "adblockplus-firefox",
       "name": "Privacy Badger for Firefox",
       "link": "https://www.eff.org/privacybadger",
@@ -66,8 +80,7 @@
         ["2014-12-19", "0.2.5"]
       ]
     },
-    {
-      "id": "adblockbrowser-android",
+    "adblockbrowser-android": {
       "base": "adblockplus-firefox",
       "name": "Adblock Browser for Android",
       "link": "https://adblockplus.org/en/adblock-browser",
@@ -78,8 +91,7 @@
         ["2015-05-20", "beta"]
       ]
     },
-    {
-      "id": "adblockplus-firefox",
+    "adblockplus-firefox": {
       "base": "original",
       "name": "Adblock Plus for Firefox",
       "link": "https://adblockplus.org/en/firefox",
@@ -103,8 +115,7 @@
         ["2015-03-31", "2.6.9"]
       ]
     },
-    {
-      "id": "adthwart",
+    "adthwart": {
       "name": "AdThwart",
       "link": "https://code.google.com/p/adthwart/",
       "source": "https://hg.adblockplus.org/adblockpluschrome",
@@ -120,8 +131,7 @@
         ["2010-09-24", "1.0"]
       ]
     },
-    {
-      "id": "adblockplus-chrome",
+    "adblockplus-chrome": {
       "base": "adthwart",
       "name": "Adblock Plus for Chrome",
       "link": "https://adblockplus.org/en/chrome",
@@ -141,8 +151,7 @@
         ["2015-06-16", "1.9"]
       ]
     },
-    {
-      "id": "adblockplus-safari",
+    "adblockplus-safari": {
       "base": "adblockplus-chrome",
       "name": "Adblock Plus for Safari",
       "link": "https://adblockplus.org/en/safari",
@@ -155,8 +164,7 @@
         ["2015-06-16", "1.9"]
       ]
     },
-    {
-      "id": "privacybadger-chrome",
+    "privacybadger-chrome": {
       "base": "adblockplus-chrome",
       "name": "Privacy Badger for Chrome",
       "link": "https://www.eff.org/privacybadger",
@@ -172,8 +180,7 @@
         ["2015-04-02", "2015.4"]
       ]
     },
-    {
-      "id": "adblockplus-opera-chromium",
+    "adblockplus-opera-chromium": {
       "base": "adblockplus-chrome",
       "name": "Adblock Plus for Opera (Chromium)",
       "link": "https://adblockplus.org/en/opera",
@@ -189,8 +196,7 @@
         ["2015-06-16", "1.9"]
       ]
     },
-    {
-      "id": "adblockplus-opera-presto",
+    "adblockplus-opera-presto": {
       "base": "opera-adblock",
       "name": "Adblock Plus for Opera (Presto)",
       "link": "https://adblockplus.org/en/opera",
@@ -202,8 +208,7 @@
         ["2012-11-13", "1.3.1"]
       ]
     },
-    {
-      "id": "opera-adblock",
+    "opera-adblock": {
       "name": "Opera AdBlock",
       "link": null,
       "source": "https://addons.opera.com/en/extensions/details/opera-adblock/ (according to internal revision history)",
@@ -230,8 +235,7 @@
         ["2012-07-23", "0.56"]
       ]
     },
-    {
-      "id": "simpleadblock",
+    "simpleadblock": {
       "name": "Simple Adblock",
       "link": "http://simple-adblock.com/releases/ and https://hg.adblockplus.org/adblockplusie",
       "source": "https://hg.adblockplus.org/adblockplusie",
@@ -248,8 +252,7 @@
         ["2012-09-20", "1.1.5"]
       ]
     },
-    {
-      "id": "adblockplus-ie",
+    "adblockplus-ie": {
       "base": "simpleadblock",
       "name": "Adblock Plus for Internet Explorer",
       "link": "https://adblockplus.org/en/internet-explorer",
@@ -265,8 +268,7 @@
         ["2015-02-26", "1.4"]
       ]
     },
-    {
-      "id": "adblockplus-android",
+    "adblockplus-android": {
       "name": "Adblock Plus for Android",
       "link": "https://adblockplus.org/en/android",
       "source": "https://hg.adblockplus.org/adblockplusandroid",
@@ -279,8 +281,7 @@
         ["2015-03-03", "1.3"]
       ]
     },
-    {
-      "id": "adblock-chrome",
+    "adblock-chrome": {
       "name": "AdBlock for Chrome",
       "link": "https://getadblock.com/",
       "source": "http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/",
@@ -331,8 +332,7 @@
         ["2015-08-04", "2.37"]
       ]
     },
-    {
-      "id": "adblock-firefox",
+    "adblock-firefox": {
       "base": "adblock-chrome",
       "name": "AdBlock for Firefox",
       "link": "https://getadblock.com/",
@@ -347,8 +347,7 @@
         ["2015-06-19", "2.3"]
       ]
     },
-    {
-      "id": "adblock-opera",
+    "adblock-opera": {
       "base": "adblock-chrome",
       "name": "AdBlock for Opera",
       "link": "https://getadblock.com/",
@@ -393,8 +392,7 @@
         ["2015-08-04", "2.37"]
       ]
     },
-    {
-      "id": "adblock-safari",
+    "adblock-safari": {
       "base": "adblock-chrome",
       "name": "AdBlock for Safari",
       "link": "https://getadblock.com/",
@@ -445,5 +443,5 @@
         ["2015-08-04", "2.37"]
       ]
     }
-  ]
+  }
 }
