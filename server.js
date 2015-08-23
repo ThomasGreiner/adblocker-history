@@ -12,3 +12,4 @@ function onRequest(req, resp) {
 }
 
 http.createServer(onRequest).listen(8080);
+console.log("Server started at 127.0.0.1:8080");
