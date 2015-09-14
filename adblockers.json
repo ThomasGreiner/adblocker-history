@@ -60,7 +60,7 @@
       "base": "adblockplus-firefox",
       "name": "Adblock Edge",
       "link": "https://bitbucket.org/adstomper/adblockedge/",
-      "source": "https://bitbucket.org/adstomper/adblockedge/ (expected end date based on discontinuation notice)",
+      "source": "https://bitbucket.org/adstomper/adblockedge/",
       "started": "2012-07-31",
       "ended": "2015-06-05",
       "releases": [
@@ -98,9 +98,9 @@
       "base": "adblockplus-chrome",
       "name": "Adblock Browser for iOS",
       "link": "https://adblockbrowser.org",
-      "source": "https://adblockplus.org/releases/",
+      "source": "https://adblockplus.org/releases/ (start date is approximated)",
       "engine": "adblockplus-core",
-      "started": "2015-09-08",
+      "started": "2015-01-01",
       "releases": [
         ["2015-09-08", "1.0"]
       ]
