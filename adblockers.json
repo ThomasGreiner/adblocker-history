@@ -12,6 +12,7 @@
     ["opera-adblock", "adblockplus-opera-presto"],
     ["simpleadblock", "adblockplus-ie"],
     ["adblockplus-android"],
+    ["adblockplus-ios"],
     ["adblock-chrome"],
     ["adblock-firefox"],
     ["adblock-opera"],
@@ -299,6 +300,16 @@
         ["2013-03-19", "1.1"],
         ["2013-11-29", "1.2"],
         ["2015-03-03", "1.3"]
+      ]
+    },
+    "adblockplus-ios": {
+      "name": "Adblock Plus for iOS",
+      "link": "https://adblockplus.org/en/safari",
+      "source": "start date based on internal estimation",
+      "engine": "adblockplus-core",
+      "started": "2015-08-01",
+      "releases": [
+        ["2015-09-30", "1.0"]
       ]
     },
     "adblock-chrome": {
