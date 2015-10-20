@@ -16,7 +16,8 @@
     ["adblock-chrome"],
     ["adblock-firefox"],
     ["adblock-opera"],
-    ["adblock-safari"]
+    ["adblock-safari"],
+    ["adblock-ios"]
   ],
   "engines": [
     {
@@ -488,6 +489,16 @@
         ["2015-09-25", "2.40"],
         ["2015-10-01", "2.41"],
         ["2015-10-12", "2.42"]
+      ]
+    },
+    "adblock-ios": {
+      "name": "AdBlock for Mobile (iOS)",
+      "link": "",
+      "source": "http://code.getadblock.com/releases/ (unknown start date)",
+      "engine": "adblock",
+      "started": "2015-10-19",
+      "releases": [
+        ["2015-10-19", "1.2"]
       ]
     }
   }
