@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: 2015-09-14T11:38:15.141Z -->
+<!-- Creation date: 2015-10-20T08:42:04.009Z -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="900">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="1000">
   <title>Timeline of Adblockers</title>
   <desc>
     This timeline displays the releases of major versions of adblockers. 
@@ -262,7 +262,7 @@
       </a>
       <!-- Development started: 2006-01-17 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockplus -->
-      <line stroke="" x1="485" x2="1629"/>
+      <line stroke="" x1="485" x2="1648"/>
       <!-- Based on: Adblock (unrelated to current AdBlock) -->
       <line stroke="" x1="485" x2="485" y1="0" y2="-150"/>
       
@@ -344,10 +344,10 @@
         <text x="1477" y="0" dy="0">2.6</text>
       </g>
       
-      <!-- 2015-07-28: version 2.6.10 -->
+      <!-- 2015-09-24: version 2.6.11 -->
       <g class="version release-patch">
-        <use x="1629" xlink:href="#longver"/>
-        <text x="1629" y="0" dy="0">2.6.10</text>
+        <use x="1648" xlink:href="#longver"/>
+        <text x="1648" y="0" dy="0">2.6.11</text>
       </g>
       
     </g>
@@ -412,7 +412,7 @@
       </a>
       <!-- Development started: 2010-12-01 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1070" x2="1624"/>
+      <line stroke="" x1="1070" x2="1647"/>
       <!-- Based on: AdThwart -->
       <line stroke="" x1="1070" x2="1070" y1="0" y2="0"/>
       
@@ -476,10 +476,10 @@
         <text x="1615" y="0" dy="0">1.9</text>
       </g>
       
-      <!-- 2015-07-14: version 1.9.1 -->
+      <!-- 2015-09-22: version 1.9.3 -->
       <g class="version release-patch">
-        <use x="1624" xlink:href="#longver"/>
-        <text x="1624" y="0" dy="0">1.9.1</text>
+        <use x="1647" xlink:href="#longver"/>
+        <text x="1647" y="0" dy="0">1.9.3</text>
       </g>
       
     </g>
@@ -508,7 +508,7 @@
       </a>
       <!-- Development started: 2013-10-31 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1420" x2="1625"/>
+      <line stroke="" x1="1420" x2="1647"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1420" x2="1420" y1="0" y2="-100"/>
       
@@ -530,10 +530,10 @@
         <text x="1615" y="0" dy="0">1.9</text>
       </g>
       
-      <!-- 2015-07-17: version 1.9.2 -->
+      <!-- 2015-09-22: version 1.9.3 -->
       <g class="version release-patch">
-        <use x="1625" xlink:href="#longver"/>
-        <text x="1625" y="0" dy="0">1.9.2</text>
+        <use x="1647" xlink:href="#longver"/>
+        <text x="1647" y="0" dy="0">1.9.3</text>
       </g>
       
     </g>
@@ -610,7 +610,7 @@
       </a>
       <!-- Development started: 2012-11-23 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1307" x2="1624"/>
+      <line stroke="" x1="1307" x2="1647"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1307" x2="1307" y1="0" y2="-200"/>
       
@@ -650,10 +650,10 @@
         <text x="1615" y="0" dy="0">1.9</text>
       </g>
       
-      <!-- 2015-07-14: version 1.9.1 -->
+      <!-- 2015-09-22: version 1.9.3 -->
       <g class="version release-patch">
-        <use x="1624" xlink:href="#longver"/>
-        <text x="1624" y="0" dy="0">1.9.1</text>
+        <use x="1647" xlink:href="#longver"/>
+        <text x="1647" y="0" dy="0">1.9.3</text>
       </g>
       
     </g>
@@ -864,7 +864,7 @@
       </a>
       <!-- Development started: 2013-01-22 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockplusie -->
-      <line stroke="" x1="1327" x2="1579"/>
+      <line stroke="" x1="1327" x2="1647"/>
       <!-- Based on: Simple Adblock -->
       <line stroke="" x1="1327" x2="1327" y1="0" y2="0"/>
       
@@ -904,6 +904,12 @@
         <text x="1579" y="0" dy="0">1.4</text>
       </g>
       
+      <!-- 2015-09-22: version 1.5 -->
+      <g class="version release-minor">
+        <circle cx="1647" r="10"/>
+        <text x="1647" y="0" dy="0">1.5</text>
+      </g>
+      
     </g>
     
     <g id="adblockplus-android" class="engine-adblockplus-core">
@@ -940,13 +946,29 @@
       
     </g>
     
+    <g id="adblockplus-ios" class="engine-adblockplus-core">
+      <a xlink:href="https://adblockplus.org/en/safari">
+        <text x="0" y="0" dx="1630" dy="25" class="adblocker">Adblock Plus for iOS</text>
+      </a>
+      <!-- Development started: 2015-08-01 -->
+      <!-- Source for dates: start date based on internal estimation -->
+      <line stroke="" x1="1630" x2="1650"/>
+      
+      <!-- 2015-09-30: version 1 -->
+      <g class="version release-major">
+        <circle cx="1650" r="10"/>
+        <text x="1650" y="0" dy="0">1</text>
+      </g>
+      
+    </g>
+    
     <g id="adblock-chrome" class="engine-adblock">
       <a xlink:href="https://getadblock.com/">
         <text x="0" y="0" dx="950" dy="25" class="adblocker">AdBlock for Chrome</text>
       </a>
       <!-- Development started: 2010-01-26 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/ -->
-      <line stroke="" x1="968" x2="1640"/>
+      <line stroke="" x1="968" x2="1653"/>
       
       <!-- 2010-02-01: version 1.3.10 -->
       <g class="version release-patch">
@@ -1200,6 +1222,24 @@
         <text x="1640" y="0" dy="0">2.39</text>
       </g>
       
+      <!-- 2015-09-25: version 2.40 -->
+      <g class="version release-minor">
+        <circle cx="1648" r="10"/>
+        <text x="1648" y="0" dy="0">2.40</text>
+      </g>
+      
+      <!-- 2015-10-01: version 2.41 -->
+      <g class="version release-minor">
+        <circle cx="1650" r="10"/>
+        <text x="1650" y="0" dy="0">2.41</text>
+      </g>
+      
+      <!-- 2015-10-12: version 2.42 -->
+      <g class="version release-minor">
+        <circle cx="1653" r="10"/>
+        <text x="1653" y="0" dy="0">2.42</text>
+      </g>
+      
     </g>
     
     <g id="adblock-firefox" class="engine-adblock">
@@ -1256,7 +1296,7 @@
       </a>
       <!-- Development started: 2012-08-17 -->
       <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
-      <line stroke="" x1="1275" x2="1640"/>
+      <line stroke="" x1="1275" x2="1653"/>
       <!-- Based on: AdBlock for Chrome -->
       <line stroke="" x1="1275" x2="1275" y1="0" y2="-100"/>
       
@@ -1470,6 +1510,24 @@
         <text x="1640" y="0" dy="0">2.39</text>
       </g>
       
+      <!-- 2015-09-25: version 2.40 -->
+      <g class="version release-minor">
+        <circle cx="1648" r="10"/>
+        <text x="1648" y="0" dy="0">2.40</text>
+      </g>
+      
+      <!-- 2015-10-01: version 2.41 -->
+      <g class="version release-minor">
+        <circle cx="1650" r="10"/>
+        <text x="1650" y="0" dy="0">2.41</text>
+      </g>
+      
+      <!-- 2015-10-12: version 2.42 -->
+      <g class="version release-minor">
+        <circle cx="1653" r="10"/>
+        <text x="1653" y="0" dy="0">2.42</text>
+      </g>
+      
     </g>
     
     <g id="adblock-safari" class="engine-adblock">
@@ -1478,7 +1536,7 @@
       </a>
       <!-- Development started: 2010-06-11 -->
       <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
-      <line stroke="" x1="1013" x2="1640"/>
+      <line stroke="" x1="1013" x2="1653"/>
       <!-- Based on: AdBlock for Chrome -->
       <line stroke="" x1="1013" x2="1013" y1="0" y2="-150"/>
       
@@ -1728,6 +1786,40 @@
         <text x="1640" y="0" dy="0">2.39</text>
       </g>
       
+      <!-- 2015-09-25: version 2.40 -->
+      <g class="version release-minor">
+        <circle cx="1648" r="10"/>
+        <text x="1648" y="0" dy="0">2.40</text>
+      </g>
+      
+      <!-- 2015-10-01: version 2.41 -->
+      <g class="version release-minor">
+        <circle cx="1650" r="10"/>
+        <text x="1650" y="0" dy="0">2.41</text>
+      </g>
+      
+      <!-- 2015-10-12: version 2.42 -->
+      <g class="version release-minor">
+        <circle cx="1653" r="10"/>
+        <text x="1653" y="0" dy="0">2.42</text>
+      </g>
+      
+    </g>
+    
+    <g id="adblock-ios" class="engine-adblock">
+      <a xlink:href="">
+        <text x="0" y="0" dx="1636" dy="25" class="adblocker">AdBlock for Mobile (iOS)</text>
+      </a>
+      <!-- Development started: 2015-10-19 -->
+      <!-- Source for dates: http://code.getadblock.com/releases/ (unknown start date) -->
+      <line stroke="" x1="1656" x2="1656"/>
+      
+      <!-- 2015-10-19: version 1.2 -->
+      <g class="version release-minor">
+        <circle cx="1656" r="10"/>
+        <text x="1656" y="0" dy="0">1.2</text>
+      </g>
+      
     </g>
     
     
@@ -1736,8 +1828,8 @@
       <polygon points="1800,35 1255,35 1255,65 1255,185 470,185 470,215 939,215 939,235 939,265 1055,265 1055,235 1055,265 1275,265 1275,485 1275,515 1312,515 1312,535 1312,565 1414,565 1414,585 1414,615 1800,615 " fill="#CD0000" opacity="0.12"/>
     </g>
     <g id="adblock">
-      <text x="973" y="630" dy="0" fill="#7777CD" stroke="#7777CD">AdBlock engine</text>
-      <polygon points="1800,635 953,635 953,665 998,665 998,785 998,815 1800,815 " fill="#7777CD" opacity="0.12"/>
+      <text x="973" y="680" dy="0" fill="#7777CD" stroke="#7777CD">AdBlock engine</text>
+      <polygon points="1800,685 953,685 953,715 998,715 998,835 998,865 1800,865 " fill="#7777CD" opacity="0.12"/>
     </g>
     
     <g id="content">
@@ -1762,10 +1854,12 @@
       <use y="550" xlink:href="#simpleadblock"/>
       <use y="550" xlink:href="#adblockplus-ie"/>
       <use y="600" xlink:href="#adblockplus-android"/>
-      <use y="650" xlink:href="#adblock-chrome"/>
-      <use y="700" xlink:href="#adblock-firefox"/>
-      <use y="750" xlink:href="#adblock-opera"/>
-      <use y="800" xlink:href="#adblock-safari"/>
+      <use y="650" xlink:href="#adblockplus-ios"/>
+      <use y="700" xlink:href="#adblock-chrome"/>
+      <use y="750" xlink:href="#adblock-firefox"/>
+      <use y="800" xlink:href="#adblock-opera"/>
+      <use y="850" xlink:href="#adblock-safari"/>
+      <use y="900" xlink:href="#adblock-ios"/>
     </g>
     
     <g id="created">
@@ -1777,6 +1871,6 @@
   
   <rect x="0" y="0" height="100%" width="100%" fill="#ffffff"/>
   <rect x="0" y="0" height="100%" width="100%" style="fill: url(#bglines);"/>
-  <use x="1644" y="0" xlink:href="#created"/>
+  <use x="1656" y="0" xlink:href="#created"/>
   <use x="0" y="0" xlink:href="#content"/>
 </svg>
