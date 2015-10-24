@@ -1,16 +1,18 @@
 #!/usr/bin/env node
 
-var fs = require("fs");
-var svg = require("./lib/svg");
+"use strict";
 
-var filepath = "res/adblocker-history.svg";
+const fs = require("fs");
+const svg = require("./lib/svg");
 
-svg.getSVG(function(svg) {
-  fs.writeFile(filepath, svg, {encoding: "utf-8"}, function(err) {
+const filepath = "res/adblocker-history.svg";
+
+svg.getSVG((svg) => {
+  fs.writeFile(filepath, svg, {encoding: "utf-8"}, (err) => {
     if (err) {
       console.error(err.toString());
     } else {
-      console.log("Successfully wrote data to %s", filepath);
+      console.log(`Successfully wrote data to ${filepath}`);
     }
   });
 });

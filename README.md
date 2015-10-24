@@ -4,7 +4,7 @@
 
 ## Dependencies
 
-- [node.js][node]
+- [node.js 4+][node]
 - [handlebars][handlebars]
 
 ## Generate SVG
