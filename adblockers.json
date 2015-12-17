@@ -381,9 +381,10 @@
       "base": "adblock-chrome",
       "name": "AdBlock for Firefox",
       "link": "https://getadblock.com/",
-      "source": "http://code.getadblock.com/releases/",
+      "source": "http://code.getadblock.com/releases/ https://twitter.com/getadblock",
       "engine": "adblock",
       "started": "2014-06-16",
+      "ended": "2015-12-07",
       "releases": [
         ["2014-09-13", "1.1.1"],
         ["2014-11-11", "2.0"],
