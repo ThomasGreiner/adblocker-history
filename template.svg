@@ -35,15 +35,9 @@
         text-anchor: middle;
       }
       
-      .adblocker, .engine {
+      .adblocker {
         font-size: 12px;
         font-family: sans-serif;
-      }
-      
-      .engine {
-        text-anchor: end;
-        font-style: italic;
-        font-weight: bold;
       }
       
       #longver {
@@ -55,25 +49,28 @@
         stroke-width: 2px;
       }
       
-      .engine-none line,
-      .engine-none circle,
-      .engine-none use {
+      .vendor-other line,
+      .vendor-other circle,
+      .vendor-other use {
         stroke: #888;
       }
       
-      .engine-none .version.release-major circle {
+      .vendor-other .version.release-major circle {
         fill: #888;
       }
       
-      {{#each engines}}
-      .engine-{{id}} line,
-      .engine-{{id}} circle,
-      .engine-{{id}} use {
-        stroke: {{color}};
+      {{#each vendors}}
+      .vendor-{{id}} line,
+      .vendor-{{id}} circle,
+      .vendor-{{id}} use,
+      .vendor-{{id}}.engine text {
+        stroke: {{color}}
       }
       
-      .engine-{{id}} .version.release-major circle {
-        fill: {{color}};
+      .vendor-{{id}} .version.release-major circle,
+      .vendor-{{id}}.engine polygon,
+      .vendor-{{id}}.engine text {
+        fill: {{color}}
       }
       {{/each}}
       
@@ -110,7 +107,7 @@
     </g>
     
     {{#each adblockers}}
-    <g id="{{id}}" class="engine-{{engine}}">
+    <g id="{{id}}" class="vendor-{{vendor}}">
       <a xlink:href="{{link}}">
         <text x="0" y="0" dx="{{x}}" dy="25" class="adblocker">{{name}}</text>
       </a>
@@ -143,9 +140,9 @@
     {{/each}}
     
     {{#each engines}}
-    <g id="{{id}}">
-      <text x="{{min.x}}" y="{{min.y}}" dy="0" fill="{{color}}" stroke="{{color}}">{{name}} engine</text>
-      <polygon points="{{#each path}}{{x}},{{y}} {{/each}}" fill="{{color}}" opacity="0.12"/>
+    <g id="{{id}}" class="engine vendor-{{vendor}}">
+      <text x="{{min.x}}" y="{{min.y}}" dy="0">{{name}} engine</text>
+      <polygon points="{{#each path}}{{x}},{{y}} {{/each}}" opacity="0.12"/>
     </g>
     {{/each}}
     

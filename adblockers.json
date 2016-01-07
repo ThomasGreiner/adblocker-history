@@ -19,11 +19,23 @@
     ["adblock-safari"],
     ["adblock-ios"]
   ],
+  "vendors": [
+    {
+      "id": "betafish",
+      "name": "BetaFish Inc.",
+      "color": "#7777CD"
+    },
+    {
+      "id": "eyeo",
+      "name": "Eyeo GmbH",
+      "color": "#CD0000"
+    }
+  ],
   "engines": [
     {
       "id": "adblockplus-core",
       "name": "Adblock Plus",
-      "color": "#CD0000",
+      "vendor": "eyeo",
       "path": [
         ["adblockedge", "started"],
         ["adblockplus-firefox", "started"],
@@ -37,7 +49,7 @@
     {
       "id": "adblock",
       "name": "AdBlock",
-      "color": "#7777CD",
+      "vendor": "betafish",
       "path": [
         ["adblock-chrome", "started"],
         ["adblock-safari", "started"]
@@ -90,7 +102,7 @@
       "name": "Adblock Browser for Android",
       "link": "https://adblockbrowser.org",
       "source": "https://bitbucket.org/adblockplus/adblockbrowser/",
-      "engine": "adblockplus-core",
+      "vendor": "eyeo",
       "started": "2014-08-01",
       "releases": [
         ["2015-05-20", "beta"],
@@ -103,7 +115,7 @@
       "name": "Adblock Browser for iOS",
       "link": "https://adblockbrowser.org",
       "source": "https://adblockplus.org/releases/ (start date is approximated)",
-      "engine": "adblockplus-core",
+      "vendor": "eyeo",
       "started": "2015-01-01",
       "releases": [
         ["2015-09-08", "1.0"],
@@ -116,7 +128,7 @@
       "name": "Adblock Plus for Firefox",
       "link": "https://adblockplus.org/en/firefox",
       "source": "https://hg.adblockplus.org/adblockplus",
-      "engine": "adblockplus-core",
+      "vendor": "eyeo",
       "started": "2006-01-17",
       "releases": [
         ["2006-01-17", "0.6"],
@@ -156,7 +168,7 @@
       "name": "Adblock Plus for Chrome",
       "link": "https://adblockplus.org/en/chrome",
       "source": "https://hg.adblockplus.org/adblockpluschrome",
-      "engine": "adblockplus-core",
+      "vendor": "eyeo",
       "started": "2010-12-01",
       "releases": [
         ["2010-12-20", "1.0.22"],
@@ -177,7 +189,7 @@
       "name": "Adblock Plus for Safari",
       "link": "https://adblockplus.org/en/safari",
       "source": "https://hg.adblockplus.org/adblockpluschrome",
-      "engine": "adblockplus-core",
+      "vendor": "eyeo",
       "started": "2013-10-31",
       "releases": [
         ["2014-01-21", "beta"],
@@ -210,7 +222,7 @@
       "name": "Adblock Plus for Opera (Chromium)",
       "link": "https://adblockplus.org/en/opera",
       "source": "https://hg.adblockplus.org/adblockpluschrome",
-      "engine": "adblockplus-core",
+      "vendor": "eyeo",
       "started": "2012-11-23",
       "releases": [
         ["2013-05-28", "1.4.1"],
@@ -227,7 +239,7 @@
       "name": "Adblock Plus for Opera (Presto)",
       "link": "https://adblockplus.org/en/opera",
       "source": "https://hg.adblockplus.org/adblockplusopera",
-      "engine": "adblockplus-core",
+      "vendor": "eyeo",
       "started": "2012-10-01",
       "ended": "2013-05-08",
       "releases": [
@@ -283,7 +295,7 @@
       "name": "Adblock Plus for Internet Explorer",
       "link": "https://adblockplus.org/en/internet-explorer",
       "source": "https://hg.adblockplus.org/adblockplusie",
-      "engine": "adblockplus-core",
+      "vendor": "eyeo",
       "started": "2013-01-22",
       "releases": [
         ["2013-04-22", "dev"],
@@ -299,7 +311,7 @@
       "name": "Adblock Plus for Android",
       "link": "https://adblockplus.org/en/android",
       "source": "https://hg.adblockplus.org/adblockplusandroid",
-      "engine": "adblockplus-core",
+      "vendor": "eyeo",
       "started": "2012-04-01",
       "releases": [
         ["2012-11-26", "1.0"],
@@ -312,7 +324,7 @@
       "name": "Adblock Plus for iOS",
       "link": "https://adblockplus.org/en/safari",
       "source": "start date based on internal estimation",
-      "engine": "adblockplus-core",
+      "vendor": "eyeo",
       "started": "2015-08-01",
       "releases": [
         ["2015-09-30", "1.0"]
@@ -322,7 +334,7 @@
       "name": "AdBlock for Chrome",
       "link": "https://getadblock.com/",
       "source": "http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/",
-      "engine": "adblock",
+      "vendor": "betafish",
       "started": "2010-01-26",
       "releases": [
         ["2010-02-01", "1.3.10"],
@@ -382,7 +394,7 @@
       "name": "AdBlock for Firefox",
       "link": "https://getadblock.com/",
       "source": "http://code.getadblock.com/releases/ https://twitter.com/getadblock",
-      "engine": "adblock",
+      "vendor": "betafish",
       "started": "2014-06-16",
       "ended": "2015-12-07",
       "releases": [
@@ -399,7 +411,7 @@
       "name": "AdBlock for Opera",
       "link": "https://getadblock.com/",
       "source": "https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/",
-      "engine": "adblock",
+      "vendor": "betafish",
       "started": "2012-08-17",
       "releases": [
         ["2012-08-27", "2.5.42"],
@@ -452,7 +464,7 @@
       "name": "AdBlock for Safari",
       "link": "https://getadblock.com/",
       "source": "https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/",
-      "engine": "adblock",
+      "vendor": "betafish",
       "started": "2010-06-11",
       "releases": [
         ["2010-06-11", "1.4.31"],
@@ -510,7 +522,7 @@
       "name": "AdBlock for Mobile (iOS)",
       "link": "",
       "source": "http://code.getadblock.com/releases/ (unknown start date)",
-      "engine": "adblock",
+      "vendor": "betafish",
       "started": "2015-10-19",
       "releases": [
         ["2015-10-19", "1.2"],
