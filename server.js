@@ -6,6 +6,12 @@ const http = require("http");
 const svg = require("./lib/svg");
 
 function onRequest(req, resp) {
+  if (req.url != "/") {
+    resp.writeHead(404);
+    resp.end();
+    return;
+  }
+  
   resp.writeHead(200, {"Content-Type": "image/svg+xml"});
   svg.getSVG((svg) => resp.end(svg));
 }
