@@ -331,9 +331,9 @@
     "adblockplus-ios": {
       "name": "Adblock Plus for iOS",
       "link": "https://adblockplus.org/en/safari",
-      "source": "start date based on internal estimation",
+      "source": "https://hg.adblockplus.org/adblockplussafariios",
       "vendor": "eyeo",
-      "started": "2015-08-01",
+      "started": "2015-08-08",
       "releases": [
         ["2015-09-30", "1.0"]
       ]
