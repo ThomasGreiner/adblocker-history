@@ -3,7 +3,7 @@
 "use strict";
 
 const http = require("http");
-const svg = require("./lib/svg");
+const {create} = require("./lib/svg");
 
 function onRequest(req, resp) {
   if (req.url != "/") {
@@ -13,7 +13,7 @@ function onRequest(req, resp) {
   }
   
   resp.writeHead(200, {"Content-Type": "image/svg+xml"});
-  svg.getSVG((svg) => resp.end(svg));
+  create().then((svg) => resp.end(svg));
 }
 
 http.createServer(onRequest).listen(8080);
