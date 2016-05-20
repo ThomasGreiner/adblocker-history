@@ -1,0 +1,25 @@
+[
+  {
+    "id": "adblockplus-core",
+    "name": "Adblock Plus",
+    "vendor": "eyeo",
+    "path": [
+      ["adblockedge", "started"],
+      ["adblockplus-firefox", "started"],
+      ["adthwart", "started"],
+      ["adblockplus-chrome", "started"],
+      ["adblockplus-opera-presto", "started"],
+      ["adblockplus-ie", "started"],
+      ["adblockplus-android", "1.2"]
+    ]
+  },
+  {
+    "id": "adblock",
+    "name": "AdBlock",
+    "vendor": "betafish",
+    "path": [
+      ["adblock-chrome", "started"],
+      ["adblock-safari", "started"]
+    ]
+  }
+]

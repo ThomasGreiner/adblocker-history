@@ -4,7 +4,7 @@
 
 ## Generate SVG
 
-Requires [Node.js][node] 4.0 or higher and [npm][npm]. Install dependencies using `npm install` before running any of the scripts.
+Requires [Node.js][node] 6.0 or higher and [npm][npm]. Install dependencies using `npm install` before running any of the scripts.
 
 ### export.js
 

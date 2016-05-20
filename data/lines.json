@@ -1,0 +1,21 @@
+[
+  ["original", "adblockedge"],
+  ["privacybadger-firefox"],
+  ["adblockbrowser-android"],
+  ["adblockplus-firefox"],
+  ["adthwart", "adblockplus-chrome"],
+  ["adblockbrowser-ios"],
+  ["adblockplus-safari"],
+  ["privacybadger-chrome"],
+  ["adblockplus-opera-chromium"],
+  ["opera-adblock", "adblockplus-opera-presto", "adblockplus-edge"],
+  ["simpleadblock", "adblockplus-ie"],
+  ["adblockplus-android"],
+  ["adblockplus-ios"],
+  ["adblock-chrome"],
+  ["adblock-firefox"],
+  ["adblock-opera"],
+  ["adblock-safari"],
+  ["adblock-ios"],
+  ["adblock-edge"]
+]
