@@ -529,13 +529,15 @@
     ]
   },
   "adblock-edge": {
+    "base": "adblock-chrome",
     "name": "AdBlock for Edge",
     "link": "https://getadblock.com/",
-    "source": "https://twitter.com/getadblock/status/730404487265923073",
+    "source": "http://code.getadblock.com/releases/",
     "vendor": "betafish",
     "started": "2016-05-11",
     "releases": [
-      ["2016-05-11", "dev"]
+      ["2016-05-12", "0.9.6"],
+      ["2016-05-18", "0.9.8"]
     ]
   }
 }
