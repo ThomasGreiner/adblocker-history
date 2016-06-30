@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: 2016-05-18T23:47:33.156Z -->
+<!-- Creation date: 2016-06-30T18:21:40.511Z -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1050">
@@ -244,7 +244,7 @@
         <text x="0" y="0" dx="1586" dy="25" class="adblocker">Adblock Browser for Android</text>
       </a>
       <!-- Development started: 2014-08-01 -->
-      <!-- Source for dates: https://bitbucket.org/adblockplus/adblockbrowser/ -->
+      <!-- Source for dates: https://hg.adblockplus.org/adblockbrowser/ -->
       <line stroke="" x1="1510" x2="1690"/>
       <!-- Based on: Adblock Plus for Firefox -->
       <line stroke="" x1="1510" x2="1510" y1="0" y2="50"/>
@@ -437,7 +437,7 @@
       </a>
       <!-- Development started: 2010-12-01 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1070" x2="1702"/>
+      <line stroke="" x1="1070" x2="1739"/>
       <!-- Based on: AdThwart -->
       <line stroke="" x1="1070" x2="1070" y1="0" y2="0"/>
       
@@ -513,6 +513,18 @@
         <text x="1702" y="0" dy="0">1.11</text>
       </g>
       
+      <!-- 2016-06-01: version 1.12 -->
+      <g class="version release-minor">
+        <circle cx="1730" r="10"/>
+        <text x="1730" y="0" dy="0">1.12</text>
+      </g>
+      
+      <!-- 2016-06-28: version 1.12.1 -->
+      <g class="version release-patch">
+        <use x="1739" xlink:href="#longver"/>
+        <text x="1739" y="0" dy="0">1.12.1</text>
+      </g>
+      
     </g>
     
     <g id="adblockbrowser-ios" class="vendor-eyeo">
@@ -520,8 +532,8 @@
         <text x="0" y="0" dx="1622" dy="25" class="adblocker">Adblock Browser for iOS</text>
       </a>
       <!-- Development started: 2015-01-01 -->
-      <!-- Source for dates: https://adblockplus.org/releases/ (start date is approximated) -->
-      <line stroke="" x1="1560" x2="1723"/>
+      <!-- Source for dates: https://adblockplus.org/releases/ (start date is approximated), https://bitbucket.org/adblockplus/adblockplusadblockbrowserios/ -->
+      <line stroke="" x1="1560" x2="1739"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1560" x2="1560" y1="0" y2="-50"/>
       
@@ -549,10 +561,10 @@
         <text x="1714" y="0" dy="0">1.3</text>
       </g>
       
-      <!-- 2016-05-12: version 1.3.2 -->
-      <g class="version release-patch">
-        <use x="1723" xlink:href="#longver"/>
-        <text x="1723" y="0" dy="0">1.3.2</text>
+      <!-- 2016-06-29: version 1.4 -->
+      <g class="version release-minor">
+        <circle cx="1739" r="10"/>
+        <text x="1739" y="0" dy="0">1.4</text>
       </g>
       
     </g>
@@ -563,7 +575,7 @@
       </a>
       <!-- Development started: 2013-10-31 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1420" x2="1702"/>
+      <line stroke="" x1="1420" x2="1739"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1420" x2="1420" y1="0" y2="-100"/>
       
@@ -595,6 +607,18 @@
       <g class="version release-minor">
         <circle cx="1702" r="10"/>
         <text x="1702" y="0" dy="0">1.11</text>
+      </g>
+      
+      <!-- 2016-06-01: version 1.12 -->
+      <g class="version release-minor">
+        <circle cx="1730" r="10"/>
+        <text x="1730" y="0" dy="0">1.12</text>
+      </g>
+      
+      <!-- 2016-06-28: version 1.12.1 -->
+      <g class="version release-patch">
+        <use x="1739" xlink:href="#longver"/>
+        <text x="1739" y="0" dy="0">1.12.1</text>
       </g>
       
     </g>
@@ -689,7 +713,7 @@
       </a>
       <!-- Development started: 2012-11-23 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1307" x2="1702"/>
+      <line stroke="" x1="1307" x2="1739"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1307" x2="1307" y1="0" y2="-200"/>
       
@@ -739,6 +763,18 @@
       <g class="version release-minor">
         <circle cx="1702" r="10"/>
         <text x="1702" y="0" dy="0">1.11</text>
+      </g>
+      
+      <!-- 2016-06-01: version 1.12 -->
+      <g class="version release-minor">
+        <circle cx="1730" r="10"/>
+        <text x="1730" y="0" dy="0">1.12</text>
+      </g>
+      
+      <!-- 2016-06-28: version 1.12.1 -->
+      <g class="version release-patch">
+        <use x="1739" xlink:href="#longver"/>
+        <text x="1739" y="0" dy="0">1.12.1</text>
       </g>
       
     </g>
@@ -1069,13 +1105,807 @@
       
     </g>
     
+    <g id="adblock-safari" class="vendor-betafish">
+      <a xlink:href="https://getadblock.com/">
+        <text x="0" y="0" dx="993" dy="25" class="adblocker">AdBlock for Safari</text>
+      </a>
+      <!-- Development started: 2010-06-11 -->
+      <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
+      <line stroke="" x1="1013" x2="1739"/>
+      <!-- Based on: AdBlock for Chrome -->
+      <line stroke="" x1="1013" x2="1013" y1="0" y2="150"/>
+      
+      <!-- 2010-06-11: version 1.4.31 -->
+      <g class="version release-patch">
+        <use x="1013" xlink:href="#longver"/>
+        <text x="1013" y="0" dy="0">1.4.31</text>
+      </g>
+      
+      <!-- 2010-06-16: version 2 -->
+      <g class="version release-major">
+        <circle cx="1015" r="10"/>
+        <text x="1015" y="0" dy="0">2</text>
+      </g>
+      
+      <!-- 2010-08-29: version 2.1 -->
+      <g class="version release-minor">
+        <circle cx="1039" r="10"/>
+        <text x="1039" y="0" dy="0">2.1</text>
+      </g>
+      
+      <!-- 2010-10-03: version 2.2 -->
+      <g class="version release-minor">
+        <circle cx="1050" r="10"/>
+        <text x="1050" y="0" dy="0">2.2</text>
+      </g>
+      
+      <!-- 2011-02-10: version 2.3 -->
+      <g class="version release-minor">
+        <circle cx="1093" r="10"/>
+        <text x="1093" y="0" dy="0">2.3</text>
+      </g>
+      
+      <!-- 2011-05-03: version 2.4 -->
+      <g class="version release-minor">
+        <circle cx="1120" r="10"/>
+        <text x="1120" y="0" dy="0">2.4</text>
+      </g>
+      
+      <!-- 2011-11-29: version 2.5 -->
+      <g class="version release-minor">
+        <circle cx="1189" r="10"/>
+        <text x="1189" y="0" dy="0">2.5</text>
+      </g>
+      
+      <!-- 2013-06-24: version 2.6 -->
+      <g class="version release-minor">
+        <circle cx="1378" r="10"/>
+        <text x="1378" y="0" dy="0">2.6</text>
+      </g>
+      
+      <!-- 2014-06-06: version 2.7 -->
+      <g class="version release-minor">
+        <circle cx="1492" r="10"/>
+        <text x="1492" y="0" dy="0">2.7</text>
+      </g>
+      
+      <!-- 2014-08-28: version 2.8 -->
+      <g class="version release-minor">
+        <circle cx="1519" r="10"/>
+        <text x="1519" y="0" dy="0">2.8</text>
+      </g>
+      
+      <!-- 2014-09-17: version 2.9 -->
+      <g class="version release-minor">
+        <circle cx="1525" r="10"/>
+        <text x="1525" y="0" dy="0">2.9</text>
+      </g>
+      
+      <!-- 2014-10-06: version 2.10 -->
+      <g class="version release-minor">
+        <circle cx="1531" r="10"/>
+        <text x="1531" y="0" dy="0">2.10</text>
+      </g>
+      
+      <!-- 2014-10-13: version 2.11 -->
+      <g class="version release-minor">
+        <circle cx="1534" r="10"/>
+        <text x="1534" y="0" dy="0">2.11</text>
+      </g>
+      
+      <!-- 2014-10-22: version 2.12 -->
+      <g class="version release-minor">
+        <circle cx="1537" r="10"/>
+        <text x="1537" y="0" dy="0">2.12</text>
+      </g>
+      
+      <!-- 2014-10-31: version 2.13 -->
+      <g class="version release-minor">
+        <circle cx="1540" r="10"/>
+        <text x="1540" y="0" dy="0">2.13</text>
+      </g>
+      
+      <!-- 2014-11-24: version 2.14 -->
+      <g class="version release-minor">
+        <circle cx="1548" r="10"/>
+        <text x="1548" y="0" dy="0">2.14</text>
+      </g>
+      
+      <!-- 2014-12-09: version 2.15 -->
+      <g class="version release-minor">
+        <circle cx="1552" r="10"/>
+        <text x="1552" y="0" dy="0">2.15</text>
+      </g>
+      
+      <!-- 2015-01-02: version 2.16 -->
+      <g class="version release-minor">
+        <circle cx="1560" r="10"/>
+        <text x="1560" y="0" dy="0">2.16</text>
+      </g>
+      
+      <!-- 2015-01-23: version 2.17 -->
+      <g class="version release-minor">
+        <circle cx="1567" r="10"/>
+        <text x="1567" y="0" dy="0">2.17</text>
+      </g>
+      
+      <!-- 2015-02-10: version 2.18 -->
+      <g class="version release-minor">
+        <circle cx="1573" r="10"/>
+        <text x="1573" y="0" dy="0">2.18</text>
+      </g>
+      
+      <!-- 2015-03-11: version 2.19 -->
+      <g class="version release-minor">
+        <circle cx="1583" r="10"/>
+        <text x="1583" y="0" dy="0">2.19</text>
+      </g>
+      
+      <!-- 2015-03-17: version 2.20 -->
+      <g class="version release-minor">
+        <circle cx="1585" r="10"/>
+        <text x="1585" y="0" dy="0">2.20</text>
+      </g>
+      
+      <!-- 2015-03-20: version 2.21 -->
+      <g class="version release-minor">
+        <circle cx="1586" r="10"/>
+        <text x="1586" y="0" dy="0">2.21</text>
+      </g>
+      
+      <!-- 2015-03-23: version 2.22 -->
+      <g class="version release-minor">
+        <circle cx="1587" r="10"/>
+        <text x="1587" y="0" dy="0">2.22</text>
+      </g>
+      
+      <!-- 2015-04-05: version 2.23 -->
+      <g class="version release-minor">
+        <circle cx="1591" r="10"/>
+        <text x="1591" y="0" dy="0">2.23</text>
+      </g>
+      
+      <!-- 2015-04-07: version 2.24 -->
+      <g class="version release-minor">
+        <circle cx="1592" r="10"/>
+        <text x="1592" y="0" dy="0">2.24</text>
+      </g>
+      
+      <!-- 2015-04-13: version 2.25 -->
+      <g class="version release-minor">
+        <circle cx="1594" r="10"/>
+        <text x="1594" y="0" dy="0">2.25</text>
+      </g>
+      
+      <!-- 2015-04-16: version 2.26 -->
+      <g class="version release-minor">
+        <circle cx="1595" r="10"/>
+        <text x="1595" y="0" dy="0">2.26</text>
+      </g>
+      
+      <!-- 2015-04-18: version 2.27 -->
+      <g class="version release-minor">
+        <circle cx="1596" r="10"/>
+        <text x="1596" y="0" dy="0">2.27</text>
+      </g>
+      
+      <!-- 2015-04-21: version 2.28 -->
+      <g class="version release-minor">
+        <circle cx="1597" r="10"/>
+        <text x="1597" y="0" dy="0">2.28</text>
+      </g>
+      
+      <!-- 2015-04-21: version 2.29 -->
+      <g class="version release-minor">
+        <circle cx="1597" r="10"/>
+        <text x="1597" y="0" dy="0">2.29</text>
+      </g>
+      
+      <!-- 2015-05-04: version 2.30 -->
+      <g class="version release-minor">
+        <circle cx="1601" r="10"/>
+        <text x="1601" y="0" dy="0">2.30</text>
+      </g>
+      
+      <!-- 2015-05-05: version 2.31 -->
+      <g class="version release-minor">
+        <circle cx="1601" r="10"/>
+        <text x="1601" y="0" dy="0">2.31</text>
+      </g>
+      
+      <!-- 2015-05-12: version 2.32 -->
+      <g class="version release-minor">
+        <circle cx="1603" r="10"/>
+        <text x="1603" y="0" dy="0">2.32</text>
+      </g>
+      
+      <!-- 2015-05-14: version 2.33 -->
+      <g class="version release-minor">
+        <circle cx="1604" r="10"/>
+        <text x="1604" y="0" dy="0">2.33</text>
+      </g>
+      
+      <!-- 2015-05-22: version 2.34 -->
+      <g class="version release-minor">
+        <circle cx="1607" r="10"/>
+        <text x="1607" y="0" dy="0">2.34</text>
+      </g>
+      
+      <!-- 2015-06-10: version 2.35 -->
+      <g class="version release-minor">
+        <circle cx="1613" r="10"/>
+        <text x="1613" y="0" dy="0">2.35</text>
+      </g>
+      
+      <!-- 2015-07-07: version 2.36 -->
+      <g class="version release-minor">
+        <circle cx="1622" r="10"/>
+        <text x="1622" y="0" dy="0">2.36</text>
+      </g>
+      
+      <!-- 2015-08-04: version 2.37 -->
+      <g class="version release-minor">
+        <circle cx="1631" r="10"/>
+        <text x="1631" y="0" dy="0">2.37</text>
+      </g>
+      
+      <!-- 2015-08-24: version 2.38 -->
+      <g class="version release-minor">
+        <circle cx="1637" r="10"/>
+        <text x="1637" y="0" dy="0">2.38</text>
+      </g>
+      
+      <!-- 2015-09-02: version 2.39 -->
+      <g class="version release-minor">
+        <circle cx="1640" r="10"/>
+        <text x="1640" y="0" dy="0">2.39</text>
+      </g>
+      
+      <!-- 2015-09-25: version 2.40 -->
+      <g class="version release-minor">
+        <circle cx="1648" r="10"/>
+        <text x="1648" y="0" dy="0">2.40</text>
+      </g>
+      
+      <!-- 2015-10-01: version 2.41 -->
+      <g class="version release-minor">
+        <circle cx="1650" r="10"/>
+        <text x="1650" y="0" dy="0">2.41</text>
+      </g>
+      
+      <!-- 2015-10-12: version 2.42 -->
+      <g class="version release-minor">
+        <circle cx="1653" r="10"/>
+        <text x="1653" y="0" dy="0">2.42</text>
+      </g>
+      
+      <!-- 2015-11-17: version 2.43 -->
+      <g class="version release-minor">
+        <circle cx="1665" r="10"/>
+        <text x="1665" y="0" dy="0">2.43</text>
+      </g>
+      
+      <!-- 2015-11-24: version 2.44 -->
+      <g class="version release-minor">
+        <circle cx="1668" r="10"/>
+        <text x="1668" y="0" dy="0">2.44</text>
+      </g>
+      
+      <!-- 2015-12-03: version 2.45 -->
+      <g class="version release-minor">
+        <circle cx="1670" r="10"/>
+        <text x="1670" y="0" dy="0">2.45</text>
+      </g>
+      
+      <!-- 2016-01-05: version 2.46 -->
+      <g class="version release-minor">
+        <circle cx="1681" r="10"/>
+        <text x="1681" y="0" dy="0">2.46</text>
+      </g>
+      
+      <!-- 2016-01-19: version 2.47 -->
+      <g class="version release-minor">
+        <circle cx="1686" r="10"/>
+        <text x="1686" y="0" dy="0">2.47</text>
+      </g>
+      
+      <!-- 2016-01-27: version 2.48 -->
+      <g class="version release-minor">
+        <circle cx="1688" r="10"/>
+        <text x="1688" y="0" dy="0">2.48</text>
+      </g>
+      
+      <!-- 2016-02-04: version 2.49 -->
+      <g class="version release-minor">
+        <circle cx="1691" r="10"/>
+        <text x="1691" y="0" dy="0">2.49</text>
+      </g>
+      
+      <!-- 2016-02-15: version 2.50 -->
+      <g class="version release-minor">
+        <circle cx="1695" r="10"/>
+        <text x="1695" y="0" dy="0">2.50</text>
+      </g>
+      
+      <!-- 2016-03-10: version 2.51 -->
+      <g class="version release-minor">
+        <circle cx="1703" r="10"/>
+        <text x="1703" y="0" dy="0">2.51</text>
+      </g>
+      
+      <!-- 2016-03-15: version 2.52 -->
+      <g class="version release-minor">
+        <circle cx="1704" r="10"/>
+        <text x="1704" y="0" dy="0">2.52</text>
+      </g>
+      
+      <!-- 2016-03-17: version 2.53 -->
+      <g class="version release-minor">
+        <circle cx="1705" r="10"/>
+        <text x="1705" y="0" dy="0">2.53</text>
+      </g>
+      
+      <!-- 2016-03-18: version 2.54 -->
+      <g class="version release-minor">
+        <circle cx="1705" r="10"/>
+        <text x="1705" y="0" dy="0">2.54</text>
+      </g>
+      
+      <!-- 2016-04-12: version 2.55 -->
+      <g class="version release-minor">
+        <circle cx="1714" r="10"/>
+        <text x="1714" y="0" dy="0">2.55</text>
+      </g>
+      
+      <!-- 2016-04-15: version 2.56 -->
+      <g class="version release-minor">
+        <circle cx="1715" r="10"/>
+        <text x="1715" y="0" dy="0">2.56</text>
+      </g>
+      
+      <!-- 2016-05-13: version 2.57 -->
+      <g class="version release-minor">
+        <circle cx="1724" r="10"/>
+        <text x="1724" y="0" dy="0">2.57</text>
+      </g>
+      
+      <!-- 2016-05-26: version 2.58 -->
+      <g class="version release-minor">
+        <circle cx="1728" r="10"/>
+        <text x="1728" y="0" dy="0">2.58</text>
+      </g>
+      
+      <!-- 2016-06-01: version 2.59 -->
+      <g class="version release-minor">
+        <circle cx="1730" r="10"/>
+        <text x="1730" y="0" dy="0">2.59</text>
+      </g>
+      
+      <!-- 2016-06-07: version 3 -->
+      <g class="version release-major">
+        <circle cx="1732" r="10"/>
+        <text x="1732" y="0" dy="0">3</text>
+      </g>
+      
+      <!-- 2016-06-29: version 3.0.7 -->
+      <g class="version release-patch">
+        <use x="1739" xlink:href="#longver"/>
+        <text x="1739" y="0" dy="0">3.0.7</text>
+      </g>
+      
+    </g>
+    
+    <g id="adblock-opera" class="vendor-betafish">
+      <a xlink:href="https://getadblock.com/">
+        <text x="0" y="0" dx="1258" dy="25" class="adblocker">AdBlock for Opera</text>
+      </a>
+      <!-- Development started: 2012-08-17 -->
+      <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
+      <line stroke="" x1="1275" x2="1739"/>
+      <!-- Based on: AdBlock for Chrome -->
+      <line stroke="" x1="1275" x2="1275" y1="0" y2="100"/>
+      
+      <!-- 2012-08-27: version 2.5.42 -->
+      <g class="version release-patch">
+        <use x="1278" xlink:href="#longver"/>
+        <text x="1278" y="0" dy="0">2.5.42</text>
+      </g>
+      
+      <!-- 2013-06-24: version 2.6 -->
+      <g class="version release-minor">
+        <circle cx="1378" r="10"/>
+        <text x="1378" y="0" dy="0">2.6</text>
+      </g>
+      
+      <!-- 2014-06-06: version 2.7 -->
+      <g class="version release-minor">
+        <circle cx="1492" r="10"/>
+        <text x="1492" y="0" dy="0">2.7</text>
+      </g>
+      
+      <!-- 2014-08-28: version 2.8 -->
+      <g class="version release-minor">
+        <circle cx="1519" r="10"/>
+        <text x="1519" y="0" dy="0">2.8</text>
+      </g>
+      
+      <!-- 2014-09-17: version 2.9 -->
+      <g class="version release-minor">
+        <circle cx="1525" r="10"/>
+        <text x="1525" y="0" dy="0">2.9</text>
+      </g>
+      
+      <!-- 2014-10-06: version 2.10 -->
+      <g class="version release-minor">
+        <circle cx="1531" r="10"/>
+        <text x="1531" y="0" dy="0">2.10</text>
+      </g>
+      
+      <!-- 2014-10-13: version 2.11 -->
+      <g class="version release-minor">
+        <circle cx="1534" r="10"/>
+        <text x="1534" y="0" dy="0">2.11</text>
+      </g>
+      
+      <!-- 2014-10-22: version 2.12 -->
+      <g class="version release-minor">
+        <circle cx="1537" r="10"/>
+        <text x="1537" y="0" dy="0">2.12</text>
+      </g>
+      
+      <!-- 2014-10-31: version 2.13 -->
+      <g class="version release-minor">
+        <circle cx="1540" r="10"/>
+        <text x="1540" y="0" dy="0">2.13</text>
+      </g>
+      
+      <!-- 2014-11-24: version 2.14 -->
+      <g class="version release-minor">
+        <circle cx="1548" r="10"/>
+        <text x="1548" y="0" dy="0">2.14</text>
+      </g>
+      
+      <!-- 2014-12-09: version 2.15 -->
+      <g class="version release-minor">
+        <circle cx="1552" r="10"/>
+        <text x="1552" y="0" dy="0">2.15</text>
+      </g>
+      
+      <!-- 2015-01-02: version 2.16 -->
+      <g class="version release-minor">
+        <circle cx="1560" r="10"/>
+        <text x="1560" y="0" dy="0">2.16</text>
+      </g>
+      
+      <!-- 2015-01-23: version 2.17 -->
+      <g class="version release-minor">
+        <circle cx="1567" r="10"/>
+        <text x="1567" y="0" dy="0">2.17</text>
+      </g>
+      
+      <!-- 2015-02-10: version 2.18 -->
+      <g class="version release-minor">
+        <circle cx="1573" r="10"/>
+        <text x="1573" y="0" dy="0">2.18</text>
+      </g>
+      
+      <!-- 2015-03-11: version 2.19 -->
+      <g class="version release-minor">
+        <circle cx="1583" r="10"/>
+        <text x="1583" y="0" dy="0">2.19</text>
+      </g>
+      
+      <!-- 2015-03-17: version 2.20 -->
+      <g class="version release-minor">
+        <circle cx="1585" r="10"/>
+        <text x="1585" y="0" dy="0">2.20</text>
+      </g>
+      
+      <!-- 2015-03-20: version 2.21 -->
+      <g class="version release-minor">
+        <circle cx="1586" r="10"/>
+        <text x="1586" y="0" dy="0">2.21</text>
+      </g>
+      
+      <!-- 2015-03-23: version 2.22 -->
+      <g class="version release-minor">
+        <circle cx="1587" r="10"/>
+        <text x="1587" y="0" dy="0">2.22</text>
+      </g>
+      
+      <!-- 2015-04-05: version 2.23 -->
+      <g class="version release-minor">
+        <circle cx="1591" r="10"/>
+        <text x="1591" y="0" dy="0">2.23</text>
+      </g>
+      
+      <!-- 2015-04-07: version 2.24 -->
+      <g class="version release-minor">
+        <circle cx="1592" r="10"/>
+        <text x="1592" y="0" dy="0">2.24</text>
+      </g>
+      
+      <!-- 2015-04-13: version 2.25 -->
+      <g class="version release-minor">
+        <circle cx="1594" r="10"/>
+        <text x="1594" y="0" dy="0">2.25</text>
+      </g>
+      
+      <!-- 2015-04-16: version 2.26 -->
+      <g class="version release-minor">
+        <circle cx="1595" r="10"/>
+        <text x="1595" y="0" dy="0">2.26</text>
+      </g>
+      
+      <!-- 2015-04-18: version 2.27 -->
+      <g class="version release-minor">
+        <circle cx="1596" r="10"/>
+        <text x="1596" y="0" dy="0">2.27</text>
+      </g>
+      
+      <!-- 2015-04-21: version 2.28 -->
+      <g class="version release-minor">
+        <circle cx="1597" r="10"/>
+        <text x="1597" y="0" dy="0">2.28</text>
+      </g>
+      
+      <!-- 2015-04-21: version 2.29 -->
+      <g class="version release-minor">
+        <circle cx="1597" r="10"/>
+        <text x="1597" y="0" dy="0">2.29</text>
+      </g>
+      
+      <!-- 2015-05-04: version 2.30 -->
+      <g class="version release-minor">
+        <circle cx="1601" r="10"/>
+        <text x="1601" y="0" dy="0">2.30</text>
+      </g>
+      
+      <!-- 2015-05-05: version 2.31 -->
+      <g class="version release-minor">
+        <circle cx="1601" r="10"/>
+        <text x="1601" y="0" dy="0">2.31</text>
+      </g>
+      
+      <!-- 2015-05-12: version 2.32 -->
+      <g class="version release-minor">
+        <circle cx="1603" r="10"/>
+        <text x="1603" y="0" dy="0">2.32</text>
+      </g>
+      
+      <!-- 2015-05-14: version 2.33 -->
+      <g class="version release-minor">
+        <circle cx="1604" r="10"/>
+        <text x="1604" y="0" dy="0">2.33</text>
+      </g>
+      
+      <!-- 2015-05-22: version 2.34 -->
+      <g class="version release-minor">
+        <circle cx="1607" r="10"/>
+        <text x="1607" y="0" dy="0">2.34</text>
+      </g>
+      
+      <!-- 2015-06-10: version 2.35 -->
+      <g class="version release-minor">
+        <circle cx="1613" r="10"/>
+        <text x="1613" y="0" dy="0">2.35</text>
+      </g>
+      
+      <!-- 2015-07-07: version 2.36 -->
+      <g class="version release-minor">
+        <circle cx="1622" r="10"/>
+        <text x="1622" y="0" dy="0">2.36</text>
+      </g>
+      
+      <!-- 2015-08-04: version 2.37 -->
+      <g class="version release-minor">
+        <circle cx="1631" r="10"/>
+        <text x="1631" y="0" dy="0">2.37</text>
+      </g>
+      
+      <!-- 2015-08-24: version 2.38 -->
+      <g class="version release-minor">
+        <circle cx="1637" r="10"/>
+        <text x="1637" y="0" dy="0">2.38</text>
+      </g>
+      
+      <!-- 2015-09-02: version 2.39 -->
+      <g class="version release-minor">
+        <circle cx="1640" r="10"/>
+        <text x="1640" y="0" dy="0">2.39</text>
+      </g>
+      
+      <!-- 2015-09-25: version 2.40 -->
+      <g class="version release-minor">
+        <circle cx="1648" r="10"/>
+        <text x="1648" y="0" dy="0">2.40</text>
+      </g>
+      
+      <!-- 2015-10-01: version 2.41 -->
+      <g class="version release-minor">
+        <circle cx="1650" r="10"/>
+        <text x="1650" y="0" dy="0">2.41</text>
+      </g>
+      
+      <!-- 2015-10-12: version 2.42 -->
+      <g class="version release-minor">
+        <circle cx="1653" r="10"/>
+        <text x="1653" y="0" dy="0">2.42</text>
+      </g>
+      
+      <!-- 2015-11-17: version 2.43 -->
+      <g class="version release-minor">
+        <circle cx="1665" r="10"/>
+        <text x="1665" y="0" dy="0">2.43</text>
+      </g>
+      
+      <!-- 2015-11-24: version 2.44 -->
+      <g class="version release-minor">
+        <circle cx="1668" r="10"/>
+        <text x="1668" y="0" dy="0">2.44</text>
+      </g>
+      
+      <!-- 2015-12-03: version 2.45 -->
+      <g class="version release-minor">
+        <circle cx="1670" r="10"/>
+        <text x="1670" y="0" dy="0">2.45</text>
+      </g>
+      
+      <!-- 2016-01-05: version 2.46 -->
+      <g class="version release-minor">
+        <circle cx="1681" r="10"/>
+        <text x="1681" y="0" dy="0">2.46</text>
+      </g>
+      
+      <!-- 2016-01-19: version 2.47 -->
+      <g class="version release-minor">
+        <circle cx="1686" r="10"/>
+        <text x="1686" y="0" dy="0">2.47</text>
+      </g>
+      
+      <!-- 2016-01-27: version 2.48 -->
+      <g class="version release-minor">
+        <circle cx="1688" r="10"/>
+        <text x="1688" y="0" dy="0">2.48</text>
+      </g>
+      
+      <!-- 2016-02-04: version 2.49 -->
+      <g class="version release-minor">
+        <circle cx="1691" r="10"/>
+        <text x="1691" y="0" dy="0">2.49</text>
+      </g>
+      
+      <!-- 2016-02-15: version 2.50 -->
+      <g class="version release-minor">
+        <circle cx="1695" r="10"/>
+        <text x="1695" y="0" dy="0">2.50</text>
+      </g>
+      
+      <!-- 2016-03-10: version 2.51 -->
+      <g class="version release-minor">
+        <circle cx="1703" r="10"/>
+        <text x="1703" y="0" dy="0">2.51</text>
+      </g>
+      
+      <!-- 2016-03-15: version 2.52 -->
+      <g class="version release-minor">
+        <circle cx="1704" r="10"/>
+        <text x="1704" y="0" dy="0">2.52</text>
+      </g>
+      
+      <!-- 2016-03-17: version 2.53 -->
+      <g class="version release-minor">
+        <circle cx="1705" r="10"/>
+        <text x="1705" y="0" dy="0">2.53</text>
+      </g>
+      
+      <!-- 2016-03-18: version 2.54 -->
+      <g class="version release-minor">
+        <circle cx="1705" r="10"/>
+        <text x="1705" y="0" dy="0">2.54</text>
+      </g>
+      
+      <!-- 2016-04-12: version 2.55 -->
+      <g class="version release-minor">
+        <circle cx="1714" r="10"/>
+        <text x="1714" y="0" dy="0">2.55</text>
+      </g>
+      
+      <!-- 2016-04-15: version 2.56 -->
+      <g class="version release-minor">
+        <circle cx="1715" r="10"/>
+        <text x="1715" y="0" dy="0">2.56</text>
+      </g>
+      
+      <!-- 2016-05-13: version 2.57 -->
+      <g class="version release-minor">
+        <circle cx="1724" r="10"/>
+        <text x="1724" y="0" dy="0">2.57</text>
+      </g>
+      
+      <!-- 2016-05-26: version 2.58 -->
+      <g class="version release-minor">
+        <circle cx="1728" r="10"/>
+        <text x="1728" y="0" dy="0">2.58</text>
+      </g>
+      
+      <!-- 2016-06-01: version 2.59 -->
+      <g class="version release-minor">
+        <circle cx="1730" r="10"/>
+        <text x="1730" y="0" dy="0">2.59</text>
+      </g>
+      
+      <!-- 2016-06-07: version 3 -->
+      <g class="version release-major">
+        <circle cx="1732" r="10"/>
+        <text x="1732" y="0" dy="0">3</text>
+      </g>
+      
+      <!-- 2016-06-29: version 3.0.7 -->
+      <g class="version release-patch">
+        <use x="1739" xlink:href="#longver"/>
+        <text x="1739" y="0" dy="0">3.0.7</text>
+      </g>
+      
+    </g>
+    
+    <g id="adblock-firefox" class="vendor-betafish">
+      <a xlink:href="https://getadblock.com/">
+        <text x="0" y="0" dx="1504" dy="25" class="adblocker">AdBlock for Firefox</text>
+      </a>
+      <!-- Development started: 2014-06-16 -->
+      <!-- Source for dates: http://code.getadblock.com/releases/ https://twitter.com/getadblock -->
+      <line stroke="" x1="1495" x2="1672"/>
+      <!-- Based on: AdBlock for Chrome -->
+      <line stroke="" x1="1495" x2="1495" y1="0" y2="50"/>
+      
+      <!-- 2014-09-13: version 1.1.1 -->
+      <g class="version release-patch">
+        <use x="1524" xlink:href="#longver"/>
+        <text x="1524" y="0" dy="0">1.1.1</text>
+      </g>
+      
+      <!-- 2014-11-11: version 2 -->
+      <g class="version release-major">
+        <circle cx="1543" r="10"/>
+        <text x="1543" y="0" dy="0">2</text>
+      </g>
+      
+      <!-- 2015-03-27: version 2.1 -->
+      <g class="version release-minor">
+        <circle cx="1588" r="10"/>
+        <text x="1588" y="0" dy="0">2.1</text>
+      </g>
+      
+      <!-- 2015-05-08: version 2.2 -->
+      <g class="version release-minor">
+        <circle cx="1602" r="10"/>
+        <text x="1602" y="0" dy="0">2.2</text>
+      </g>
+      
+      <!-- 2015-06-19: version 2.3 -->
+      <g class="version release-minor">
+        <circle cx="1616" r="10"/>
+        <text x="1616" y="0" dy="0">2.3</text>
+      </g>
+      
+      <!-- 2015-08-25: version 2.4 -->
+      <g class="version release-minor">
+        <circle cx="1638" r="10"/>
+        <text x="1638" y="0" dy="0">2.4</text>
+      </g>
+      
+      <!-- Development ended: 2015-12-07 -->
+      <line stroke="" x1="1672" y1="10" x2="1672" y2="-10"/>
+    </g>
+    
     <g id="adblock-chrome" class="vendor-betafish">
       <a xlink:href="https://getadblock.com/">
         <text x="0" y="0" dx="950" dy="25" class="adblocker">AdBlock for Chrome</text>
       </a>
       <!-- Development started: 2010-01-26 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/ -->
-      <line stroke="" x1="968" x2="1724"/>
+      <line stroke="" x1="968" x2="1739"/>
       
       <!-- 2010-02-01: version 1.3.10 -->
       <g class="version release-patch">
@@ -1437,750 +2267,52 @@
         <text x="1724" y="0" dy="0">2.57</text>
       </g>
       
-    </g>
-    
-    <g id="adblock-firefox" class="vendor-betafish">
-      <a xlink:href="https://getadblock.com/">
-        <text x="0" y="0" dx="1504" dy="25" class="adblocker">AdBlock for Firefox</text>
-      </a>
-      <!-- Development started: 2014-06-16 -->
-      <!-- Source for dates: http://code.getadblock.com/releases/ https://twitter.com/getadblock -->
-      <line stroke="" x1="1495" x2="1672"/>
-      <!-- Based on: AdBlock for Chrome -->
-      <line stroke="" x1="1495" x2="1495" y1="0" y2="-50"/>
-      
-      <!-- 2014-09-13: version 1.1.1 -->
-      <g class="version release-patch">
-        <use x="1524" xlink:href="#longver"/>
-        <text x="1524" y="0" dy="0">1.1.1</text>
+      <!-- 2016-05-26: version 2.58 -->
+      <g class="version release-minor">
+        <circle cx="1728" r="10"/>
+        <text x="1728" y="0" dy="0">2.58</text>
       </g>
       
-      <!-- 2014-11-11: version 2 -->
+      <!-- 2016-06-01: version 2.59 -->
+      <g class="version release-minor">
+        <circle cx="1730" r="10"/>
+        <text x="1730" y="0" dy="0">2.59</text>
+      </g>
+      
+      <!-- 2016-06-07: version 3 -->
       <g class="version release-major">
-        <circle cx="1543" r="10"/>
-        <text x="1543" y="0" dy="0">2</text>
+        <circle cx="1732" r="10"/>
+        <text x="1732" y="0" dy="0">3</text>
       </g>
       
-      <!-- 2015-03-27: version 2.1 -->
-      <g class="version release-minor">
-        <circle cx="1588" r="10"/>
-        <text x="1588" y="0" dy="0">2.1</text>
-      </g>
-      
-      <!-- 2015-05-08: version 2.2 -->
-      <g class="version release-minor">
-        <circle cx="1602" r="10"/>
-        <text x="1602" y="0" dy="0">2.2</text>
-      </g>
-      
-      <!-- 2015-06-19: version 2.3 -->
-      <g class="version release-minor">
-        <circle cx="1616" r="10"/>
-        <text x="1616" y="0" dy="0">2.3</text>
-      </g>
-      
-      <!-- 2015-08-25: version 2.4 -->
-      <g class="version release-minor">
-        <circle cx="1638" r="10"/>
-        <text x="1638" y="0" dy="0">2.4</text>
-      </g>
-      
-      <!-- Development ended: 2015-12-07 -->
-      <line stroke="" x1="1672" y1="10" x2="1672" y2="-10"/>
-    </g>
-    
-    <g id="adblock-opera" class="vendor-betafish">
-      <a xlink:href="https://getadblock.com/">
-        <text x="0" y="0" dx="1258" dy="25" class="adblocker">AdBlock for Opera</text>
-      </a>
-      <!-- Development started: 2012-08-17 -->
-      <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
-      <line stroke="" x1="1275" x2="1724"/>
-      <!-- Based on: AdBlock for Chrome -->
-      <line stroke="" x1="1275" x2="1275" y1="0" y2="-100"/>
-      
-      <!-- 2012-08-27: version 2.5.42 -->
+      <!-- 2016-06-29: version 3.0.7 -->
       <g class="version release-patch">
-        <use x="1278" xlink:href="#longver"/>
-        <text x="1278" y="0" dy="0">2.5.42</text>
-      </g>
-      
-      <!-- 2013-06-24: version 2.6 -->
-      <g class="version release-minor">
-        <circle cx="1378" r="10"/>
-        <text x="1378" y="0" dy="0">2.6</text>
-      </g>
-      
-      <!-- 2014-06-06: version 2.7 -->
-      <g class="version release-minor">
-        <circle cx="1492" r="10"/>
-        <text x="1492" y="0" dy="0">2.7</text>
-      </g>
-      
-      <!-- 2014-08-28: version 2.8 -->
-      <g class="version release-minor">
-        <circle cx="1519" r="10"/>
-        <text x="1519" y="0" dy="0">2.8</text>
-      </g>
-      
-      <!-- 2014-09-17: version 2.9 -->
-      <g class="version release-minor">
-        <circle cx="1525" r="10"/>
-        <text x="1525" y="0" dy="0">2.9</text>
-      </g>
-      
-      <!-- 2014-10-06: version 2.10 -->
-      <g class="version release-minor">
-        <circle cx="1531" r="10"/>
-        <text x="1531" y="0" dy="0">2.10</text>
-      </g>
-      
-      <!-- 2014-10-13: version 2.11 -->
-      <g class="version release-minor">
-        <circle cx="1534" r="10"/>
-        <text x="1534" y="0" dy="0">2.11</text>
-      </g>
-      
-      <!-- 2014-10-22: version 2.12 -->
-      <g class="version release-minor">
-        <circle cx="1537" r="10"/>
-        <text x="1537" y="0" dy="0">2.12</text>
-      </g>
-      
-      <!-- 2014-10-31: version 2.13 -->
-      <g class="version release-minor">
-        <circle cx="1540" r="10"/>
-        <text x="1540" y="0" dy="0">2.13</text>
-      </g>
-      
-      <!-- 2014-11-24: version 2.14 -->
-      <g class="version release-minor">
-        <circle cx="1548" r="10"/>
-        <text x="1548" y="0" dy="0">2.14</text>
-      </g>
-      
-      <!-- 2014-12-09: version 2.15 -->
-      <g class="version release-minor">
-        <circle cx="1552" r="10"/>
-        <text x="1552" y="0" dy="0">2.15</text>
-      </g>
-      
-      <!-- 2015-01-02: version 2.16 -->
-      <g class="version release-minor">
-        <circle cx="1560" r="10"/>
-        <text x="1560" y="0" dy="0">2.16</text>
-      </g>
-      
-      <!-- 2015-01-23: version 2.17 -->
-      <g class="version release-minor">
-        <circle cx="1567" r="10"/>
-        <text x="1567" y="0" dy="0">2.17</text>
-      </g>
-      
-      <!-- 2015-02-10: version 2.18 -->
-      <g class="version release-minor">
-        <circle cx="1573" r="10"/>
-        <text x="1573" y="0" dy="0">2.18</text>
-      </g>
-      
-      <!-- 2015-03-11: version 2.19 -->
-      <g class="version release-minor">
-        <circle cx="1583" r="10"/>
-        <text x="1583" y="0" dy="0">2.19</text>
-      </g>
-      
-      <!-- 2015-03-17: version 2.20 -->
-      <g class="version release-minor">
-        <circle cx="1585" r="10"/>
-        <text x="1585" y="0" dy="0">2.20</text>
-      </g>
-      
-      <!-- 2015-03-20: version 2.21 -->
-      <g class="version release-minor">
-        <circle cx="1586" r="10"/>
-        <text x="1586" y="0" dy="0">2.21</text>
-      </g>
-      
-      <!-- 2015-03-23: version 2.22 -->
-      <g class="version release-minor">
-        <circle cx="1587" r="10"/>
-        <text x="1587" y="0" dy="0">2.22</text>
-      </g>
-      
-      <!-- 2015-04-05: version 2.23 -->
-      <g class="version release-minor">
-        <circle cx="1591" r="10"/>
-        <text x="1591" y="0" dy="0">2.23</text>
-      </g>
-      
-      <!-- 2015-04-07: version 2.24 -->
-      <g class="version release-minor">
-        <circle cx="1592" r="10"/>
-        <text x="1592" y="0" dy="0">2.24</text>
-      </g>
-      
-      <!-- 2015-04-13: version 2.25 -->
-      <g class="version release-minor">
-        <circle cx="1594" r="10"/>
-        <text x="1594" y="0" dy="0">2.25</text>
-      </g>
-      
-      <!-- 2015-04-16: version 2.26 -->
-      <g class="version release-minor">
-        <circle cx="1595" r="10"/>
-        <text x="1595" y="0" dy="0">2.26</text>
-      </g>
-      
-      <!-- 2015-04-18: version 2.27 -->
-      <g class="version release-minor">
-        <circle cx="1596" r="10"/>
-        <text x="1596" y="0" dy="0">2.27</text>
-      </g>
-      
-      <!-- 2015-04-21: version 2.28 -->
-      <g class="version release-minor">
-        <circle cx="1597" r="10"/>
-        <text x="1597" y="0" dy="0">2.28</text>
-      </g>
-      
-      <!-- 2015-04-21: version 2.29 -->
-      <g class="version release-minor">
-        <circle cx="1597" r="10"/>
-        <text x="1597" y="0" dy="0">2.29</text>
-      </g>
-      
-      <!-- 2015-05-04: version 2.30 -->
-      <g class="version release-minor">
-        <circle cx="1601" r="10"/>
-        <text x="1601" y="0" dy="0">2.30</text>
-      </g>
-      
-      <!-- 2015-05-05: version 2.31 -->
-      <g class="version release-minor">
-        <circle cx="1601" r="10"/>
-        <text x="1601" y="0" dy="0">2.31</text>
-      </g>
-      
-      <!-- 2015-05-12: version 2.32 -->
-      <g class="version release-minor">
-        <circle cx="1603" r="10"/>
-        <text x="1603" y="0" dy="0">2.32</text>
-      </g>
-      
-      <!-- 2015-05-14: version 2.33 -->
-      <g class="version release-minor">
-        <circle cx="1604" r="10"/>
-        <text x="1604" y="0" dy="0">2.33</text>
-      </g>
-      
-      <!-- 2015-05-22: version 2.34 -->
-      <g class="version release-minor">
-        <circle cx="1607" r="10"/>
-        <text x="1607" y="0" dy="0">2.34</text>
-      </g>
-      
-      <!-- 2015-06-10: version 2.35 -->
-      <g class="version release-minor">
-        <circle cx="1613" r="10"/>
-        <text x="1613" y="0" dy="0">2.35</text>
-      </g>
-      
-      <!-- 2015-07-07: version 2.36 -->
-      <g class="version release-minor">
-        <circle cx="1622" r="10"/>
-        <text x="1622" y="0" dy="0">2.36</text>
-      </g>
-      
-      <!-- 2015-08-04: version 2.37 -->
-      <g class="version release-minor">
-        <circle cx="1631" r="10"/>
-        <text x="1631" y="0" dy="0">2.37</text>
-      </g>
-      
-      <!-- 2015-08-24: version 2.38 -->
-      <g class="version release-minor">
-        <circle cx="1637" r="10"/>
-        <text x="1637" y="0" dy="0">2.38</text>
-      </g>
-      
-      <!-- 2015-09-02: version 2.39 -->
-      <g class="version release-minor">
-        <circle cx="1640" r="10"/>
-        <text x="1640" y="0" dy="0">2.39</text>
-      </g>
-      
-      <!-- 2015-09-25: version 2.40 -->
-      <g class="version release-minor">
-        <circle cx="1648" r="10"/>
-        <text x="1648" y="0" dy="0">2.40</text>
-      </g>
-      
-      <!-- 2015-10-01: version 2.41 -->
-      <g class="version release-minor">
-        <circle cx="1650" r="10"/>
-        <text x="1650" y="0" dy="0">2.41</text>
-      </g>
-      
-      <!-- 2015-10-12: version 2.42 -->
-      <g class="version release-minor">
-        <circle cx="1653" r="10"/>
-        <text x="1653" y="0" dy="0">2.42</text>
-      </g>
-      
-      <!-- 2015-11-17: version 2.43 -->
-      <g class="version release-minor">
-        <circle cx="1665" r="10"/>
-        <text x="1665" y="0" dy="0">2.43</text>
-      </g>
-      
-      <!-- 2015-11-24: version 2.44 -->
-      <g class="version release-minor">
-        <circle cx="1668" r="10"/>
-        <text x="1668" y="0" dy="0">2.44</text>
-      </g>
-      
-      <!-- 2015-12-03: version 2.45 -->
-      <g class="version release-minor">
-        <circle cx="1670" r="10"/>
-        <text x="1670" y="0" dy="0">2.45</text>
-      </g>
-      
-      <!-- 2016-01-05: version 2.46 -->
-      <g class="version release-minor">
-        <circle cx="1681" r="10"/>
-        <text x="1681" y="0" dy="0">2.46</text>
-      </g>
-      
-      <!-- 2016-01-19: version 2.47 -->
-      <g class="version release-minor">
-        <circle cx="1686" r="10"/>
-        <text x="1686" y="0" dy="0">2.47</text>
-      </g>
-      
-      <!-- 2016-01-27: version 2.48 -->
-      <g class="version release-minor">
-        <circle cx="1688" r="10"/>
-        <text x="1688" y="0" dy="0">2.48</text>
-      </g>
-      
-      <!-- 2016-02-04: version 2.49 -->
-      <g class="version release-minor">
-        <circle cx="1691" r="10"/>
-        <text x="1691" y="0" dy="0">2.49</text>
-      </g>
-      
-      <!-- 2016-02-15: version 2.50 -->
-      <g class="version release-minor">
-        <circle cx="1695" r="10"/>
-        <text x="1695" y="0" dy="0">2.50</text>
-      </g>
-      
-      <!-- 2016-03-10: version 2.51 -->
-      <g class="version release-minor">
-        <circle cx="1703" r="10"/>
-        <text x="1703" y="0" dy="0">2.51</text>
-      </g>
-      
-      <!-- 2016-03-15: version 2.52 -->
-      <g class="version release-minor">
-        <circle cx="1704" r="10"/>
-        <text x="1704" y="0" dy="0">2.52</text>
-      </g>
-      
-      <!-- 2016-03-17: version 2.53 -->
-      <g class="version release-minor">
-        <circle cx="1705" r="10"/>
-        <text x="1705" y="0" dy="0">2.53</text>
-      </g>
-      
-      <!-- 2016-03-18: version 2.54 -->
-      <g class="version release-minor">
-        <circle cx="1705" r="10"/>
-        <text x="1705" y="0" dy="0">2.54</text>
-      </g>
-      
-      <!-- 2016-04-12: version 2.55 -->
-      <g class="version release-minor">
-        <circle cx="1714" r="10"/>
-        <text x="1714" y="0" dy="0">2.55</text>
-      </g>
-      
-      <!-- 2016-04-15: version 2.56 -->
-      <g class="version release-minor">
-        <circle cx="1715" r="10"/>
-        <text x="1715" y="0" dy="0">2.56</text>
-      </g>
-      
-      <!-- 2016-05-13: version 2.57 -->
-      <g class="version release-minor">
-        <circle cx="1724" r="10"/>
-        <text x="1724" y="0" dy="0">2.57</text>
+        <use x="1739" xlink:href="#longver"/>
+        <text x="1739" y="0" dy="0">3.0.7</text>
       </g>
       
     </g>
     
-    <g id="adblock-safari" class="vendor-betafish">
+    <g id="adblock-edge" class="vendor-betafish">
       <a xlink:href="https://getadblock.com/">
-        <text x="0" y="0" dx="993" dy="25" class="adblocker">AdBlock for Safari</text>
+        <text x="0" y="0" dx="1703" dy="25" class="adblocker">AdBlock for Edge</text>
       </a>
-      <!-- Development started: 2010-06-11 -->
-      <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
-      <line stroke="" x1="1013" x2="1724"/>
+      <!-- Development started: 2016-05-11 -->
+      <!-- Source for dates: http://code.getadblock.com/releases/ -->
+      <line stroke="" x1="1723" x2="1732"/>
       <!-- Based on: AdBlock for Chrome -->
-      <line stroke="" x1="1013" x2="1013" y1="0" y2="-150"/>
+      <line stroke="" x1="1723" x2="1723" y1="0" y2="-50"/>
       
-      <!-- 2010-06-11: version 1.4.31 -->
+      <!-- 2016-05-12: version 0.9.6 -->
       <g class="version release-patch">
-        <use x="1013" xlink:href="#longver"/>
-        <text x="1013" y="0" dy="0">1.4.31</text>
+        <use x="1723" xlink:href="#longver"/>
+        <text x="1723" y="0" dy="0">0.9.6</text>
       </g>
       
-      <!-- 2010-06-16: version 2 -->
-      <g class="version release-major">
-        <circle cx="1015" r="10"/>
-        <text x="1015" y="0" dy="0">2</text>
-      </g>
-      
-      <!-- 2010-08-29: version 2.1 -->
-      <g class="version release-minor">
-        <circle cx="1039" r="10"/>
-        <text x="1039" y="0" dy="0">2.1</text>
-      </g>
-      
-      <!-- 2010-10-03: version 2.2 -->
-      <g class="version release-minor">
-        <circle cx="1050" r="10"/>
-        <text x="1050" y="0" dy="0">2.2</text>
-      </g>
-      
-      <!-- 2011-02-10: version 2.3 -->
-      <g class="version release-minor">
-        <circle cx="1093" r="10"/>
-        <text x="1093" y="0" dy="0">2.3</text>
-      </g>
-      
-      <!-- 2011-05-03: version 2.4 -->
-      <g class="version release-minor">
-        <circle cx="1120" r="10"/>
-        <text x="1120" y="0" dy="0">2.4</text>
-      </g>
-      
-      <!-- 2011-11-29: version 2.5 -->
-      <g class="version release-minor">
-        <circle cx="1189" r="10"/>
-        <text x="1189" y="0" dy="0">2.5</text>
-      </g>
-      
-      <!-- 2013-06-24: version 2.6 -->
-      <g class="version release-minor">
-        <circle cx="1378" r="10"/>
-        <text x="1378" y="0" dy="0">2.6</text>
-      </g>
-      
-      <!-- 2014-06-06: version 2.7 -->
-      <g class="version release-minor">
-        <circle cx="1492" r="10"/>
-        <text x="1492" y="0" dy="0">2.7</text>
-      </g>
-      
-      <!-- 2014-08-28: version 2.8 -->
-      <g class="version release-minor">
-        <circle cx="1519" r="10"/>
-        <text x="1519" y="0" dy="0">2.8</text>
-      </g>
-      
-      <!-- 2014-09-17: version 2.9 -->
-      <g class="version release-minor">
-        <circle cx="1525" r="10"/>
-        <text x="1525" y="0" dy="0">2.9</text>
-      </g>
-      
-      <!-- 2014-10-06: version 2.10 -->
-      <g class="version release-minor">
-        <circle cx="1531" r="10"/>
-        <text x="1531" y="0" dy="0">2.10</text>
-      </g>
-      
-      <!-- 2014-10-13: version 2.11 -->
-      <g class="version release-minor">
-        <circle cx="1534" r="10"/>
-        <text x="1534" y="0" dy="0">2.11</text>
-      </g>
-      
-      <!-- 2014-10-22: version 2.12 -->
-      <g class="version release-minor">
-        <circle cx="1537" r="10"/>
-        <text x="1537" y="0" dy="0">2.12</text>
-      </g>
-      
-      <!-- 2014-10-31: version 2.13 -->
-      <g class="version release-minor">
-        <circle cx="1540" r="10"/>
-        <text x="1540" y="0" dy="0">2.13</text>
-      </g>
-      
-      <!-- 2014-11-24: version 2.14 -->
-      <g class="version release-minor">
-        <circle cx="1548" r="10"/>
-        <text x="1548" y="0" dy="0">2.14</text>
-      </g>
-      
-      <!-- 2014-12-09: version 2.15 -->
-      <g class="version release-minor">
-        <circle cx="1552" r="10"/>
-        <text x="1552" y="0" dy="0">2.15</text>
-      </g>
-      
-      <!-- 2015-01-02: version 2.16 -->
-      <g class="version release-minor">
-        <circle cx="1560" r="10"/>
-        <text x="1560" y="0" dy="0">2.16</text>
-      </g>
-      
-      <!-- 2015-01-23: version 2.17 -->
-      <g class="version release-minor">
-        <circle cx="1567" r="10"/>
-        <text x="1567" y="0" dy="0">2.17</text>
-      </g>
-      
-      <!-- 2015-02-10: version 2.18 -->
-      <g class="version release-minor">
-        <circle cx="1573" r="10"/>
-        <text x="1573" y="0" dy="0">2.18</text>
-      </g>
-      
-      <!-- 2015-03-11: version 2.19 -->
-      <g class="version release-minor">
-        <circle cx="1583" r="10"/>
-        <text x="1583" y="0" dy="0">2.19</text>
-      </g>
-      
-      <!-- 2015-03-17: version 2.20 -->
-      <g class="version release-minor">
-        <circle cx="1585" r="10"/>
-        <text x="1585" y="0" dy="0">2.20</text>
-      </g>
-      
-      <!-- 2015-03-20: version 2.21 -->
-      <g class="version release-minor">
-        <circle cx="1586" r="10"/>
-        <text x="1586" y="0" dy="0">2.21</text>
-      </g>
-      
-      <!-- 2015-03-23: version 2.22 -->
-      <g class="version release-minor">
-        <circle cx="1587" r="10"/>
-        <text x="1587" y="0" dy="0">2.22</text>
-      </g>
-      
-      <!-- 2015-04-05: version 2.23 -->
-      <g class="version release-minor">
-        <circle cx="1591" r="10"/>
-        <text x="1591" y="0" dy="0">2.23</text>
-      </g>
-      
-      <!-- 2015-04-07: version 2.24 -->
-      <g class="version release-minor">
-        <circle cx="1592" r="10"/>
-        <text x="1592" y="0" dy="0">2.24</text>
-      </g>
-      
-      <!-- 2015-04-13: version 2.25 -->
-      <g class="version release-minor">
-        <circle cx="1594" r="10"/>
-        <text x="1594" y="0" dy="0">2.25</text>
-      </g>
-      
-      <!-- 2015-04-16: version 2.26 -->
-      <g class="version release-minor">
-        <circle cx="1595" r="10"/>
-        <text x="1595" y="0" dy="0">2.26</text>
-      </g>
-      
-      <!-- 2015-04-18: version 2.27 -->
-      <g class="version release-minor">
-        <circle cx="1596" r="10"/>
-        <text x="1596" y="0" dy="0">2.27</text>
-      </g>
-      
-      <!-- 2015-04-21: version 2.28 -->
-      <g class="version release-minor">
-        <circle cx="1597" r="10"/>
-        <text x="1597" y="0" dy="0">2.28</text>
-      </g>
-      
-      <!-- 2015-04-21: version 2.29 -->
-      <g class="version release-minor">
-        <circle cx="1597" r="10"/>
-        <text x="1597" y="0" dy="0">2.29</text>
-      </g>
-      
-      <!-- 2015-05-04: version 2.30 -->
-      <g class="version release-minor">
-        <circle cx="1601" r="10"/>
-        <text x="1601" y="0" dy="0">2.30</text>
-      </g>
-      
-      <!-- 2015-05-05: version 2.31 -->
-      <g class="version release-minor">
-        <circle cx="1601" r="10"/>
-        <text x="1601" y="0" dy="0">2.31</text>
-      </g>
-      
-      <!-- 2015-05-12: version 2.32 -->
-      <g class="version release-minor">
-        <circle cx="1603" r="10"/>
-        <text x="1603" y="0" dy="0">2.32</text>
-      </g>
-      
-      <!-- 2015-05-14: version 2.33 -->
-      <g class="version release-minor">
-        <circle cx="1604" r="10"/>
-        <text x="1604" y="0" dy="0">2.33</text>
-      </g>
-      
-      <!-- 2015-05-22: version 2.34 -->
-      <g class="version release-minor">
-        <circle cx="1607" r="10"/>
-        <text x="1607" y="0" dy="0">2.34</text>
-      </g>
-      
-      <!-- 2015-06-10: version 2.35 -->
-      <g class="version release-minor">
-        <circle cx="1613" r="10"/>
-        <text x="1613" y="0" dy="0">2.35</text>
-      </g>
-      
-      <!-- 2015-07-07: version 2.36 -->
-      <g class="version release-minor">
-        <circle cx="1622" r="10"/>
-        <text x="1622" y="0" dy="0">2.36</text>
-      </g>
-      
-      <!-- 2015-08-04: version 2.37 -->
-      <g class="version release-minor">
-        <circle cx="1631" r="10"/>
-        <text x="1631" y="0" dy="0">2.37</text>
-      </g>
-      
-      <!-- 2015-08-24: version 2.38 -->
-      <g class="version release-minor">
-        <circle cx="1637" r="10"/>
-        <text x="1637" y="0" dy="0">2.38</text>
-      </g>
-      
-      <!-- 2015-09-02: version 2.39 -->
-      <g class="version release-minor">
-        <circle cx="1640" r="10"/>
-        <text x="1640" y="0" dy="0">2.39</text>
-      </g>
-      
-      <!-- 2015-09-25: version 2.40 -->
-      <g class="version release-minor">
-        <circle cx="1648" r="10"/>
-        <text x="1648" y="0" dy="0">2.40</text>
-      </g>
-      
-      <!-- 2015-10-01: version 2.41 -->
-      <g class="version release-minor">
-        <circle cx="1650" r="10"/>
-        <text x="1650" y="0" dy="0">2.41</text>
-      </g>
-      
-      <!-- 2015-10-12: version 2.42 -->
-      <g class="version release-minor">
-        <circle cx="1653" r="10"/>
-        <text x="1653" y="0" dy="0">2.42</text>
-      </g>
-      
-      <!-- 2015-11-17: version 2.43 -->
-      <g class="version release-minor">
-        <circle cx="1665" r="10"/>
-        <text x="1665" y="0" dy="0">2.43</text>
-      </g>
-      
-      <!-- 2015-11-24: version 2.44 -->
-      <g class="version release-minor">
-        <circle cx="1668" r="10"/>
-        <text x="1668" y="0" dy="0">2.44</text>
-      </g>
-      
-      <!-- 2015-12-03: version 2.45 -->
-      <g class="version release-minor">
-        <circle cx="1670" r="10"/>
-        <text x="1670" y="0" dy="0">2.45</text>
-      </g>
-      
-      <!-- 2016-01-05: version 2.46 -->
-      <g class="version release-minor">
-        <circle cx="1681" r="10"/>
-        <text x="1681" y="0" dy="0">2.46</text>
-      </g>
-      
-      <!-- 2016-01-19: version 2.47 -->
-      <g class="version release-minor">
-        <circle cx="1686" r="10"/>
-        <text x="1686" y="0" dy="0">2.47</text>
-      </g>
-      
-      <!-- 2016-01-27: version 2.48 -->
-      <g class="version release-minor">
-        <circle cx="1688" r="10"/>
-        <text x="1688" y="0" dy="0">2.48</text>
-      </g>
-      
-      <!-- 2016-02-04: version 2.49 -->
-      <g class="version release-minor">
-        <circle cx="1691" r="10"/>
-        <text x="1691" y="0" dy="0">2.49</text>
-      </g>
-      
-      <!-- 2016-02-15: version 2.50 -->
-      <g class="version release-minor">
-        <circle cx="1695" r="10"/>
-        <text x="1695" y="0" dy="0">2.50</text>
-      </g>
-      
-      <!-- 2016-03-10: version 2.51 -->
-      <g class="version release-minor">
-        <circle cx="1703" r="10"/>
-        <text x="1703" y="0" dy="0">2.51</text>
-      </g>
-      
-      <!-- 2016-03-15: version 2.52 -->
-      <g class="version release-minor">
-        <circle cx="1704" r="10"/>
-        <text x="1704" y="0" dy="0">2.52</text>
-      </g>
-      
-      <!-- 2016-03-17: version 2.53 -->
-      <g class="version release-minor">
-        <circle cx="1705" r="10"/>
-        <text x="1705" y="0" dy="0">2.53</text>
-      </g>
-      
-      <!-- 2016-03-18: version 2.54 -->
-      <g class="version release-minor">
-        <circle cx="1705" r="10"/>
-        <text x="1705" y="0" dy="0">2.54</text>
-      </g>
-      
-      <!-- 2016-04-12: version 2.55 -->
-      <g class="version release-minor">
-        <circle cx="1714" r="10"/>
-        <text x="1714" y="0" dy="0">2.55</text>
-      </g>
-      
-      <!-- 2016-04-15: version 2.56 -->
-      <g class="version release-minor">
-        <circle cx="1715" r="10"/>
-        <text x="1715" y="0" dy="0">2.56</text>
-      </g>
-      
-      <!-- 2016-05-13: version 2.57 -->
-      <g class="version release-minor">
-        <circle cx="1724" r="10"/>
-        <text x="1724" y="0" dy="0">2.57</text>
+      <!-- 2016-06-08: version 0.9.12 -->
+      <g class="version release-patch">
+        <use x="1732" xlink:href="#longver"/>
+        <text x="1732" y="0" dy="0">0.9.12</text>
       </g>
       
     </g>
@@ -2213,30 +2345,14 @@
       
     </g>
     
-    <g id="adblock-edge" class="vendor-betafish">
-      <a xlink:href="https://getadblock.com/">
-        <text x="0" y="0" dx="1703" dy="25" class="adblocker">AdBlock for Edge</text>
-      </a>
-      <!-- Development started: 2016-05-11 -->
-      <!-- Source for dates: https://twitter.com/getadblock/status/730404487265923073 -->
-      <line stroke="" x1="1723" x2="1723"/>
-      
-      <!-- 2016-05-11: version dev -->
-      <g class="version release-patch">
-        <circle cx="1723" r="10"/>
-        <text x="1723" y="0" dy="0">dev</text>
-      </g>
-      
-    </g>
-    
     
     <g id="adblockplus-core" class="engine vendor-eyeo">
       <text x="490" y="180" dy="0">Adblock Plus engine</text>
-      <polygon points="1920,35 1255,35 1255,65 1255,185 470,185 470,215 939,215 939,235 939,265 1055,265 1055,235 1055,265 1275,265 1275,485 1275,515 1312,515 1312,535 1312,565 1414,565 1414,585 1414,615 1920,615 " opacity="0.12"/>
+      <polygon points="1920,35 1255,35 1255,65 1255,185 470,185 470,215 939,215 939,235 939,265 1055,265 1055,235 1055,265 1275,265 1275,485 1275,515 1312,515 1312,535 1312,565 1414,565 1414,585 1414,615 1717,615 1717,685 1717,715 1717,715 1717,735 1717,765 1717,765 1717,835 1717,865 1920,865 " opacity="0.12"/>
     </g>
     <g id="adblock" class="engine vendor-betafish">
-      <text x="973" y="680" dy="0">AdBlock engine</text>
-      <polygon points="1920,685 953,685 953,715 998,715 998,835 998,865 1920,865 " opacity="0.12"/>
+      <text x="973" y="830" dy="0">AdBlock engine</text>
+      <polygon points="1920,685 998,685 998,715 998,835 953,835 953,865 1708,865 1708,885 1708,915 1920,915 " opacity="0.12"/>
     </g>
     
     <g id="content">
@@ -2263,12 +2379,12 @@
       <use y="550" xlink:href="#adblockplus-ie"/>
       <use y="600" xlink:href="#adblockplus-android"/>
       <use y="650" xlink:href="#adblockplus-ios"/>
-      <use y="700" xlink:href="#adblock-chrome"/>
-      <use y="750" xlink:href="#adblock-firefox"/>
-      <use y="800" xlink:href="#adblock-opera"/>
-      <use y="850" xlink:href="#adblock-safari"/>
-      <use y="900" xlink:href="#adblock-ios"/>
-      <use y="950" xlink:href="#adblock-edge"/>
+      <use y="700" xlink:href="#adblock-safari"/>
+      <use y="750" xlink:href="#adblock-opera"/>
+      <use y="800" xlink:href="#adblock-firefox"/>
+      <use y="850" xlink:href="#adblock-chrome"/>
+      <use y="900" xlink:href="#adblock-edge"/>
+      <use y="950" xlink:href="#adblock-ios"/>
     </g>
     
     <g id="created">
@@ -2280,6 +2396,6 @@
   
   <rect x="0" y="0" height="100%" width="100%" fill="#ffffff"/>
   <rect x="0" y="0" height="100%" width="100%" style="fill: url(#bglines);"/>
-  <use x="1726" y="0" xlink:href="#created"/>
+  <use x="1740" y="0" xlink:href="#created"/>
   <use x="0" y="0" xlink:href="#content"/>
 </svg>
