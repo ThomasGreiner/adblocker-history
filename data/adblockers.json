@@ -43,7 +43,7 @@
     "base": "adblockplus-firefox",
     "name": "Adblock Browser for Android",
     "link": "https://adblockbrowser.org",
-    "source": "https://bitbucket.org/adblockplus/adblockbrowser/",
+    "source": "https://hg.adblockplus.org/adblockbrowser/",
     "vendor": "eyeo",
     "started": "2014-08-01",
     "releases": [
@@ -57,7 +57,7 @@
     "base": "adblockplus-chrome",
     "name": "Adblock Browser for iOS",
     "link": "https://adblockbrowser.org",
-    "source": "https://adblockplus.org/releases/ (start date is approximated)",
+    "source": "https://adblockplus.org/releases/ (start date is approximated), https://bitbucket.org/adblockplus/adblockplusadblockbrowserios/",
     "vendor": "eyeo",
     "started": "2015-01-01",
     "releases": [
