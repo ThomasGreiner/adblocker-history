@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: 2016-11-22T22:17:57.789Z -->
+<!-- Creation date: 2016-11-22T22:23:07.010Z -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1050">
@@ -1161,7 +1161,7 @@
       <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
       <line stroke="" x1="1013" x2="1787"/>
       <!-- Based on: AdBlock for Chrome -->
-      <line stroke="" x1="1013" x2="1013" y1="0" y2="150"/>
+      <line stroke="" x1="1013" x2="1013" y1="0" y2="100"/>
       
       <!-- 2010-06-11: version 1.4.31 -->
       <g class="version release-patch">
@@ -1581,7 +1581,7 @@
       <!-- Source for dates: https://code.google.com/p/adblockforchrome/, http://code.getadblock.com/releases/ -->
       <line stroke="" x1="1275" x2="1787"/>
       <!-- Based on: AdBlock for Chrome -->
-      <line stroke="" x1="1275" x2="1275" y1="0" y2="100"/>
+      <line stroke="" x1="1275" x2="1275" y1="0" y2="50"/>
       
       <!-- 2012-08-27: version 2.5.42 -->
       <g class="version release-patch">
@@ -1953,60 +1953,6 @@
       <g class="version release-minor">
         <circle cx="1787" r="10"/>
         <text x="1787" y="0" dy="0">3.6</text>
-      </g>
-      
-    </g>
-    
-    <g id="adblock-firefox" class="vendor-betafish">
-      <a xlink:href="https://getadblock.com/">
-        <text x="0" y="0" dx="1504" dy="25" class="adblocker">AdBlock for Firefox</text>
-      </a>
-      <!-- Development started: 2014-06-16 -->
-      <!-- Source for dates: http://code.getadblock.com/releases/ https://twitter.com/getadblock -->
-      <line stroke="" x1="1495" x2="1785"/>
-      <!-- Based on: AdBlock for Chrome -->
-      <line stroke="" x1="1495" x2="1495" y1="0" y2="50"/>
-      
-      <!-- 2014-09-13: version 1.1.1 -->
-      <g class="version release-patch">
-        <use x="1524" xlink:href="#longver"/>
-        <text x="1524" y="0" dy="0">1.1.1</text>
-      </g>
-      
-      <!-- 2014-11-11: version 2 -->
-      <g class="version release-major">
-        <circle cx="1543" r="10"/>
-        <text x="1543" y="0" dy="0">2</text>
-      </g>
-      
-      <!-- 2015-03-27: version 2.1 -->
-      <g class="version release-minor">
-        <circle cx="1588" r="10"/>
-        <text x="1588" y="0" dy="0">2.1</text>
-      </g>
-      
-      <!-- 2015-05-08: version 2.2 -->
-      <g class="version release-minor">
-        <circle cx="1602" r="10"/>
-        <text x="1602" y="0" dy="0">2.2</text>
-      </g>
-      
-      <!-- 2015-06-19: version 2.3 -->
-      <g class="version release-minor">
-        <circle cx="1616" r="10"/>
-        <text x="1616" y="0" dy="0">2.3</text>
-      </g>
-      
-      <!-- 2015-08-25: version 2.4 -->
-      <g class="version release-minor">
-        <circle cx="1638" r="10"/>
-        <text x="1638" y="0" dy="0">2.4</text>
-      </g>
-      
-      <!-- 2016-11-17: version 2.5 -->
-      <g class="version release-minor">
-        <circle cx="1785" r="10"/>
-        <text x="1785" y="0" dy="0">2.5</text>
       </g>
       
     </g>
@@ -2501,6 +2447,60 @@
       
     </g>
     
+    <g id="adblock-firefox" class="vendor-betafish">
+      <a xlink:href="https://getadblock.com/">
+        <text x="0" y="0" dx="1504" dy="25" class="adblocker">AdBlock for Firefox</text>
+      </a>
+      <!-- Development started: 2014-06-16 -->
+      <!-- Source for dates: http://code.getadblock.com/releases/ https://twitter.com/getadblock -->
+      <line stroke="" x1="1495" x2="1785"/>
+      <!-- Based on: AdBlock for Chrome -->
+      <line stroke="" x1="1495" x2="1495" y1="0" y2="-100"/>
+      
+      <!-- 2014-09-13: version 1.1.1 -->
+      <g class="version release-patch">
+        <use x="1524" xlink:href="#longver"/>
+        <text x="1524" y="0" dy="0">1.1.1</text>
+      </g>
+      
+      <!-- 2014-11-11: version 2 -->
+      <g class="version release-major">
+        <circle cx="1543" r="10"/>
+        <text x="1543" y="0" dy="0">2</text>
+      </g>
+      
+      <!-- 2015-03-27: version 2.1 -->
+      <g class="version release-minor">
+        <circle cx="1588" r="10"/>
+        <text x="1588" y="0" dy="0">2.1</text>
+      </g>
+      
+      <!-- 2015-05-08: version 2.2 -->
+      <g class="version release-minor">
+        <circle cx="1602" r="10"/>
+        <text x="1602" y="0" dy="0">2.2</text>
+      </g>
+      
+      <!-- 2015-06-19: version 2.3 -->
+      <g class="version release-minor">
+        <circle cx="1616" r="10"/>
+        <text x="1616" y="0" dy="0">2.3</text>
+      </g>
+      
+      <!-- 2015-08-25: version 2.4 -->
+      <g class="version release-minor">
+        <circle cx="1638" r="10"/>
+        <text x="1638" y="0" dy="0">2.4</text>
+      </g>
+      
+      <!-- 2016-11-17: version 2.5 -->
+      <g class="version release-minor">
+        <circle cx="1785" r="10"/>
+        <text x="1785" y="0" dy="0">2.5</text>
+      </g>
+      
+    </g>
+    
     <g id="adblock-ios" class="vendor-betafish">
       <a xlink:href="https://getadblock.com/">
         <text x="0" y="0" dx="1636" dy="25" class="adblocker">AdBlock for Mobile (iOS)</text>
@@ -2532,11 +2532,11 @@
     
     <g id="adblockplus-core" class="engine vendor-eyeo">
       <text x="490" y="180" dy="0">Adblock Plus engine</text>
-      <polygon points="1920,35 1255,35 1255,65 1255,185 470,185 470,215 939,215 939,235 939,265 1055,265 1055,235 1055,265 1275,265 1275,485 1275,515 1312,515 1312,535 1312,565 1414,565 1414,585 1414,615 1717,615 1717,685 1717,715 1717,715 1717,735 1717,765 1717,765 1717,835 1717,865 1920,865 " opacity="0.12"/>
+      <polygon points="1920,35 1255,35 1255,65 1255,185 470,185 470,215 939,215 939,235 939,265 1055,265 1055,235 1055,265 1275,265 1275,485 1275,515 1312,515 1312,535 1312,565 1414,565 1414,585 1414,615 1717,615 1717,685 1717,715 1717,715 1717,735 1717,765 1717,765 1717,785 1717,815 1920,815 " opacity="0.12"/>
     </g>
     <g id="adblock" class="engine vendor-betafish">
-      <text x="973" y="830" dy="0">AdBlock engine</text>
-      <polygon points="1920,685 998,685 998,715 998,835 953,835 953,865 1708,865 1708,885 1708,915 1920,915 " opacity="0.12"/>
+      <text x="973" y="780" dy="0">AdBlock engine</text>
+      <polygon points="1920,685 998,685 998,715 998,785 953,785 953,815 1480,815 1480,885 1480,915 1920,915 " opacity="0.12"/>
     </g>
     
     <g id="content">
@@ -2565,9 +2565,9 @@
       <use y="650" xlink:href="#adblockplus-ios"/>
       <use y="700" xlink:href="#adblock-safari"/>
       <use y="750" xlink:href="#adblock-opera"/>
-      <use y="800" xlink:href="#adblock-firefox"/>
-      <use y="850" xlink:href="#adblock-chrome"/>
-      <use y="900" xlink:href="#adblock-edge"/>
+      <use y="800" xlink:href="#adblock-chrome"/>
+      <use y="850" xlink:href="#adblock-edge"/>
+      <use y="900" xlink:href="#adblock-firefox"/>
       <use y="950" xlink:href="#adblock-ios"/>
     </g>
     
