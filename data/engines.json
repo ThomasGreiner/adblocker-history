@@ -23,7 +23,7 @@
     "path": [
       ["adblock-safari", "started"],
       ["adblock-chrome", "started"],
-      ["adblock-edge", "started"]
+      ["adblock-firefox", "started"]
     ]
   }
 ]

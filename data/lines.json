@@ -14,8 +14,8 @@
   ["adblockplus-ios"],
   ["adblock-safari"],
   ["adblock-opera"],
-  ["adblock-firefox"],
   ["adblock-chrome"],
   ["adblock-edge"],
+  ["adblock-firefox"],
   ["adblock-ios"]
 ]
