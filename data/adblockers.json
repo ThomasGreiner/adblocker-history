@@ -31,6 +31,7 @@
     "link": "https://www.eff.org/privacybadger",
     "source": "https://github.com/EFForg/privacybadgerfirefox",
     "started": "2014-01-23",
+    "ended": "2016-12-06",
     "releases": [
       ["2014-05-02", "0.1"],
       ["2014-07-18", "0.2"],
