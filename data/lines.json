@@ -12,10 +12,10 @@
   ["simpleadblock", "adblockplus-ie"],
   ["adblockplus-android"],
   ["adblockplus-ios"],
-  ["adblock-safari"],
   ["adblock-opera"],
   ["adblock-chrome"],
   ["adblock-edge"],
   ["adblock-firefox"],
+  ["adblock-safari"],
   ["adblock-ios"]
 ]
