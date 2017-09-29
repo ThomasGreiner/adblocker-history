@@ -4,6 +4,7 @@
   ["adblockbrowser-android"],
   ["adblockplus-firefox"],
   ["adthwart", "adblockplus-chrome"],
+  ["adblockplus-firefox-webext"],
   ["adblockplus-edge"],
   ["adblockbrowser-ios"],
   ["adblockplus-safari"],

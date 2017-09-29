@@ -101,6 +101,17 @@
       ["2017-06-07", "2.9.1"]
     ]
   },
+  "adblockplus-firefox-webext": {
+    "base": "adblockplus-chrome",
+    "name": "Adblock Plus for Firefox (Web Extension)",
+    "link": "https://adblockplus.org/en/firefox",
+    "source": "https://hg.adblockplus.org/adblockpluschrome",
+    "vendor": "eyeo",
+    "started": "2016-11-30",
+    "releases": [
+      ["2017-08-25", "dev"]
+    ]
+  },
   "adthwart": {
     "name": "AdThwart",
     "link": "https://code.google.com/p/adthwart/",
