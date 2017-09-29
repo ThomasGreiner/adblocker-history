@@ -310,13 +310,15 @@
     ]
   },
   "adblockplus-edge": {
+    "base": "adblockplus-chrome",
     "name": "Adblock Plus for Edge",
     "link": "https://adblockplus.org/en/edge",
-    "source": "https://adblockplus.org/blog/adblock-plus-for-microsoft-edge-available-for-windows-insiders-on-a-fast-ring",
+    "source": "https://hg.adblockplus.org/adblockpluschrome",
     "vendor": "eyeo",
     "started": "2016-05-11",
     "releases": [
-      ["2016-05-11", "beta"]
+      ["2016-05-11", "0.9"],
+      ["2016-10-24", "0.9.9"]
     ]
   },
   "adblock-chrome": {
