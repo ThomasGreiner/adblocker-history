@@ -5,7 +5,7 @@
     "vendor": "eyeo",
     "path": [
       ["adblockedge", "started"],
-      ["adblockplus-firefox", "started"],
+      ["adblockplus-firefox-legacy", "started"],
       ["adthwart", "started"],
       ["adblockplus-chrome", "started"],
       ["adblockplus-opera-presto", "started"],

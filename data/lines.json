@@ -2,7 +2,7 @@
   ["original", "adblockedge"],
   ["privacybadger-firefox"],
   ["adblockbrowser-android"],
-  ["adblockplus-firefox"],
+  ["adblockplus-firefox-legacy"],
   ["adthwart", "adblockplus-chrome"],
   ["adblockplus-firefox-webext"],
   ["adblock-chrome"],
