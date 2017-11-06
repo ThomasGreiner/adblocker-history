@@ -10,9 +10,7 @@
       ["adblockplus-chrome", "started"],
       ["adblockplus-opera-presto", "started"],
       ["adblockplus-ie", "started"],
-      ["adblockplus-android", "1.2"],
-      ["adblock-opera", "3"],
-      ["adblock-chrome", "3"]
+      ["adblockplus-android", "1.2"]
     ]
   },
   {
@@ -20,8 +18,8 @@
     "name": "AdBlock",
     "vendor": "betafish",
     "path": [
-      ["adblock-opera", "started"],
-      ["adblock-chrome", "started"],
+      ["adblock-opera-old", "started"],
+      ["adblock-chrome-old", "started"],
       ["adblock-safari", "started"]
     ]
   }
