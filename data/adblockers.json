@@ -418,7 +418,7 @@
     "base": "adblockplus-chrome",
     "name": "AdBlock for Chrome",
     "link": "https://getadblock.com/",
-    "source": "http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/",
+    "source": "http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/, https://github.com/betafish-inc/adblock-releases",
     "vendor": "betafish",
     // TODO: Revise placeholder date
     "started": "2016-06-07",
@@ -447,7 +447,7 @@
     "base": "adblockplus-opera-chromium",
     "name": "AdBlock for Opera",
     "link": "https://getadblock.com/",
-    "source": "http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/",
+    "source": "http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/, https://github.com/betafish-inc/adblock-releases",
     "vendor": "betafish",
     // TODO: Revise placeholder date
     "started": "2016-06-07",
