@@ -22,5 +22,14 @@
       ["adblock-chrome-old", "started"],
       ["adblock-safari", "started"]
     ]
+  },
+  {
+    "id": "ublock",
+    "name": "µBlock",
+    "vendor": "gorhill",
+    "path": [
+      ["ublock-chrome", "started"],
+      ["ublockorigin-chrome", "started"]
+    ]
   }
 ]

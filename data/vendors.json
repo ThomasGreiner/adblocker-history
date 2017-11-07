@@ -8,5 +8,10 @@
     "id": "eyeo",
     "name": "Eyeo GmbH",
     "color": "#CD0000"
+  },
+  {
+    "id": "gorhill",
+    "name": "Raymond Hill",
+    "color": "#CD77CD"
   }
 ]
