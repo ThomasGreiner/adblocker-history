@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: 2018-01-11T18:53:15.603Z -->
+<!-- Creation date: 2018-02-16T17:47:19.749Z -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2040" height="1350">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2160" height="1350">
   <title>Timeline of Adblockers</title>
   <desc>
     This timeline displays the releases of major versions of adblockers. 
@@ -140,6 +140,7 @@
       <text x="1680">2016</text>
       <text x="1800">2017</text>
       <text x="1920">2018</text>
+      <text x="2040">2019</text>
     </g>
     
     <g id="original" class="vendor-other">
@@ -440,7 +441,7 @@
       </a>
       <!-- Development started: 2012-11-23 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1307" x2="1888"/>
+      <line stroke="" x1="1307" x2="1928"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1307" x2="1307" y1="0" y2="150"/>
       
@@ -504,10 +505,10 @@
         <text x="1824" y="0" dy="0">1.13</text>
       </g>
       
-      <!-- 2017-09-26: version 1.13.4 -->
+      <!-- 2018-01-26: version 1.13.5 -->
       <g class="version release-patch">
-        <use x="1888" xlink:href="#longver"/>
-        <text x="1888" y="0" dy="0">1.13.4</text>
+        <use x="1928" xlink:href="#longver"/>
+        <text x="1928" y="0" dy="0">1.13.5</text>
       </g>
       
     </g>
@@ -518,7 +519,7 @@
       </a>
       <!-- Development started: 2016-06-07 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/, https://github.com/betafish-inc/adblock-releases -->
-      <line stroke="" x1="1732" x2="1911"/>
+      <line stroke="" x1="1732" x2="1930"/>
       <!-- Based on: Adblock Plus for Opera (Chromium) -->
       <line stroke="" x1="1732" x2="1732" y1="0" y2="-50"/>
       
@@ -654,10 +655,16 @@
         <text x="1911" y="0" dy="0">3.22</text>
       </g>
       
-      <!-- 2017-12-06: version 3.22.1 -->
-      <g class="version release-patch">
-        <use x="1911" xlink:href="#longver"/>
-        <text x="1911" y="0" dy="0">3.22.1</text>
+      <!-- 2018-01-27: version 3.23 -->
+      <g class="version release-minor">
+        <circle cx="1928" r="10"/>
+        <text x="1928" y="0" dy="0">3.23</text>
+      </g>
+      
+      <!-- 2018-02-01: version 3.24 -->
+      <g class="version release-minor">
+        <circle cx="1930" r="10"/>
+        <text x="1930" y="0" dy="0">3.24</text>
       </g>
       
     </g>
@@ -668,7 +675,7 @@
       </a>
       <!-- Development started: 2016-06-07 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/, https://github.com/betafish-inc/adblock-releases -->
-      <line stroke="" x1="1732" x2="1911"/>
+      <line stroke="" x1="1732" x2="1930"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1732" x2="1732" y1="0" y2="50"/>
       
@@ -804,10 +811,16 @@
         <text x="1911" y="0" dy="0">3.22</text>
       </g>
       
-      <!-- 2017-12-06: version 3.22.1 -->
-      <g class="version release-patch">
-        <use x="1911" xlink:href="#longver"/>
-        <text x="1911" y="0" dy="0">3.22.1</text>
+      <!-- 2018-01-27: version 3.23 -->
+      <g class="version release-minor">
+        <circle cx="1928" r="10"/>
+        <text x="1928" y="0" dy="0">3.23</text>
+      </g>
+      
+      <!-- 2018-02-01: version 3.24 -->
+      <g class="version release-minor">
+        <circle cx="1930" r="10"/>
+        <text x="1930" y="0" dy="0">3.24</text>
       </g>
       
     </g>
@@ -872,7 +885,7 @@
       </a>
       <!-- Development started: 2010-12-01 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1070" x2="1888"/>
+      <line stroke="" x1="1070" x2="1928"/>
       <!-- Based on: AdThwart -->
       <line stroke="" x1="1070" x2="1070" y1="0" y2="0"/>
       
@@ -960,10 +973,10 @@
         <text x="1824" y="0" dy="0">1.13</text>
       </g>
       
-      <!-- 2017-09-26: version 1.13.4 -->
+      <!-- 2018-01-26: version 1.13.5 -->
       <g class="version release-patch">
-        <use x="1888" xlink:href="#longver"/>
-        <text x="1888" y="0" dy="0">1.13.4</text>
+        <use x="1928" xlink:href="#longver"/>
+        <text x="1928" y="0" dy="0">1.13.5</text>
       </g>
       
     </g>
@@ -1136,7 +1149,7 @@
       </a>
       <!-- Development started: 2013-07-10 -->
       <!-- Source for dates: https://github.com/EFForg/privacybadgerchrome -->
-      <line stroke="" x1="1383" x2="1903"/>
+      <line stroke="" x1="1383" x2="1931"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1383" x2="1383" y1="0" y2="-250"/>
       
@@ -1282,6 +1295,18 @@
       <g class="version release-minor">
         <use x="1903" xlink:href="#longver"/>
         <text x="1903" y="0" dy="0">17.11</text>
+      </g>
+      
+      <!-- 2018-01-22: version 18.1 -->
+      <g class="version release-minor">
+        <circle cx="1927" r="10"/>
+        <text x="1927" y="0" dy="0">18.1</text>
+      </g>
+      
+      <!-- 2018-02-05: version 18.2.5 -->
+      <g class="version release-patch">
+        <use x="1931" xlink:href="#longver"/>
+        <text x="1931" y="0" dy="0">18.2.5</text>
       </g>
       
     </g>
@@ -2416,7 +2441,7 @@
       </a>
       <!-- Development started: 2016-05-11 -->
       <!-- Source for dates: http://code.getadblock.com/releases/ -->
-      <line stroke="" x1="1723" x2="1890"/>
+      <line stroke="" x1="1723" x2="1923"/>
       <!-- Based on: AdBlock for Chrome (old) -->
       <line stroke="" x1="1723" x2="1723" y1="0" y2="-50"/>
       
@@ -2514,6 +2539,12 @@
       <g class="version release-minor">
         <circle cx="1890" r="10"/>
         <text x="1890" y="0" dy="0">2.3</text>
+      </g>
+      
+      <!-- 2018-01-10: version 2.4 -->
+      <g class="version release-minor">
+        <circle cx="1923" r="10"/>
+        <text x="1923" y="0" dy="0">2.4</text>
       </g>
       
     </g>
@@ -3114,7 +3145,7 @@
       </a>
       <!-- Development started: 2015-04-01 -->
       <!-- Source for dates: https://github.com/gorhill/uBlock -->
-      <line stroke="" x1="1590" x2="1914"/>
+      <line stroke="" x1="1590" x2="1925"/>
       <!-- Based on: µBlock / uBlock -->
       <line stroke="" x1="1590" x2="1590" y1="0" y2="-50"/>
       
@@ -3208,10 +3239,16 @@
         <text x="1879" y="0" dy="0">1.14</text>
       </g>
       
-      <!-- 2017-12-14: version 1.14.22 -->
+      <!-- 2018-01-31: version 1.15 -->
+      <g class="version release-minor">
+        <circle cx="1930" r="10"/>
+        <text x="1930" y="0" dy="0">1.15</text>
+      </g>
+      
+      <!-- 2018-01-16: version 1.15.7 -->
       <g class="version release-patch">
-        <use x="1914" xlink:href="#longver"/>
-        <text x="1914" y="0" dy="0">1.14.22</text>
+        <use x="1925" xlink:href="#longver"/>
+        <text x="1925" y="0" dy="0">1.15.7</text>
       </g>
       
     </g>
@@ -3219,15 +3256,15 @@
     
     <g id="adblockplus-core" class="engine vendor-eyeo">
       <text x="490" y="180" dy="0">Adblock Plus engine</text>
-      <polygon points="2040,35 1255,35 1255,65 1255,185 470,185 470,215 939,215 939,385 939,415 1275,415 1275,685 1275,715 1312,715 1312,735 1312,765 1414,765 1414,785 1414,815 2040,815 " opacity="0.12"/>
+      <polygon points="2160,35 1255,35 1255,65 1255,185 470,185 470,215 939,215 939,385 939,415 1275,415 1275,685 1275,715 1312,715 1312,735 1312,765 1414,765 1414,785 1414,815 2160,815 " opacity="0.12"/>
     </g>
     <g id="adblock" class="engine vendor-betafish">
       <text x="973" y="930" dy="0">AdBlock engine</text>
-      <polygon points="2040,885 1260,885 1260,915 1260,935 953,935 953,965 998,965 998,1085 998,1115 2040,1115 " opacity="0.12"/>
+      <polygon points="2160,885 1260,885 1260,915 1260,935 953,935 953,965 998,965 998,1085 998,1115 2160,1115 " opacity="0.12"/>
     </g>
     <g id="ublock" class="engine vendor-gorhill">
       <text x="1502" y="1180" dy="0">µBlock engine</text>
-      <polygon points="2040,1185 1482,1185 1482,1215 1575,1215 1575,1235 1575,1265 2040,1265 " opacity="0.12"/>
+      <polygon points="2160,1185 1482,1185 1482,1215 1575,1215 1575,1235 1575,1265 2160,1265 " opacity="0.12"/>
     </g>
     
     <g id="content">
@@ -3278,6 +3315,6 @@
   
   <rect x="0" y="0" height="100%" width="100%" fill="#ffffff"/>
   <rect x="0" y="0" height="100%" width="100%" style="fill: url(#bglines);"/>
-  <use x="1923" y="0" xlink:href="#created"/>
+  <use x="1935" y="0" xlink:href="#created"/>
   <use x="0" y="0" xlink:href="#content"/>
 </svg>
