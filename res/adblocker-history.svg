@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: 2018-06-08T14:29:18.486Z -->
+<!-- Creation date: 2018-07-18T18:21:49.710Z -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2160" height="1350">
@@ -441,7 +441,7 @@
       </a>
       <!-- Development started: 2012-11-23 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1307" x2="1965"/>
+      <line stroke="" x1="1307" x2="1985"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1307" x2="1307" y1="0" y2="150"/>
       
@@ -517,6 +517,12 @@
         <text x="1965" y="0" dy="0">3.1</text>
       </g>
       
+      <!-- 2018-07-17: version 3.2 -->
+      <g class="version release-minor">
+        <circle cx="1985" r="10"/>
+        <text x="1985" y="0" dy="0">3.2</text>
+      </g>
+      
     </g>
     
     <g id="adblock-opera" class="vendor-betafish">
@@ -525,7 +531,7 @@
       </a>
       <!-- Development started: 2016-06-07 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/, https://github.com/betafish-inc/adblock-releases -->
-      <line stroke="" x1="1732" x2="1967"/>
+      <line stroke="" x1="1732" x2="1974"/>
       <!-- Based on: Adblock Plus for Opera (Chromium) -->
       <line stroke="" x1="1732" x2="1732" y1="0" y2="-50"/>
       
@@ -709,6 +715,18 @@
         <text x="1967" y="0" dy="0">3.30</text>
       </g>
       
+      <!-- 2018-06-11: version 3.31 -->
+      <g class="version release-minor">
+        <circle cx="1973" r="10"/>
+        <text x="1973" y="0" dy="0">3.31</text>
+      </g>
+      
+      <!-- 2018-06-13: version 3.31.2 -->
+      <g class="version release-patch">
+        <use x="1974" xlink:href="#longver"/>
+        <text x="1974" y="0" dy="0">3.31.2</text>
+      </g>
+      
     </g>
     
     <g id="adblock-chrome" class="vendor-betafish">
@@ -717,7 +735,7 @@
       </a>
       <!-- Development started: 2016-06-07 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/, https://github.com/betafish-inc/adblock-releases -->
-      <line stroke="" x1="1732" x2="1967"/>
+      <line stroke="" x1="1732" x2="1974"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1732" x2="1732" y1="0" y2="50"/>
       
@@ -901,6 +919,18 @@
         <text x="1967" y="0" dy="0">3.30</text>
       </g>
       
+      <!-- 2018-06-11: version 3.31 -->
+      <g class="version release-minor">
+        <circle cx="1973" r="10"/>
+        <text x="1973" y="0" dy="0">3.31</text>
+      </g>
+      
+      <!-- 2018-06-13: version 3.31.2 -->
+      <g class="version release-patch">
+        <use x="1974" xlink:href="#longver"/>
+        <text x="1974" y="0" dy="0">3.31.2</text>
+      </g>
+      
     </g>
     
     <g id="adthwart" class="vendor-other">
@@ -963,7 +993,7 @@
       </a>
       <!-- Development started: 2010-12-01 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1070" x2="1965"/>
+      <line stroke="" x1="1070" x2="1985"/>
       <!-- Based on: AdThwart -->
       <line stroke="" x1="1070" x2="1070" y1="0" y2="0"/>
       
@@ -1063,6 +1093,12 @@
         <text x="1965" y="0" dy="0">3.1</text>
       </g>
       
+      <!-- 2018-07-17: version 3.2 -->
+      <g class="version release-minor">
+        <circle cx="1985" r="10"/>
+        <text x="1985" y="0" dy="0">3.2</text>
+      </g>
+      
     </g>
     
     <g id="adblockplus-firefox-webext" class="vendor-eyeo">
@@ -1071,7 +1107,7 @@
       </a>
       <!-- Development started: 2016-11-30 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1790" x2="1965"/>
+      <line stroke="" x1="1790" x2="1985"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1790" x2="1790" y1="0" y2="-50"/>
       
@@ -1091,6 +1127,12 @@
       <g class="version release-minor">
         <circle cx="1965" r="10"/>
         <text x="1965" y="0" dy="0">3.1</text>
+      </g>
+      
+      <!-- 2018-07-17: version 3.2 -->
+      <g class="version release-minor">
+        <circle cx="1985" r="10"/>
+        <text x="1985" y="0" dy="0">3.2</text>
       </g>
       
     </g>
@@ -2657,7 +2699,7 @@
       </a>
       <!-- Development started: 2014-06-16 -->
       <!-- Source for dates: http://code.getadblock.com/releases/ https://twitter.com/getadblock -->
-      <line stroke="" x1="1495" x2="1967"/>
+      <line stroke="" x1="1495" x2="1982"/>
       <!-- Based on: AdBlock for Chrome (old) -->
       <line stroke="" x1="1495" x2="1495" y1="0" y2="-100"/>
       
@@ -2785,6 +2827,12 @@
       <g class="version release-minor">
         <circle cx="1967" r="10"/>
         <text x="1967" y="0" dy="0">3.14</text>
+      </g>
+      
+      <!-- 2018-07-09: version 3.15 -->
+      <g class="version release-minor">
+        <circle cx="1982" r="10"/>
+        <text x="1982" y="0" dy="0">3.15</text>
       </g>
       
     </g>
@@ -3258,8 +3306,8 @@
         <text x="0" y="0" dx="1570" dy="25" class="adblocker">uBlock</text>
       </a>
       <!-- Development started: 2015-04-01 -->
-      <!-- Source for dates: https://github.com/chrisaljoudi/uBlock -->
-      <line stroke="" x1="1590" x2="1620"/>
+      <!-- Source for dates: https://github.com/uBlock-LLC/uBlock -->
+      <line stroke="" x1="1590" x2="1945"/>
       <!-- Based on: µBlock / uBlock -->
       <line stroke="" x1="1590" x2="1590" y1="0" y2="0"/>
       
@@ -3275,6 +3323,32 @@
         <text x="1620" y="0" dy="0">0.9.5</text>
       </g>
       
+      <!-- Development ended: 2018-03-17 -->
+      <line stroke="" x1="1945" y1="10" x2="1945" y2="-10"/>
+    </g>
+    
+    <g id="ublockllc-chrome" class="vendor-betafish">
+      <a xlink:href="https://www.ublock.org/">
+        <text x="0" y="0" dx="1927" dy="25" class="adblocker">uBlock</text>
+      </a>
+      <!-- Development started: 2018-03-17 -->
+      <!-- Source for dates: https://github.com/uBlock-LLC/uBlock -->
+      <line stroke="" x1="1945" x2="1974"/>
+      <!-- Based on: uBlock -->
+      <line stroke="" x1="1945" x2="1945" y1="0" y2="0"/>
+      
+      <!-- 2018-03-22: version 0.9.5.3 -->
+      <g class="version release-patch">
+        <use x="1947" xlink:href="#longver"/>
+        <text x="1947" y="0" dy="0">0.9.5.3</text>
+      </g>
+      
+      <!-- 2018-06-14: version 0.9.5.7 -->
+      <g class="version release-patch">
+        <use x="1974" xlink:href="#longver"/>
+        <text x="1974" y="0" dy="0">0.9.5.7</text>
+      </g>
+      
     </g>
     
     <g id="ublockorigin-chrome" class="vendor-gorhill">
@@ -3283,7 +3357,7 @@
       </a>
       <!-- Development started: 2015-04-01 -->
       <!-- Source for dates: https://github.com/gorhill/uBlock -->
-      <line stroke="" x1="1590" x2="1971"/>
+      <line stroke="" x1="1590" x2="1985"/>
       <!-- Based on: µBlock / uBlock -->
       <line stroke="" x1="1590" x2="1590" y1="0" y2="-50"/>
       
@@ -3389,10 +3463,10 @@
         <text x="1956" y="0" dy="0">1.16</text>
       </g>
       
-      <!-- 2018-06-04: version 1.16.9 -->
+      <!-- 2018-07-17: version 1.16.14 -->
       <g class="version release-patch">
-        <use x="1971" xlink:href="#longver"/>
-        <text x="1971" y="0" dy="0">1.16.9</text>
+        <use x="1985" xlink:href="#longver"/>
+        <text x="1985" y="0" dy="0">1.16.14</text>
       </g>
       
     </g>
@@ -3447,6 +3521,7 @@
       <use y="1150" xlink:href="#adblock-ios"/>
       <use y="1200" xlink:href="#ublock-chrome"/>
       <use y="1200" xlink:href="#ublockorg-chrome"/>
+      <use y="1200" xlink:href="#ublockllc-chrome"/>
       <use y="1250" xlink:href="#ublockorigin-chrome"/>
     </g>
     
@@ -3459,6 +3534,6 @@
   
   <rect x="0" y="0" height="100%" width="100%" fill="#ffffff"/>
   <rect x="0" y="0" height="100%" width="100%" style="fill: url(#bglines);"/>
-  <use x="1972" y="0" xlink:href="#created"/>
+  <use x="1985" y="0" xlink:href="#created"/>
   <use x="0" y="0" xlink:href="#content"/>
 </svg>
