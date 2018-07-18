@@ -2,6 +2,14 @@
 
 [Click here to see the SVG][svg] (GitHub doesn't render SVG images inline)
 
+## Update sources
+
+- [adblock](http://code.getadblock.com/releases/)
+- [adblockplus](https://adblockplus.org/releases/)
+- [privacybadger](https://github.com/EFForg/privacybadger/releases)
+- [ublockllc](https://github.com/gorhill/uBlock/releases)
+- [ublockorigin](https://github.com/uBlock-LLC/uBlock/releases)
+
 ## Generate SVG
 
 Requires [Node.js][node] 6.0 or higher and [npm][npm]. Install dependencies using `npm install` before running any of the scripts.
