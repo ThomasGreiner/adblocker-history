@@ -16,12 +16,16 @@
   ["simpleadblock", "adblockplus-ie"],
   ["adblockplus-android"],
   ["adblockplus-ios"],
+  [],
   ["adblock-opera-old"],
   ["adblock-chrome-old"],
   ["adblock-edge"],
   ["adblock-firefox"],
   ["adblock-safari"],
   ["adblock-ios"],
+  [],
   ["ublock-chrome", "ublockorg-chrome", "ublockllc-chrome"],
-  ["ublockorigin-chrome"]
+  ["ublockorigin-chrome"],
+  [],
+  ["adguard-webext"]
 ]

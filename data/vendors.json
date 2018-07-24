@@ -1,5 +1,10 @@
 [
   {
+    "id": "adguard",
+    "name": "Adguard software Limited",
+    "color": "#66B574"
+  },
+  {
     "id": "betafish",
     "name": "BetaFish Inc.",
     "color": "#7777CD"
