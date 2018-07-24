@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: 2018-07-18T18:21:49.710Z -->
+<!-- Creation date: 2018-07-24T22:18:54.217Z -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2160" height="1350">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2160" height="1550">
   <title>Timeline of Adblockers</title>
   <desc>
     This timeline displays the releases of major versions of adblockers. 
@@ -59,6 +59,18 @@
         fill: #888;
       }
       
+      .vendor-adguard line,
+      .vendor-adguard circle,
+      .vendor-adguard use,
+      .vendor-adguard.engine text {
+        stroke: #66B574
+      }
+      
+      .vendor-adguard .version.release-major circle,
+      .vendor-adguard.engine polygon,
+      .vendor-adguard.engine text {
+        fill: #66B574
+      }
       .vendor-betafish line,
       .vendor-betafish circle,
       .vendor-betafish use,
@@ -3471,18 +3483,98 @@
       
     </g>
     
+    <g id="adguard-webext" class="vendor-adguard">
+      <a xlink:href="https://adguard.com">
+        <text x="0" y="0" dx="1563" dy="25" class="adblocker">AdGuard</text>
+      </a>
+      <!-- Development started: 2015-03-11 -->
+      <!-- Source for dates: https://github.com/AdguardTeam/AdguardBrowserExtension -->
+      <line stroke="" x1="1583" x2="1953"/>
+      
+      <!-- 2015-03-12: version 2.0-beta -->
+      <g class="version release-patch">
+        <use x="1583" xlink:href="#longver"/>
+        <text x="1583" y="0" dy="0">2.0-beta</text>
+      </g>
+      
+      <!-- 2015-03-25: version 2 -->
+      <g class="version release-major">
+        <circle cx="1588" r="10"/>
+        <text x="1588" y="0" dy="0">2</text>
+      </g>
+      
+      <!-- 2016-02-04: version 2.1 -->
+      <g class="version release-minor">
+        <circle cx="1691" r="10"/>
+        <text x="1691" y="0" dy="0">2.1</text>
+      </g>
+      
+      <!-- 2016-03-17: version 2.2 -->
+      <g class="version release-minor">
+        <circle cx="1705" r="10"/>
+        <text x="1705" y="0" dy="0">2.2</text>
+      </g>
+      
+      <!-- 2016-06-09: version 2.3 -->
+      <g class="version release-minor">
+        <circle cx="1733" r="10"/>
+        <text x="1733" y="0" dy="0">2.3</text>
+      </g>
+      
+      <!-- 2016-08-29: version 2.4 -->
+      <g class="version release-minor">
+        <circle cx="1759" r="10"/>
+        <text x="1759" y="0" dy="0">2.4</text>
+      </g>
+      
+      <!-- 2016-12-08: version 2.5 -->
+      <g class="version release-minor">
+        <circle cx="1792" r="10"/>
+        <text x="1792" y="0" dy="0">2.5</text>
+      </g>
+      
+      <!-- 2017-07-03: version 2.6 -->
+      <g class="version release-minor">
+        <circle cx="1860" r="10"/>
+        <text x="1860" y="0" dy="0">2.6</text>
+      </g>
+      
+      <!-- 2017-09-26: version 2.7 -->
+      <g class="version release-minor">
+        <circle cx="1888" r="10"/>
+        <text x="1888" y="0" dy="0">2.7</text>
+      </g>
+      
+      <!-- 2018-01-17: version 2.8 -->
+      <g class="version release-minor">
+        <circle cx="1925" r="10"/>
+        <text x="1925" y="0" dy="0">2.8</text>
+      </g>
+      
+      <!-- 2018-04-09: version 2.9 -->
+      <g class="version release-minor">
+        <circle cx="1953" r="10"/>
+        <text x="1953" y="0" dy="0">2.9</text>
+      </g>
+      
+    </g>
+    
     
     <g id="adblockplus-core" class="engine vendor-eyeo">
       <text x="490" y="180" dy="0">Adblock Plus engine</text>
       <polygon points="2160,35 1255,35 1255,65 1255,185 470,185 470,215 939,215 939,385 939,415 1275,415 1275,685 1275,715 1312,715 1312,735 1312,765 1414,765 1414,785 1414,815 2160,815 " opacity="0.12"/>
     </g>
     <g id="adblock" class="engine vendor-betafish">
-      <text x="973" y="930" dy="0">AdBlock engine</text>
-      <polygon points="2160,885 1260,885 1260,915 1260,935 953,935 953,965 998,965 998,1085 998,1115 2160,1115 " opacity="0.12"/>
+      <text x="973" y="980" dy="0">AdBlock engine</text>
+      <polygon points="2160,935 1260,935 1260,965 1260,985 953,985 953,1015 998,1015 998,1135 998,1165 2160,1165 " opacity="0.12"/>
     </g>
     <g id="ublock" class="engine vendor-gorhill">
-      <text x="1502" y="1180" dy="0">µBlock engine</text>
-      <polygon points="2160,1185 1482,1185 1482,1215 1575,1215 1575,1235 1575,1265 2160,1265 " opacity="0.12"/>
+      <text x="1502" y="1280" dy="0">µBlock engine</text>
+      <polygon points="2160,1285 1482,1285 1482,1315 1575,1315 1575,1335 1575,1365 2160,1365 " opacity="0.12"/>
+    </g>
+    <g id="adguard" class="engine vendor-adguard">
+      <text x="1588" y="1430" dy="0">AdGuard engine</text>
+      <polygon points="2160,1435 1568,1435 1568,1465 2160,1465 " opacity="0.12"/>
     </g>
     
     <g id="content">
@@ -3492,6 +3584,7 @@
       <use y="0" xlink:href="#adblockplus-core"/>
       <use y="0" xlink:href="#adblock"/>
       <use y="0" xlink:href="#ublock"/>
+      <use y="0" xlink:href="#adguard"/>
       <use y="50" xlink:href="#original"/>
       <use y="50" xlink:href="#adblockedge"/>
       <use y="100" xlink:href="#privacybadger-firefox"/>
@@ -3513,16 +3606,17 @@
       <use y="750" xlink:href="#adblockplus-ie"/>
       <use y="800" xlink:href="#adblockplus-android"/>
       <use y="850" xlink:href="#adblockplus-ios"/>
-      <use y="900" xlink:href="#adblock-opera-old"/>
-      <use y="950" xlink:href="#adblock-chrome-old"/>
-      <use y="1000" xlink:href="#adblock-edge"/>
-      <use y="1050" xlink:href="#adblock-firefox"/>
-      <use y="1100" xlink:href="#adblock-safari"/>
-      <use y="1150" xlink:href="#adblock-ios"/>
-      <use y="1200" xlink:href="#ublock-chrome"/>
-      <use y="1200" xlink:href="#ublockorg-chrome"/>
-      <use y="1200" xlink:href="#ublockllc-chrome"/>
-      <use y="1250" xlink:href="#ublockorigin-chrome"/>
+      <use y="950" xlink:href="#adblock-opera-old"/>
+      <use y="1000" xlink:href="#adblock-chrome-old"/>
+      <use y="1050" xlink:href="#adblock-edge"/>
+      <use y="1100" xlink:href="#adblock-firefox"/>
+      <use y="1150" xlink:href="#adblock-safari"/>
+      <use y="1200" xlink:href="#adblock-ios"/>
+      <use y="1300" xlink:href="#ublock-chrome"/>
+      <use y="1300" xlink:href="#ublockorg-chrome"/>
+      <use y="1300" xlink:href="#ublockllc-chrome"/>
+      <use y="1350" xlink:href="#ublockorigin-chrome"/>
+      <use y="1450" xlink:href="#adguard-webext"/>
     </g>
     
     <g id="created">
@@ -3534,6 +3628,6 @@
   
   <rect x="0" y="0" height="100%" width="100%" fill="#ffffff"/>
   <rect x="0" y="0" height="100%" width="100%" style="fill: url(#bglines);"/>
-  <use x="1985" y="0" xlink:href="#created"/>
+  <use x="1988" y="0" xlink:href="#created"/>
   <use x="0" y="0" xlink:href="#content"/>
 </svg>
