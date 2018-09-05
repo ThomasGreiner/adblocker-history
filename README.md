@@ -6,6 +6,7 @@
 
 - [adblock](http://code.getadblock.com/releases/)
 - [adblockplus](https://adblockplus.org/releases/)
+- [adguard](https://github.com/AdguardTeam/AdguardBrowserExtension/releases/)
 - [privacybadger](https://github.com/EFForg/privacybadger/releases)
 - [ublockllc](https://github.com/gorhill/uBlock/releases)
 - [ublockorigin](https://github.com/uBlock-LLC/uBlock/releases)
