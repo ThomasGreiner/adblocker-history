@@ -1,0 +1,26 @@
+{
+  "ublockllc-chrome": {
+    "base": "ublockorg-chrome",
+    "name": "uBlock",
+    "link": "https://www.ublock.org/",
+    "source": "https://github.com/uBlock-LLC/uBlock",
+    "vendor": "betafish",
+    "started": "2018-03-17",
+    "releases": [
+      ["2018-03-22", "0.9.5.3"],
+      ["2018-06-14", "0.9.5.7"]
+    ]
+  },
+  "ublockorg-chrome": {
+    "base": "ublock-chrome",
+    "name": "uBlock",
+    "link": "https://www.ublock.org/",
+    "source": "https://github.com/uBlock-LLC/uBlock",
+    "started": "2015-04-01",
+    "ended": "2018-03-17",
+    "releases": [
+      ["2015-04-02", "0.9.3"],
+      ["2015-07-01", "0.9.5"]
+    ]
+  }
+}
