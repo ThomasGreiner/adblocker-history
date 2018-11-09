@@ -93,6 +93,7 @@
     "source": "https://hg.adblockplus.org/adblockplus",
     "vendor": "eyeo",
     "started": "2006-01-17",
+    "ended": "2017-12-01",
     "releases": [
       ["2006-01-17", "0.6"],
       ["2006-04-09", "0.7"],
