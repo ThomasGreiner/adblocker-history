@@ -150,7 +150,7 @@
   "adblockplus-ios": {
     "name": "Adblock Plus for iOS",
     "link": "https://adblockplus.org/en/safari",
-    "source": "https://hg.adblockplus.org/adblockplussafariios",
+    "source": "https://hg.adblockplus.org/adblockplussafariios https://itunes.apple.com/app/adblock-plus-abp/id1028871868",
     "vendor": "eyeo",
     "started": "2015-08-08",
     "releases": [
@@ -195,9 +195,9 @@
       ["2012-11-13", "1.3.1"]
     ]
   },
-  "adblockplus-safari": {
+  "adblockplus-safari-legacy": {
     "base": "adblockplus-chrome",
-    "name": "Adblock Plus for Safari",
+    "name": "Adblock Plus for Safari (legacy)",
     "link": "https://adblockplus.org/en/safari",
     "source": "https://hg.adblockplus.org/adblockpluschrome",
     "vendor": "eyeo",
@@ -210,6 +210,16 @@
       ["2016-03-08", "1.11"],
       ["2016-06-01", "1.12"],
       ["2018-08-01", "1.12.5"]
+    ]
+  },
+  "adblockplus-safari": {
+    "name": "Adblock Plus for Safari",
+    "link": "https://adblockplus.org/en/safari",
+    "source": "https://itunes.apple.com/app/id1432731683",
+    "vendor": "eyeo",
+    "started": "2018-09-19",
+    "releases": [
+      ["2018-09-19", "2.0"]
     ]
   }
 }
