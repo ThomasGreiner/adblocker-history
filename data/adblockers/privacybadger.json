@@ -42,23 +42,5 @@
       ["2018-12-05", "18.12"],
       ["2018-12-17", "18.12.17"]
     ]
-  },
-  "privacybadger-firefox": {
-    "base": "adblockplus-firefox-legacy",
-    "name": "Privacy Badger for Firefox",
-    "link": "https://www.eff.org/privacybadger",
-    "source": "https://github.com/EFForg/privacybadgerfirefox",
-    "started": "2014-01-23",
-    "ended": "2016-12-06",
-    "releases": [
-      ["2014-05-02", "0.1"],
-      ["2014-07-18", "0.2"],
-      ["2015-06-24", "0.99"],
-      ["2015-08-06", "1.0"],
-      ["2016-04-07", "1.7"],
-      ["2016-08-09", "1.8"],
-      ["2016-11-02", "1.9"],
-      ["2016-11-07", "1.9.2"]
-    ]
   }
 }
