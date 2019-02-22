@@ -23,20 +23,29 @@
     ]
   },
   {
+    "id": "adguard",
+    "name": "AdGuard",
+    "vendor": "adguard",
+    "path": [
+      ["adguard-webext", "started"]
+    ]
+  },
+  {
+    "id": "safari",
+    "name": "Safari",
+    "vendor": "apple",
+    "path": [
+      ["adblockplus-ios", "started"],
+      ["adblock-ios", "started"]
+    ]
+  },
+  {
     "id": "ublock",
     "name": "µBlock",
     "vendor": "gorhill",
     "path": [
       ["ublock-chrome", "started"],
       ["ublockorigin-chrome", "started"]
-    ]
-  },
-  {
-    "id": "adguard",
-    "name": "AdGuard",
-    "vendor": "adguard",
-    "path": [
-      ["adguard-webext", "started"]
     ]
   }
 ]

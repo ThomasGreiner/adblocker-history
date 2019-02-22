@@ -5,6 +5,11 @@
     "color": "#66B574"
   },
   {
+    "id": "apple",
+    "name": "Apple Inc.",
+    "color": "#444"
+  },
+  {
     "id": "betafish",
     "name": "BetaFish Inc.",
     "color": "#7777CD"
