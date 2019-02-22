@@ -51,6 +51,14 @@
     ]
   },
   {
+    "id": "samsung-internet",
+    "name": "Samsung Internet",
+    "vendor": "samsung",
+    "start": [
+      ["adblockplus-samsung", "started"]
+    ]
+  },
+  {
     "id": "ublock",
     "name": "µBlock",
     "vendor": "gorhill",

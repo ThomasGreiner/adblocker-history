@@ -226,5 +226,17 @@
       ["2018-09-19", "2.0"],
       ["2018-10-04", "2.0.3"]
     ]
+  },
+  "adblockplus-samsung": {
+    "name": "Adblock Plus for Samsung Internet",
+    "link": "https://adblockplus.org/",
+    "source": "https://gitlab.com/eyeo/adblockplus/adblockplussbrowser",
+    "vendor": "eyeo",
+    "started": "2015-12-17",
+    "releases": [
+      ["2016-01-29", "1.0"],
+      ["2017-05-23", "1.1"],
+      ["2018-10-16", "1.1.6"]
+    ]
   }
 }

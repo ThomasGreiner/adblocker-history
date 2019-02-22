@@ -14,9 +14,6 @@
   ["simpleadblock", "adblockplus-ie"],
   ["adblockplus-android"],
   [],
-  ["adblockplus-ios", "adblockplus-safari"],
-  ["adblock-ios"],
-  [],
   ["adblock-opera-old"],
   ["adblock-chrome-old"],
   ["adblock-edge"],
@@ -26,5 +23,10 @@
   ["ublock-chrome", "ublockorg-chrome", "ublockllc-chrome"],
   ["ublockorigin-chrome"],
   [],
-  ["adguard-webext"]
+  ["adguard-webext"],
+  [],
+  ["adblockplus-ios", "adblockplus-safari"],
+  ["adblock-ios"],
+  [],
+  ["adblockplus-samsung"]
 ]

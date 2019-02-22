@@ -28,5 +28,10 @@
     "id": "gorhill",
     "name": "Raymond Hill",
     "color": "#CD77CD"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "color": "#706DF7"
   }
 ]
