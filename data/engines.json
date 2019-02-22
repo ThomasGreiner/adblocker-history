@@ -3,7 +3,7 @@
     "id": "adblockplus-core",
     "name": "Adblock Plus",
     "vendor": "eyeo",
-    "path": [
+    "start": [
       ["adblockedge", "started"],
       ["adblockplus-firefox-legacy", "started"],
       ["adthwart", "started"],
@@ -16,7 +16,7 @@
     "id": "adblock",
     "name": "AdBlock",
     "vendor": "betafish",
-    "path": [
+    "start": [
       ["adblock-opera-old", "started"],
       ["adblock-chrome-old", "started"],
       ["adblock-safari", "started"]
@@ -26,7 +26,7 @@
     "id": "adguard",
     "name": "AdGuard",
     "vendor": "adguard",
-    "path": [
+    "start": [
       ["adguard-webext", "started"]
     ]
   },
@@ -34,7 +34,7 @@
     "id": "safari",
     "name": "Safari",
     "vendor": "apple",
-    "path": [
+    "start": [
       ["adblockplus-ios", "started"],
       ["adblock-ios", "started"]
     ]
@@ -43,7 +43,7 @@
     "id": "ublock",
     "name": "µBlock",
     "vendor": "gorhill",
-    "path": [
+    "start": [
       ["ublock-chrome", "started"],
       ["ublockorigin-chrome", "started"]
     ]
