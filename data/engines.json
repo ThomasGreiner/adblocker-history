@@ -10,6 +10,9 @@
       ["adblockplus-opera-presto", "started"],
       ["adblockplus-ie", "started"],
       ["adblockplus-android", "1.2"]
+    ],
+    "end": [
+      ["privacybadger-chrome", "16.8"]
     ]
   },
   {
