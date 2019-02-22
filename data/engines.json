@@ -34,6 +34,14 @@
     ]
   },
   {
+    "id": "privacybadger",
+    "name": "Privacy Badger",
+    "vendor": "eff",
+    "start": [
+      ["privacybadger-chrome", "16.8"]
+    ]
+  },
+  {
     "id": "safari",
     "name": "Safari",
     "vendor": "apple",

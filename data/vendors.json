@@ -15,6 +15,11 @@
     "color": "#7777CD"
   },
   {
+    "id": "eff",
+    "name": "Electronic Frontier Foundation",
+    "color": "#000"
+  },
+  {
     "id": "eyeo",
     "name": "eyeo GmbH",
     "color": "#CD0000"
