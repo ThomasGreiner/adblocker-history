@@ -1,6 +1,6 @@
 # History of Adblockers
 
-[Click here to see the SVG][svg] (GitHub doesn't render SVG images inline)
+![SVG showing history of adblockers][svg]
 
 ## Update sources
 
