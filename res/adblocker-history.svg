@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: 2019-04-26T17:30:54.882Z -->
+<!-- Creation date: 2019-08-05T11:14:17.651Z -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2280" height="1600">
@@ -430,7 +430,7 @@
       </a>
       <!-- Development started: 2012-11-23 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1307" x2="2076"/>
+      <line stroke="" x1="1307" x2="2110"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1307" x2="1307" y1="0" y2="150"/>
       
@@ -530,10 +530,16 @@
         <text x="2064" y="0" dy="0">3.5</text>
       </g>
       
-      <!-- 2019-04-20: version 3.5.2 -->
+      <!-- 2019-07-30: version 3.6 -->
+      <g class="version release-minor">
+        <circle cx="2109" r="10"/>
+        <text x="2109" y="0" dy="0">3.6</text>
+      </g>
+      
+      <!-- 2019-08-02: version 3.6.1 -->
       <g class="version release-patch">
-        <use x="2076" xlink:href="#longver"/>
-        <text x="2076" y="0" dy="0">3.5.2</text>
+        <use x="2110" xlink:href="#longver"/>
+        <text x="2110" y="0" dy="0">3.6.1</text>
       </g>
       
     </g>
@@ -544,7 +550,7 @@
       </a>
       <!-- Development started: 2016-06-07 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/, https://github.com/betafish-inc/adblock-releases -->
-      <line stroke="" x1="1732" x2="2077"/>
+      <line stroke="" x1="1732" x2="2109"/>
       <!-- Based on: Adblock Plus for Opera (Chromium) -->
       <line stroke="" x1="1732" x2="1732" y1="0" y2="-50"/>
       
@@ -812,6 +818,36 @@
         <text x="2077" y="0" dy="0">3.46</text>
       </g>
       
+      <!-- 2019-05-20: version 3.47 -->
+      <g class="version release-minor">
+        <circle cx="2086" r="10"/>
+        <text x="2086" y="0" dy="0">3.47</text>
+      </g>
+      
+      <!-- 2019-05-28: version 3.48 -->
+      <g class="version release-minor">
+        <circle cx="2089" r="10"/>
+        <text x="2089" y="0" dy="0">3.48</text>
+      </g>
+      
+      <!-- 2019-07-05: version 3.49 -->
+      <g class="version release-minor">
+        <circle cx="2101" r="10"/>
+        <text x="2101" y="0" dy="0">3.49</text>
+      </g>
+      
+      <!-- 2019-07-30: version 3.50 -->
+      <g class="version release-minor">
+        <circle cx="2109" r="10"/>
+        <text x="2109" y="0" dy="0">3.50</text>
+      </g>
+      
+      <!-- 2019-07-30: version 3.50.1 -->
+      <g class="version release-patch">
+        <use x="2109" xlink:href="#longver"/>
+        <text x="2109" y="0" dy="0">3.50.1</text>
+      </g>
+      
     </g>
     
     <g id="adblock-chrome" class="vendor-betafish">
@@ -820,7 +856,7 @@
       </a>
       <!-- Development started: 2016-06-07 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/, https://github.com/betafish-inc/adblock-releases -->
-      <line stroke="" x1="1732" x2="2077"/>
+      <line stroke="" x1="1732" x2="2109"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1732" x2="1732" y1="0" y2="50"/>
       
@@ -1088,6 +1124,36 @@
         <text x="2077" y="0" dy="0">3.46</text>
       </g>
       
+      <!-- 2019-05-20: version 3.47 -->
+      <g class="version release-minor">
+        <circle cx="2086" r="10"/>
+        <text x="2086" y="0" dy="0">3.47</text>
+      </g>
+      
+      <!-- 2019-05-28: version 3.48 -->
+      <g class="version release-minor">
+        <circle cx="2089" r="10"/>
+        <text x="2089" y="0" dy="0">3.48</text>
+      </g>
+      
+      <!-- 2019-07-05: version 3.49 -->
+      <g class="version release-minor">
+        <circle cx="2101" r="10"/>
+        <text x="2101" y="0" dy="0">3.49</text>
+      </g>
+      
+      <!-- 2019-07-30: version 3.50 -->
+      <g class="version release-minor">
+        <circle cx="2109" r="10"/>
+        <text x="2109" y="0" dy="0">3.50</text>
+      </g>
+      
+      <!-- 2019-07-30: version 3.50.1 -->
+      <g class="version release-patch">
+        <use x="2109" xlink:href="#longver"/>
+        <text x="2109" y="0" dy="0">3.50.1</text>
+      </g>
+      
     </g>
     
     <g id="adthwart" class="vendor-other">
@@ -1150,7 +1216,7 @@
       </a>
       <!-- Development started: 2010-12-01 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1070" x2="2076"/>
+      <line stroke="" x1="1070" x2="2110"/>
       <!-- Based on: AdThwart -->
       <line stroke="" x1="1070" x2="1070" y1="0" y2="0"/>
       
@@ -1274,10 +1340,16 @@
         <text x="2064" y="0" dy="0">3.5</text>
       </g>
       
-      <!-- 2019-04-20: version 3.5.2 -->
+      <!-- 2019-07-30: version 3.6 -->
+      <g class="version release-minor">
+        <circle cx="2109" r="10"/>
+        <text x="2109" y="0" dy="0">3.6</text>
+      </g>
+      
+      <!-- 2019-08-02: version 3.6.1 -->
       <g class="version release-patch">
-        <use x="2076" xlink:href="#longver"/>
-        <text x="2076" y="0" dy="0">3.5.2</text>
+        <use x="2110" xlink:href="#longver"/>
+        <text x="2110" y="0" dy="0">3.6.1</text>
       </g>
       
     </g>
@@ -1428,7 +1500,7 @@
       </a>
       <!-- Development started: 2016-11-30 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1790" x2="2076"/>
+      <line stroke="" x1="1790" x2="2110"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1790" x2="1790" y1="0" y2="-50"/>
       
@@ -1474,10 +1546,16 @@
         <text x="2064" y="0" dy="0">3.5</text>
       </g>
       
-      <!-- 2019-04-20: version 3.5.2 -->
+      <!-- 2019-07-30: version 3.6 -->
+      <g class="version release-minor">
+        <circle cx="2109" r="10"/>
+        <text x="2109" y="0" dy="0">3.6</text>
+      </g>
+      
+      <!-- 2019-08-02: version 3.6.1 -->
       <g class="version release-patch">
-        <use x="2076" xlink:href="#longver"/>
-        <text x="2076" y="0" dy="0">3.5.2</text>
+        <use x="2110" xlink:href="#longver"/>
+        <text x="2110" y="0" dy="0">3.6.1</text>
       </g>
       
     </g>
@@ -1488,7 +1566,7 @@
       </a>
       <!-- Development started: 2016-05-11 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1723" x2="1777"/>
+      <line stroke="" x1="1723" x2="2110"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1723" x2="1723" y1="0" y2="-100"/>
       
@@ -1498,10 +1576,10 @@
         <text x="1723" y="0" dy="0">0.9</text>
       </g>
       
-      <!-- 2016-10-24: version 0.9.9 -->
+      <!-- 2019-08-02: version 0.9.17 -->
       <g class="version release-patch">
-        <use x="1777" xlink:href="#longver"/>
-        <text x="1777" y="0" dy="0">0.9.9</text>
+        <use x="2110" xlink:href="#longver"/>
+        <text x="2110" y="0" dy="0">0.9.17</text>
       </g>
       
     </g>
@@ -1620,7 +1698,7 @@
       </a>
       <!-- Development started: 2013-07-10 -->
       <!-- Source for dates: https://github.com/EFForg/privacybadgerchrome -->
-      <line stroke="" x1="1383" x2="2056"/>
+      <line stroke="" x1="1383" x2="2100"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1383" x2="1383" y1="0" y2="-250"/>
       
@@ -1838,6 +1916,18 @@
       <g class="version release-minor">
         <circle cx="2056" r="10"/>
         <text x="2056" y="0" dy="0">19.2</text>
+      </g>
+      
+      <!-- 2019-07-01: version 19.7 -->
+      <g class="version release-minor">
+        <circle cx="2100" r="10"/>
+        <text x="2100" y="0" dy="0">19.7</text>
+      </g>
+      
+      <!-- 2019-07-01: version 19.7.1.1 -->
+      <g class="version release-patch">
+        <use x="2100" xlink:href="#longver"/>
+        <text x="2100" y="0" dy="0">19.7.1.1</text>
       </g>
       
     </g>
@@ -2990,7 +3080,7 @@
       </a>
       <!-- Development started: 2014-06-16 -->
       <!-- Source for dates: http://code.getadblock.com/releases/ https://twitter.com/getadblock -->
-      <line stroke="" x1="1495" x2="2078"/>
+      <line stroke="" x1="1495" x2="2101"/>
       <!-- Based on: AdBlock for Chrome (old) -->
       <line stroke="" x1="1495" x2="1495" y1="0" y2="-100"/>
       
@@ -3190,6 +3280,30 @@
       <g class="version release-minor">
         <circle cx="2078" r="10"/>
         <text x="2078" y="0" dy="0">3.28</text>
+      </g>
+      
+      <!-- 2019-05-01: version 3.29 -->
+      <g class="version release-minor">
+        <circle cx="2080" r="10"/>
+        <text x="2080" y="0" dy="0">3.29</text>
+      </g>
+      
+      <!-- 2019-06-04: version 3.30 -->
+      <g class="version release-minor">
+        <circle cx="2091" r="10"/>
+        <text x="2091" y="0" dy="0">3.30</text>
+      </g>
+      
+      <!-- 2019-07-05: version 3.31 -->
+      <g class="version release-minor">
+        <circle cx="2101" r="10"/>
+        <text x="2101" y="0" dy="0">3.31</text>
+      </g>
+      
+      <!-- 2019-07-05: version 3.31.1 -->
+      <g class="version release-patch">
+        <use x="2101" xlink:href="#longver"/>
+        <text x="2101" y="0" dy="0">3.31.1</text>
       </g>
       
     </g>
@@ -3662,7 +3776,7 @@
       </a>
       <!-- Development started: 2018-03-17 -->
       <!-- Source for dates: https://github.com/uBlock-LLC/uBlock -->
-      <line stroke="" x1="1945" x2="2076"/>
+      <line stroke="" x1="1945" x2="2109"/>
       <!-- Based on: uBlock -->
       <line stroke="" x1="1945" x2="1945" y1="0" y2="0"/>
       
@@ -3672,10 +3786,10 @@
         <text x="1947" y="0" dy="0">0.9.5.3</text>
       </g>
       
-      <!-- 2019-04-19: version 0.9.5.15 -->
+      <!-- 2019-07-30: version 0.9.5.19 -->
       <g class="version release-patch">
-        <use x="2076" xlink:href="#longver"/>
-        <text x="2076" y="0" dy="0">0.9.5.15</text>
+        <use x="2109" xlink:href="#longver"/>
+        <text x="2109" y="0" dy="0">0.9.5.19</text>
       </g>
       
     </g>
@@ -3686,7 +3800,7 @@
       </a>
       <!-- Development started: 2015-04-01 -->
       <!-- Source for dates: https://github.com/gorhill/uBlock -->
-      <line stroke="" x1="1590" x2="2071"/>
+      <line stroke="" x1="1590" x2="2107"/>
       <!-- Based on: µBlock / uBlock -->
       <line stroke="" x1="1590" x2="1590" y1="0" y2="-50"/>
       
@@ -3804,10 +3918,28 @@
         <text x="2047" y="0" dy="0">1.18</text>
       </g>
       
-      <!-- 2019-04-03: version 1.18.16 -->
+      <!-- 2019-05-10: version 1.19 -->
+      <g class="version release-minor">
+        <circle cx="2083" r="10"/>
+        <text x="2083" y="0" dy="0">1.19</text>
+      </g>
+      
+      <!-- 2019-06-14: version 1.20 -->
+      <g class="version release-minor">
+        <circle cx="2094" r="10"/>
+        <text x="2094" y="0" dy="0">1.20</text>
+      </g>
+      
+      <!-- 2019-07-18: version 1.21 -->
+      <g class="version release-minor">
+        <circle cx="2105" r="10"/>
+        <text x="2105" y="0" dy="0">1.21</text>
+      </g>
+      
+      <!-- 2019-07-23: version 1.21.6 -->
       <g class="version release-patch">
-        <use x="2071" xlink:href="#longver"/>
-        <text x="2071" y="0" dy="0">1.18.16</text>
+        <use x="2107" xlink:href="#longver"/>
+        <text x="2107" y="0" dy="0">1.21.6</text>
       </g>
       
     </g>
@@ -3818,7 +3950,7 @@
       </a>
       <!-- Development started: 2015-03-11 -->
       <!-- Source for dates: https://github.com/AdguardTeam/AdguardBrowserExtension -->
-      <line stroke="" x1="1583" x2="2075"/>
+      <line stroke="" x1="1583" x2="2101"/>
       
       <!-- 2015-03-12: version 2.0-beta -->
       <g class="version release-patch">
@@ -3898,10 +4030,22 @@
         <text x="2061" y="0" dy="0">3</text>
       </g>
       
-      <!-- 2019-04-16: version 3.0.13 -->
+      <!-- 2019-05-30: version 3.1 -->
+      <g class="version release-minor">
+        <circle cx="2089" r="10"/>
+        <text x="2089" y="0" dy="0">3.1</text>
+      </g>
+      
+      <!-- 2019-07-03: version 3.2 -->
+      <g class="version release-minor">
+        <circle cx="2100" r="10"/>
+        <text x="2100" y="0" dy="0">3.2</text>
+      </g>
+      
+      <!-- 2019-07-04: version 3.2.2 -->
       <g class="version release-patch">
-        <use x="2075" xlink:href="#longver"/>
-        <text x="2075" y="0" dy="0">3.0.13</text>
+        <use x="2101" xlink:href="#longver"/>
+        <text x="2101" y="0" dy="0">3.2.2</text>
       </g>
       
     </g>
@@ -3934,7 +4078,7 @@
       </a>
       <!-- Development started: 2018-09-19 -->
       <!-- Source for dates: https://itunes.apple.com/app/id1432731683 -->
-      <line stroke="" x1="2006" x2="2077"/>
+      <line stroke="" x1="2006" x2="2084"/>
       
       <!-- 2018-09-19: version 2 -->
       <g class="version release-major">
@@ -3942,10 +4086,10 @@
         <text x="2006" y="0" dy="0">2</text>
       </g>
       
-      <!-- 2019-04-23: version 2.0.5 -->
+      <!-- 2019-05-13: version 2.0.6 -->
       <g class="version release-patch">
-        <use x="2077" xlink:href="#longver"/>
-        <text x="2077" y="0" dy="0">2.0.5</text>
+        <use x="2084" xlink:href="#longver"/>
+        <text x="2084" y="0" dy="0">2.0.6</text>
       </g>
       
     </g>
@@ -4091,6 +4235,6 @@
   
   <rect x="0" y="0" height="100%" width="100%" fill="#ffffff"/>
   <rect x="0" y="0" height="100%" width="100%" style="fill: url(#bglines);"/>
-  <use x="2078" y="0" xlink:href="#created"/>
+  <use x="2111" y="0" xlink:href="#created"/>
   <use x="0" y="0" xlink:href="#content"/>
 </svg>
