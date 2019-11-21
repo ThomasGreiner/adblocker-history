@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Creation date: {{created.date}} -->
+<!-- Automatically generated from {{meta.source}} -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{{width}}" height="{{height}}">
-  <title>Timeline of Adblockers</title>
+  <title>{{meta.title}}</title>
   <desc>
-    This timeline displays the releases of major versions of adblockers. 
-    It includes version numbers for milestones reached by each adblocker, and displays the points at which an adblocker started from another. Source data comes from adblocker websites, Wikipedia articles, archive.org and some other websites.
-    
-    First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
+{{meta.description}}
   </desc>
   <defs>
     <style type="text/css"><![CDATA[
@@ -35,7 +33,7 @@
         text-anchor: middle;
       }
       
-      .adblocker {
+      .product {
         font-size: 12px;
         font-family: sans-serif;
       }
@@ -106,10 +104,10 @@
       {{/each}}
     </g>
     
-    {{#each adblockers}}
+    {{#each products}}
     <g id="{{id}}" class="vendor-{{vendor}}">
       <a xlink:href="{{link}}">
-        <text x="0" y="0" dx="{{x}}" dy="25" class="adblocker">{{name}}</text>
+        <text x="0" y="0" dx="{{x}}" dy="25" class="product">{{name}}</text>
       </a>
       <!-- Development started: {{started}} -->
       <!-- Source for dates: {{source}} -->
@@ -153,7 +151,7 @@
       {{#each engines}}
       <use y="0" xlink:href="#{{id}}"/>
       {{/each}}
-      {{#each adblockers}}
+      {{#each products}}
       <use y="{{y}}" xlink:href="#{{id}}"/>
       {{/each}}
     </g>

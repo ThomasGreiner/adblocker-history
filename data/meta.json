@@ -1,0 +1,5 @@
+{
+  "title": "Timeline of Adblockers",
+  "description": "This timeline displays the releases of major versions of adblockers.\nIt includes version numbers for milestones reached by each adblocker, and displays the points at which an adblocker started from another. Source data comes from adblocker websites, Wikipedia articles, archive.org and some other websites.\n\n\nFirst version created on December 6, 2014 by Thomas Greiner for adblockplus.org.",
+  "source": "https://github.com/ThomasGreiner/adblocker-history"
+}
