@@ -226,12 +226,12 @@
   "adblockplus-safari": {
     "name": "Adblock Plus for Safari",
     "link": "https://adblockplus.org/en/safari",
-    "source": "https://itunes.apple.com/app/id1432731683",
+    "source": "https://gitlab.com/eyeo/adblockplus/adblockplussafarimacos/-/tags",
     "vendor": "eyeo",
     "started": "2018-09-19",
     "releases": [
       ["2018-09-19", "2.0"],
-      ["2019-05-13", "2.0.6"]
+      ["2019-11-22", "2.1"]
     ]
   },
   "adblockplus-samsung": {
