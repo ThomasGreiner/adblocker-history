@@ -19,7 +19,7 @@
     "base": "adblockplus-chrome",
     "name": "Adblock Browser for iOS",
     "link": "https://adblockbrowser.org",
-    "source": "https://adblockplus.org/releases/ (start date is approximated), https://gitlab.com/eyeo/adblockplus/adblockbrowserios/-/tags",
+    "source": "https://adblockplus.org/releases/ (start date is approximated), https://gitlab.com/eyeo/adblockplus/adblockbrowserios",
     "vendor": "eyeo",
     "started": "2015-01-01",
     "releases": [
@@ -158,12 +158,14 @@
   "adblockplus-ios": {
     "name": "Adblock Plus for iOS",
     "link": "https://adblockplus.org/en/safari",
-    "source": "https://hg.adblockplus.org/adblockplussafariios https://itunes.apple.com/app/adblock-plus-abp/id1028871868",
+    "source": "https://gitlab.com/eyeo/adblockplus/adblockplussafariios https://gitlab.com/eyeo/adblockplus/adblock-plus-for-safari",
     "vendor": "eyeo",
     "started": "2015-08-08",
     "releases": [
-      ["2015-09-30", "1.0"],
-      ["2016-01-27", "1.1"]
+      ["2015-09-12", "1.0"],
+      ["2016-01-27", "1.1"],
+      ["2018-07-11", "1.2"],
+      ["2019-12-11", "2.0"]
     ]
   },
   "adblockplus-opera-chromium": {
@@ -226,7 +228,7 @@
   "adblockplus-safari-macos": {
     "name": "Adblock Plus for Safari - macOS",
     "link": "https://adblockplus.org/en/safari",
-    "source": "https://gitlab.com/eyeo/adblockplus/adblockplussafarimacos/-/tags",
+    "source": "https://gitlab.com/eyeo/adblockplus/adblockplussafarimacos",
     "vendor": "eyeo",
     "started": "2018-09-19",
     "releases": [
