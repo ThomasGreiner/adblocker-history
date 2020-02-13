@@ -223,8 +223,8 @@
       ["2018-08-01", "1.12.5"]
     ]
   },
-  "adblockplus-safari": {
-    "name": "Adblock Plus for Safari",
+  "adblockplus-safari-macos": {
+    "name": "Adblock Plus for Safari - macOS",
     "link": "https://adblockplus.org/en/safari",
     "source": "https://gitlab.com/eyeo/adblockplus/adblockplussafarimacos/-/tags",
     "vendor": "eyeo",
