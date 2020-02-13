@@ -19,7 +19,7 @@
     "base": "adblockplus-chrome",
     "name": "Adblock Browser for iOS",
     "link": "https://adblockbrowser.org",
-    "source": "https://adblockplus.org/releases/ (start date is approximated), https://bitbucket.org/adblockplus/adblockplusadblockbrowserios/",
+    "source": "https://adblockplus.org/releases/ (start date is approximated), https://gitlab.com/eyeo/adblockplus/adblockbrowserios/-/tags",
     "vendor": "eyeo",
     "started": "2015-01-01",
     "releases": [
@@ -29,7 +29,8 @@
       ["2016-04-12", "1.3"],
       ["2016-06-29", "1.4"],
       ["2016-09-12", "1.5"],
-      ["2017-09-19", "2.0"]
+      ["2017-09-19", "2.0"],
+      ["2018-12-21", "2.1"]
     ]
   },
   "adblockplus-android": {
