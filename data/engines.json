@@ -46,7 +46,7 @@
     "name": "Safari",
     "vendor": "apple",
     "start": [
-      ["adblockplus-ios", "started"],
+      ["adblockplus-safari-ios", "started"],
       ["adblock-ios", "started"]
     ]
   },
