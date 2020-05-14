@@ -199,8 +199,23 @@
     ]
   },
   "adblock-firefox": {
-    "base": "adblock-chrome-old",
+    "base": "adblockplus-firefox-webext",
     "name": "AdBlock for Firefox",
+    "link": "https://getadblock.com/",
+    "source": "http://code.getadblock.com/releases/",
+    "vendor": "betafish",
+    "started": "2020-02-28",
+    "releases": [
+      ["2020-02-28", "4.7"],
+      ["2020-03-16", "4.8"],
+      ["2020-03-31", "4.9"],
+      ["2020-04-06", "4.10"],
+      ["2020-04-15", "4.11"]
+    ]
+  },
+  "adblock-firefox-old": {
+    "base": "adblock-chrome-old",
+    "name": "AdBlock for Firefox (old)",
     "link": "https://getadblock.com/",
     "source": "http://code.getadblock.com/releases/ https://twitter.com/getadblock",
     "vendor": "betafish",
