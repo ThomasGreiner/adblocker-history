@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creation date: 2021-11-09T21:36:20.582Z -->
+<!-- Creation date: 2022-02-24T18:36:53.478Z -->
 <!-- Automatically generated from https://github.com/ThomasGreiner/adblocker-history -->
 <!-- Based on http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3000" height="1750">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3120" height="1750">
   <title>Timeline of Adblockers</title>
   <desc>
 This timeline displays the releases of major versions of adblockers.
@@ -198,6 +198,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       <text x="2640">2020</text>
       <text x="2760">2021</text>
       <text x="2880">2022</text>
+      <text x="3000">2023</text>
     </g>
     
     <g id="webwasher" class="vendor-other">
@@ -410,7 +411,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2014-08-01 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockbrowser/ -->
-      <line stroke="" x1="1990" x2="2828"/>
+      <line stroke="" x1="1990" x2="2897"/>
       <!-- Based on: Adblock Plus for Firefox (legacy) -->
       <line stroke="" x1="1990" x2="1990" y1="0" y2="50"/>
       
@@ -480,10 +481,10 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2828" y="0" dy="0">2.8</text>
       </g>
       
-      <!-- 2021-07-27: version 2.8.2 -->
-      <g class="version release-patch">
-        <use x="2828" xlink:href="#longver"/>
-        <text x="2828" y="0" dy="0">2.8.2</text>
+      <!-- 2022-02-22: version 2.10 -->
+      <g class="version release-minor">
+        <circle cx="2897" r="10"/>
+        <text x="2897" y="0" dy="0">2.10</text>
       </g>
       
     </g>
@@ -610,7 +611,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2012-11-23 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1787" x2="2840"/>
+      <line stroke="" x1="1787" x2="2883"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1787" x2="1787" y1="0" y2="250"/>
       
@@ -746,10 +747,10 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2806" y="0" dy="0">3.11</text>
       </g>
       
-      <!-- 2021-09-01: version 3.11.2 -->
-      <g class="version release-patch">
-        <use x="2840" xlink:href="#longver"/>
-        <text x="2840" y="0" dy="0">3.11.2</text>
+      <!-- 2022-01-11: version 3.12 -->
+      <g class="version release-minor">
+        <circle cx="2883" r="10"/>
+        <text x="2883" y="0" dy="0">3.12</text>
       </g>
       
     </g>
@@ -760,7 +761,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2016-06-07 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/, https://github.com/betafish-inc/adblock-releases -->
-      <line stroke="" x1="2212" x2="2858"/>
+      <line stroke="" x1="2212" x2="2888"/>
       <!-- Based on: Adblock Plus for Opera (Chromium) -->
       <line stroke="" x1="2212" x2="2212" y1="0" y2="-50"/>
       
@@ -1364,10 +1365,28 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2858" y="0" dy="0">4.39</text>
       </g>
       
-      <!-- 2021-10-25: version 4.39.1 -->
-      <g class="version release-patch">
-        <use x="2858" xlink:href="#longver"/>
-        <text x="2858" y="0" dy="0">4.39.1</text>
+      <!-- 2021-11-11: version 4.40 -->
+      <g class="version release-minor">
+        <circle cx="2863" r="10"/>
+        <text x="2863" y="0" dy="0">4.40</text>
+      </g>
+      
+      <!-- 2021-12-10: version 4.41 -->
+      <g class="version release-minor">
+        <circle cx="2873" r="10"/>
+        <text x="2873" y="0" dy="0">4.41</text>
+      </g>
+      
+      <!-- 2022-01-03: version 4.42 -->
+      <g class="version release-minor">
+        <circle cx="2880" r="10"/>
+        <text x="2880" y="0" dy="0">4.42</text>
+      </g>
+      
+      <!-- 2022-01-25: version 4.43 -->
+      <g class="version release-minor">
+        <circle cx="2888" r="10"/>
+        <text x="2888" y="0" dy="0">4.43</text>
       </g>
       
     </g>
@@ -1378,7 +1397,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2016-06-07 -->
       <!-- Source for dates: http://code.google.com/p/adblockforchrome, http://code.getadblock.com/releases/, https://github.com/betafish-inc/adblock-releases -->
-      <line stroke="" x1="2212" x2="2858"/>
+      <line stroke="" x1="2212" x2="2888"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="2212" x2="2212" y1="0" y2="150"/>
       
@@ -1982,10 +2001,28 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2858" y="0" dy="0">4.39</text>
       </g>
       
-      <!-- 2021-10-25: version 4.39.1 -->
-      <g class="version release-patch">
-        <use x="2858" xlink:href="#longver"/>
-        <text x="2858" y="0" dy="0">4.39.1</text>
+      <!-- 2021-11-11: version 4.40 -->
+      <g class="version release-minor">
+        <circle cx="2863" r="10"/>
+        <text x="2863" y="0" dy="0">4.40</text>
+      </g>
+      
+      <!-- 2021-12-10: version 4.41 -->
+      <g class="version release-minor">
+        <circle cx="2873" r="10"/>
+        <text x="2873" y="0" dy="0">4.41</text>
+      </g>
+      
+      <!-- 2022-01-03: version 4.42 -->
+      <g class="version release-minor">
+        <circle cx="2880" r="10"/>
+        <text x="2880" y="0" dy="0">4.42</text>
+      </g>
+      
+      <!-- 2022-01-25: version 4.43 -->
+      <g class="version release-minor">
+        <circle cx="2888" r="10"/>
+        <text x="2888" y="0" dy="0">4.43</text>
       </g>
       
     </g>
@@ -1996,7 +2033,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2020-02-28 -->
       <!-- Source for dates: http://code.getadblock.com/releases/ -->
-      <line stroke="" x1="2659" x2="2858"/>
+      <line stroke="" x1="2659" x2="2888"/>
       <!-- Based on: Adblock Plus for Firefox (Web Extension) -->
       <line stroke="" x1="2659" x2="2659" y1="0" y2="50"/>
       
@@ -2198,10 +2235,28 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2858" y="0" dy="0">4.39</text>
       </g>
       
-      <!-- 2021-10-25: version 4.39.1 -->
-      <g class="version release-patch">
-        <use x="2858" xlink:href="#longver"/>
-        <text x="2858" y="0" dy="0">4.39.1</text>
+      <!-- 2021-11-11: version 4.40 -->
+      <g class="version release-minor">
+        <circle cx="2863" r="10"/>
+        <text x="2863" y="0" dy="0">4.40</text>
+      </g>
+      
+      <!-- 2021-12-10: version 4.41 -->
+      <g class="version release-minor">
+        <circle cx="2873" r="10"/>
+        <text x="2873" y="0" dy="0">4.41</text>
+      </g>
+      
+      <!-- 2022-01-03: version 4.42 -->
+      <g class="version release-minor">
+        <circle cx="2880" r="10"/>
+        <text x="2880" y="0" dy="0">4.42</text>
+      </g>
+      
+      <!-- 2022-01-25: version 4.43 -->
+      <g class="version release-minor">
+        <circle cx="2888" r="10"/>
+        <text x="2888" y="0" dy="0">4.43</text>
       </g>
       
     </g>
@@ -2212,7 +2267,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2016-11-30 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="2270" x2="2840"/>
+      <line stroke="" x1="2270" x2="2883"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="2270" x2="2270" y1="0" y2="50"/>
       
@@ -2294,10 +2349,10 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2806" y="0" dy="0">3.11</text>
       </g>
       
-      <!-- 2021-09-01: version 3.11.2 -->
-      <g class="version release-patch">
-        <use x="2840" xlink:href="#longver"/>
-        <text x="2840" y="0" dy="0">3.11.2</text>
+      <!-- 2022-01-11: version 3.12 -->
+      <g class="version release-minor">
+        <circle cx="2883" r="10"/>
+        <text x="2883" y="0" dy="0">3.12</text>
       </g>
       
     </g>
@@ -2362,7 +2417,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2010-12-01 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="1550" x2="2840"/>
+      <line stroke="" x1="1550" x2="2883"/>
       <!-- Based on: AdThwart -->
       <line stroke="" x1="1550" x2="1550" y1="0" y2="0"/>
       
@@ -2522,10 +2577,10 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2806" y="0" dy="0">3.11</text>
       </g>
       
-      <!-- 2021-09-01: version 3.11.2 -->
-      <g class="version release-patch">
-        <use x="2840" xlink:href="#longver"/>
-        <text x="2840" y="0" dy="0">3.11.2</text>
+      <!-- 2022-01-11: version 3.12 -->
+      <g class="version release-minor">
+        <circle cx="2883" r="10"/>
+        <text x="2883" y="0" dy="0">3.12</text>
       </g>
       
     </g>
@@ -2676,7 +2731,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2016-05-11 -->
       <!-- Source for dates: https://hg.adblockplus.org/adblockpluschrome -->
-      <line stroke="" x1="2203" x2="2840"/>
+      <line stroke="" x1="2203" x2="2883"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="2203" x2="2203" y1="0" y2="-50"/>
       
@@ -2710,10 +2765,10 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2806" y="0" dy="0">3.11</text>
       </g>
       
-      <!-- 2021-09-01: version 3.11.2 -->
-      <g class="version release-patch">
-        <use x="2840" xlink:href="#longver"/>
-        <text x="2840" y="0" dy="0">3.11.2</text>
+      <!-- 2022-01-11: version 3.12 -->
+      <g class="version release-minor">
+        <circle cx="2883" r="10"/>
+        <text x="2883" y="0" dy="0">3.12</text>
       </g>
       
     </g>
@@ -2838,7 +2893,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2013-07-10 -->
       <!-- Source for dates: https://github.com/EFForg/privacybadgerchrome -->
-      <line stroke="" x1="1863" x2="2835"/>
+      <line stroke="" x1="1863" x2="2867"/>
       <!-- Based on: Adblock Plus for Chrome -->
       <line stroke="" x1="1863" x2="1863" y1="0" y2="-200"/>
       
@@ -3148,10 +3203,10 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2833" y="0" dy="0">21.8</text>
       </g>
       
-      <!-- 2021-08-17: version 21.8.17 -->
-      <g class="version release-patch">
-        <use x="2835" xlink:href="#longver"/>
-        <text x="2835" y="0" dy="0">21.8.17</text>
+      <!-- 2021-11-23: version 21.11 -->
+      <g class="version release-minor">
+        <use x="2867" xlink:href="#longver"/>
+        <text x="2867" y="0" dy="0">21.11</text>
       </g>
       
     </g>
@@ -5066,7 +5121,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2015-04-01 -->
       <!-- Source for dates: https://github.com/gorhill/uBlock -->
-      <line stroke="" x1="2070" x2="2854"/>
+      <line stroke="" x1="2070" x2="2898"/>
       <!-- Based on: µBlock / uBlock -->
       <line stroke="" x1="2070" x2="2070" y1="0" y2="-50"/>
       
@@ -5304,10 +5359,28 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2845" y="0" dy="0">1.38</text>
       </g>
       
-      <!-- 2021-10-14: version 1.38.6 -->
+      <!-- 2021-11-22: version 1.39 -->
+      <g class="version release-minor">
+        <circle cx="2867" r="10"/>
+        <text x="2867" y="0" dy="0">1.39</text>
+      </g>
+      
+      <!-- 2021-12-22: version 1.40 -->
+      <g class="version release-minor">
+        <circle cx="2877" r="10"/>
+        <text x="2877" y="0" dy="0">1.40</text>
+      </g>
+      
+      <!-- 2022-02-08: version 1.41 -->
+      <g class="version release-minor">
+        <circle cx="2892" r="10"/>
+        <text x="2892" y="0" dy="0">1.41</text>
+      </g>
+      
+      <!-- 2022-02-23: version 1.41.8 -->
       <g class="version release-patch">
-        <use x="2854" xlink:href="#longver"/>
-        <text x="2854" y="0" dy="0">1.38.6</text>
+        <use x="2898" xlink:href="#longver"/>
+        <text x="2898" y="0" dy="0">1.41.8</text>
       </g>
       
     </g>
@@ -5318,7 +5391,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2015-03-11 -->
       <!-- Source for dates: https://github.com/AdguardTeam/AdguardBrowserExtension -->
-      <line stroke="" x1="2063" x2="2858"/>
+      <line stroke="" x1="2063" x2="2877"/>
       
       <!-- 2015-03-12: version 2.0-beta -->
       <g class="version release-patch">
@@ -5434,10 +5507,10 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2810" y="0" dy="0">3.6</text>
       </g>
       
-      <!-- 2021-10-25: version 3.6.14 -->
+      <!-- 2021-12-24: version 3.6.17 -->
       <g class="version release-patch">
-        <use x="2858" xlink:href="#longver"/>
-        <text x="2858" y="0" dy="0">3.6.14</text>
+        <use x="2877" xlink:href="#longver"/>
+        <text x="2877" y="0" dy="0">3.6.17</text>
       </g>
       
     </g>
@@ -5488,7 +5561,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2018-09-19 -->
       <!-- Source for dates: https://gitlab.com/eyeo/adblockplus/adblockplussafarimacos -->
-      <line stroke="" x1="2486" x2="2630"/>
+      <line stroke="" x1="2486" x2="2888"/>
       
       <!-- 2018-09-19: version 2 -->
       <g class="version release-major">
@@ -5502,10 +5575,10 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2627" y="0" dy="0">2.1</text>
       </g>
       
-      <!-- 2019-12-03: version 2.1.1 -->
+      <!-- 2022-01-26: version 2.1.16 -->
       <g class="version release-patch">
-        <use x="2630" xlink:href="#longver"/>
-        <text x="2630" y="0" dy="0">2.1.1</text>
+        <use x="2888" xlink:href="#longver"/>
+        <text x="2888" y="0" dy="0">2.1.16</text>
       </g>
       
     </g>
@@ -5544,7 +5617,7 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
       </a>
       <!-- Development started: 2015-12-17 -->
       <!-- Source for dates: https://gitlab.com/eyeo/adblockplus/adblockplussbrowser -->
-      <line stroke="" x1="2155" x2="2534"/>
+      <line stroke="" x1="2155" x2="2879"/>
       
       <!-- 2016-01-29: version 1 -->
       <g class="version release-major">
@@ -5564,36 +5637,48 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
         <text x="2534" y="0" dy="0">1.2</text>
       </g>
       
+      <!-- 2021-12-06: version 2 -->
+      <g class="version release-major">
+        <circle cx="2871" r="10"/>
+        <text x="2871" y="0" dy="0">2</text>
+      </g>
+      
+      <!-- 2021-12-30: version 2.1 -->
+      <g class="version release-minor">
+        <circle cx="2879" r="10"/>
+        <text x="2879" y="0" dy="0">2.1</text>
+      </g>
+      
     </g>
     
     
     <g id="adblockplus-core" class="engine vendor-eyeo">
       <text x="970" y="180" dy="0">Adblock Plus engine</text>
-      <polygon points="3000,85 1735,85 1735,115 1735,185 950,185 950,215 1419,215 1419,485 1419,515 1755,515 1755,535 1755,565 1792,565 1792,735 1792,765 1894,765 1894,785 1894,815 3000,815 3000,715 2224,715 2224,685 3000,685 " opacity="0.12"/>
+      <polygon points="3120,85 1735,85 1735,115 1735,185 950,185 950,215 1419,215 1419,485 1419,515 1755,515 1755,535 1755,565 1792,565 1792,735 1792,765 1894,765 1894,785 1894,815 3120,815 3120,715 2224,715 2224,685 3120,685 " opacity="0.12"/>
     </g>
     <g id="adblock" class="engine vendor-betafish">
       <text x="1453" y="930" dy="0">AdBlock engine</text>
-      <polygon points="3000,885 1740,885 1740,915 1740,935 1433,935 1433,965 1478,965 1478,1085 1478,1115 3000,1115 " opacity="0.12"/>
+      <polygon points="3120,885 1740,885 1740,915 1740,935 1433,935 1433,965 1478,965 1478,1085 1478,1115 3120,1115 " opacity="0.12"/>
     </g>
     <g id="adguard" class="engine vendor-adguard">
       <text x="2068" y="1330" dy="0">AdGuard engine</text>
-      <polygon points="3000,1335 2048,1335 2048,1365 3000,1365 " opacity="0.12"/>
+      <polygon points="3120,1335 2048,1335 2048,1365 3120,1365 " opacity="0.12"/>
     </g>
     <g id="privacybadger" class="engine vendor-eff">
       <text x="2244" y="680" dy="0">Privacy Badger engine</text>
-      <polygon points="3000,685 2224,685 2224,715 3000,715 " opacity="0.12"/>
+      <polygon points="3120,685 2224,685 2224,715 3120,715 " opacity="0.12"/>
     </g>
     <g id="safari" class="engine vendor-apple">
       <text x="2117" y="1430" dy="0">Safari engine</text>
-      <polygon points="3000,1435 2097,1435 2097,1465 2121,1465 2121,1535 2121,1565 3000,1565 " opacity="0.12"/>
+      <polygon points="3120,1435 2097,1435 2097,1465 2121,1465 2121,1535 2121,1565 3120,1565 " opacity="0.12"/>
     </g>
     <g id="samsung-internet" class="engine vendor-samsung">
       <text x="2160" y="1630" dy="0">Samsung Internet engine</text>
-      <polygon points="3000,1635 2140,1635 2140,1665 3000,1665 " opacity="0.12"/>
+      <polygon points="3120,1635 2140,1635 2140,1665 3120,1665 " opacity="0.12"/>
     </g>
     <g id="ublock" class="engine vendor-gorhill">
       <text x="1982" y="1180" dy="0">µBlock engine</text>
-      <polygon points="3000,1185 1962,1185 1962,1215 2055,1215 2055,1235 2055,1265 3000,1265 " opacity="0.12"/>
+      <polygon points="3120,1185 1962,1185 1962,1215 2055,1215 2055,1235 2055,1265 3120,1265 " opacity="0.12"/>
     </g>
     
     <g id="content">
@@ -5653,6 +5738,6 @@ First version created on December 6, 2014 by Thomas Greiner for adblockplus.org.
   
   <rect x="0" y="0" height="100%" width="100%" fill="#ffffff"/>
   <rect x="0" y="0" height="100%" width="100%" style="fill: url(#bglines);"/>
-  <use x="2863" y="0" xlink:href="#created"/>
+  <use x="2898" y="0" xlink:href="#created"/>
   <use x="0" y="0" xlink:href="#content"/>
 </svg>
