@@ -29,6 +29,8 @@
   ["adblockplus-safari-ios"],
   ["adblockplus-safari-macos"],
   ["adblock-safari-ios"],
+  ["adblock-safari-macos"],
   [],
-  ["adblockplus-samsung"]
+  ["adblockplus-samsung"],
+  ["adblock-samsung"]
 ]

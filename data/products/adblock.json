@@ -488,5 +488,48 @@
       ["2016-06-23", "1.4"],
       ["2017-01-09", "2.0"]
     ]
+  },
+  "adblock-safari-macos": {
+    "name": "AdBlock for Safari - macOS",
+    "link": "https://getadblock.com/",
+    "source": "https://apps.apple.com/us/app/adblock-for-safari/id1402042596",
+    "vendor": "betafish",
+    "started": "2018-07-20",
+    "releases": [
+      ["2018-07-20", "1.3.1"],
+      ["2018-08-06", "1.4"],
+      ["2018-08-07", "1.7"],
+      ["2018-08-17", "1.8"],
+      ["2018-08-20", "1.9"],
+      ["2018-09-27", "1.10"],
+      ["2018-11-06", "1.11"],
+      ["2018-11-06", "1.12"],
+      ["2018-12-06", "1.13"],
+      ["2018-12-13", "1.14"],
+      ["2018-12-18", "1.15"],
+      ["2019-01-12", "1.17"],
+      ["2019-02-22", "1.18"],
+      ["2019-03-11", "1.19"],
+      ["2019-09-10", "1.20"],
+      ["2019-10-17", "1.21"],
+      ["2019-11-06", "1.22"],
+      ["2020-04-30", "1.23"],
+      ["2020-06-09", "1.24"],
+      ["2020-09-02", "1.26"],
+      ["2020-10-29", "1.27"],
+      ["2021-04-22", "1.28"],
+      ["2021-04-22", "1.28.2"]
+    ]
+  },
+  "adblock-samsung": {
+    "name": "AdBlock for Samsung Internet",
+    "link": "https://getadblock.com/",
+    "source": "https://play.google.com/store/apps/details?id=com.betafish.adblocksbrowser https://gitlab.com/eyeo/distpartners/adblockplussbrowser",
+    "vendor": "betafish",
+    "started": "2016-01-25",
+    "releases": [
+      ["2021-12-20", "3.1"],
+      ["2022-02-23", "3.2"]
+    ]
   }
 }

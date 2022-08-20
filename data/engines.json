@@ -47,7 +47,8 @@
     "vendor": "apple",
     "start": [
       ["adblockplus-safari-ios", "started"],
-      ["adblock-safari-ios", "started"]
+      ["adblock-safari-ios", "started"],
+      ["adblock-safari-macos", "started"]
     ]
   },
   {
@@ -55,7 +56,8 @@
     "name": "Samsung Internet",
     "vendor": "samsung",
     "start": [
-      ["adblockplus-samsung", "started"]
+      ["adblockplus-samsung", "started"],
+      ["adblock-samsung", "started"]
     ]
   },
   {
