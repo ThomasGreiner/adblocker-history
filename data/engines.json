@@ -47,7 +47,7 @@
     "vendor": "apple",
     "start": [
       ["adblockplus-safari-ios", "started"],
-      ["adblock-ios", "started"]
+      ["adblock-safari-ios", "started"]
     ]
   },
   {
