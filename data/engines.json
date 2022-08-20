@@ -48,7 +48,8 @@
     "start": [
       ["adblockplus-safari-ios", "started"],
       ["adblock-safari-ios", "started"],
-      ["adblock-safari-macos", "started"]
+      ["adblock-safari-macos", "started"],
+      ["adblockplus-safari-macos", "started"]
     ]
   },
   {

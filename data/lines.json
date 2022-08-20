@@ -27,9 +27,9 @@
   ["adguard-webext"],
   [],
   ["adblockplus-safari-ios"],
-  ["adblockplus-safari-macos"],
   ["adblock-safari-ios"],
   ["adblock-safari-macos"],
+  ["adblockplus-safari-macos"],
   [],
   ["adblockplus-samsung"],
   ["adblock-samsung"]
