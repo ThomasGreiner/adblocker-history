@@ -479,13 +479,14 @@
   "adblock-safari-ios": {
     "name": "AdBlock for Mobile - iOS",
     "link": "https://getadblock.com/",
-    "source": "http://code.getadblock.com/releases/ (unknown start date)",
+    "source": "http://code.getadblock.com/releases/ (unknown start date) https://apps.apple.com/us/app/adblock-for-mobile/id1036484810",
     "vendor": "betafish",
     "started": "2015-10-19",
     "releases": [
       ["2015-10-19", "1.2"],
       ["2015-10-22", "1.3"],
-      ["2015-11-13", "1.3.6"]
+      ["2016-06-23", "1.4"],
+      ["2017-01-09", "2.0"]
     ]
   }
 }
