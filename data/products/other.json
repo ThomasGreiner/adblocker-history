@@ -86,10 +86,11 @@
     ]
   },
   "webwasher": {
-    "name": "Webwasher / Secure Web / McAfee Web Gateway / Secure Web Gateway",
-    "link": "https://www.skyhighsecurity.com/en-us/products/secure-web-gateway.html",
-    "source": "https://de.wikipedia.org/wiki/Webwasher https://www.google.com/search?q=%22webwasher%22&tbs=cdr:1,cd_min:1/1/1995,cd_max:1/1/1999 http://web.archive.org/web/20000818083707/http://www.webwasher.com/en/software/wwash/news.htm http://web.archive.org/web/20060315040336/http://www.webwasher.com/enterprise/news/press_archiv/index.html?lang=de_EN https://docs.mcafee.com/ https://success.myshn.net/Release_Notes/Release_Notes_Archive/Skyhigh_Secure_Web_Gateway_(On_Prem)_Release_Notes",
+    "name": "Webwasher",
+    "link": "http://webwasher.com/",
+    "source": "https://de.wikipedia.org/wiki/Webwasher https://www.google.com/search?q=%22webwasher%22&tbs=cdr:1,cd_min:1/1/1995,cd_max:1/1/1999 http://web.archive.org/web/20000818083707/http://www.webwasher.com/en/software/wwash/news.htm http://web.archive.org/web/20060315040336/http://www.webwasher.com/enterprise/news/press_archiv/index.html?lang=de_EN",
     "started": "1998-04-07",
+    "ended": "2017-03-02",
     "releases": [
       ["1999-01-19", "1.0.2"],
       ["1999-09-18", "1.1"],
@@ -99,7 +100,17 @@
       ["2001-07-06", "3.1"],
       ["2001-09-17", "3.2"],
       ["2002-02-20", "3.4"],
-      ["2002-06-12", "4.0"],
+      ["2002-06-12", "4.0"]
+    ]
+  },
+  "webwasher-mcafee": {
+    "base": "webwasher",
+    "name": "Secure Web / McAfee Web Gateway",
+    "link": "https://www.mcafee.com/enterprise/en-us/products/web-gateway.html",
+    "source": "https://docs.mcafee.com/",
+    "started": "2017-03-02",
+    "ended": "2022-04-18",
+    "releases": [
       ["2017-03-02", "7.7"],
       ["2017-10-23", "7.8"],
       ["2018-11-14", "8.0"],
@@ -111,7 +122,16 @@
       ["2020-10-16", "10.0"],
       ["2021-03-17", "10.1"],
       ["2021-07-01", "10.2"],
-      ["2021-11-02", "11.0"],
+      ["2021-11-02", "11.0"]
+    ]
+  },
+  "webwasher-skyhigh": {
+    "base": "webwasher-mcafee",
+    "name": "Skyhigh Secure Web Gateway",
+    "link": "https://www.skyhighsecurity.com/en-us/products/secure-web-gateway.html",
+    "source": "https://success.myshn.net/Release_Notes/Release_Notes_Archive/Skyhigh_Secure_Web_Gateway_(On_Prem)_Release_Notes",
+    "started": "2022-04-18",
+    "releases": [
       ["2022-04-18", "11.1"]
     ]
   }

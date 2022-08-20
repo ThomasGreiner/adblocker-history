@@ -1,5 +1,5 @@
 [
-  ["webwasher"],
+  ["webwasher", "webwasher-mcafee", "webwasher-skyhigh"],
   ["original", "adblockedge"],
   ["adblockbrowser-android"],
   ["adblockplus-firefox-legacy"],
