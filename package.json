@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/ThomasGreiner/adblocker-history"
   },
-  "dependencies": {
+  "devDependencies": {
     "handlebars": "^4.0.5"
   }
 }
