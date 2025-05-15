@@ -30,7 +30,8 @@
     "name": "AdGuard",
     "vendor": "adguard",
     "start": [
-      ["adguard-webext", "started"]
+      ["adguard-webext", "started"],
+      ["adguard-webext-mv3", "started"]
     ]
   },
   {

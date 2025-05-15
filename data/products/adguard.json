@@ -32,5 +32,18 @@
       ["2024-08-16", "4.4"],
       ["2025-03-14", "4.4.50"]
     ]
+  },
+  "adguard-webext-mv3": {
+    "base": "adguard-webext",
+    "name": "AdGuard (Manifest v3)",
+    "link": "https://adguard.com",
+    "source": "https://github.com/AdguardTeam/AdguardBrowserExtension",
+    "vendor": "adguard",
+    "started": "2024-04-01",
+    "releases": [
+      ["2024-09-18", "5.0"],
+      ["2025-03-05", "5.1"],
+      ["2025-04-25", "5.1.79"]
+    ]
   }
 }
