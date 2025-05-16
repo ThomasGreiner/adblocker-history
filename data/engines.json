@@ -9,7 +9,8 @@
       ["adthwart", "started"],
       ["adblockplus-opera-presto", "started"],
       ["adblockplus-ie", "started"],
-      ["adblockplus-android", "1.2"]
+      ["adblockplus-android", "1.2"],
+      ["ublockllc-chrome", "23.1"]
     ],
     "end": [
       ["privacybadger-chrome", "16.8"]
@@ -69,6 +70,9 @@
     "start": [
       ["ublock-chrome", "started"],
       ["ublockorigin-mv2", "started"]
+    ],
+    "end": [
+      ["ublockllc-chrome", "23.1"]
     ]
   },
   {
