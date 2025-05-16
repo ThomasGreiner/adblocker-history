@@ -22,7 +22,7 @@
   ["adblock-safari"],
   [],
   ["ublock-chrome", "ublockorg-chrome", "ublockllc-chrome"],
-  ["ublockorigin-chrome"],
+  ["ublockorigin-mv2"],
   [],
   ["adguard-webext"],
   ["adguard-webext-mv3"],

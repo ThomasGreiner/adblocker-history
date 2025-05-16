@@ -68,7 +68,7 @@
     "vendor": "gorhill",
     "start": [
       ["ublock-chrome", "started"],
-      ["ublockorigin-chrome", "started"]
+      ["ublockorigin-mv2", "started"]
     ]
   }
 ]

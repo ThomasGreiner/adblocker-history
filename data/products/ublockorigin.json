@@ -16,7 +16,7 @@
       ["2015-03-07", "0.9"]
     ]
   },
-  "ublockorigin-chrome": {
+  "ublockorigin-mv2": {
     "base": "ublock-chrome",
     "name": "uBlock₀ / uBlock Origin",
     "link": "https://github.com/gorhill/uBlock",
