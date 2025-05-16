@@ -70,5 +70,14 @@
       ["ublock-chrome", "started"],
       ["ublockorigin-mv2", "started"]
     ]
+  },
+  {
+    "id": "ublockoriginlite",
+    "name": "uBlock Origin Lite",
+    "vendor": "gorhill",
+    "start": [
+      ["ublockoriginlite-chrome", "started"],
+      ["ublockoriginlite-safari", "started"]
+    ]
   }
 ]

@@ -23,6 +23,8 @@
   [],
   ["ublock-chrome", "ublockorg-chrome", "ublockllc-chrome"],
   ["ublockorigin-mv2"],
+  ["ublockoriginlite-chrome"],
+  ["ublockoriginlite-safari"],
   [],
   ["adguard-webext"],
   ["adguard-webext-mv3"],
