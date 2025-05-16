@@ -25,6 +25,11 @@
     "color": "#CD0000"
   },
   {
+    "id": "google",
+    "name": "Google",
+    "color": "#FBBC05"
+  },
+  {
     "id": "gorhill",
     "name": "Raymond Hill",
     "color": "#CD77CD"

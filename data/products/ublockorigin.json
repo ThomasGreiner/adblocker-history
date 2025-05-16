@@ -124,6 +124,7 @@
     ]
   },
   "ublockoriginlite-safari": {
+    "base": "ublockoriginlite-chrome",
     "name": "uBlock Origin Lite for Safari",
     "link": "https://github.com/gorhill/uBOLite-safari",
     "source": "https://github.com/gorhill/uBOLite-safari",

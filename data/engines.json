@@ -31,8 +31,7 @@
     "name": "AdGuard",
     "vendor": "adguard",
     "start": [
-      ["adguard-webext", "started"],
-      ["adguard-webext-mv3", "started"]
+      ["adguard-webext", "started"]
     ]
   },
   {
@@ -76,12 +75,19 @@
     ]
   },
   {
-    "id": "ublockoriginlite",
-    "name": "uBlock Origin Lite",
-    "vendor": "gorhill",
+    "id": "dnr",
+    "name": "Declarative net request",
+    "vendor": "google",
     "start": [
+      ["adguard-webext-mv3", "started"],
       ["ublockoriginlite-chrome", "started"],
-      ["ublockoriginlite-safari", "started"]
+      ["ublockoriginlite-safari", "started"],
+      ["adblockplus-opera-chromium", "4"],
+      ["adblock-chrome", "6"],
+      ["adblock-firefox", "6"],
+      ["adblockplus-edge", "4"],
+      ["privacybadger-chrome", "24.5"],
+      ["ublockllc-chrome", "24"]
     ]
   }
 ]
